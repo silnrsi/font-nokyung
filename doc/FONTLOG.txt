@@ -1,0 +1,20 @@
+FONTLOG
+Nokyung font for the Dai Banna script
+==========================
+
+This file provides detailed information on the Nokyung font. This information should be distributed along with the Nokyung font and any derivative works.
+
+Change Log
+----------
+2014-05-01 (SIL Non-Roman Script Initiative) Moved project to Github. Font is not yet ready for use.
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D). 
+
+N: Julie Remington, Victor Gaultney, Martin Hosken
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: SIL designers, font engineers, and script consultant
+
+For more information send an e-mail to <fonts@sil.org>
