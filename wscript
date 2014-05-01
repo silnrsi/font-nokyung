@@ -8,11 +8,11 @@ OUTDIR="installers"
 ZIPDIR="releases"
 TESTDIR='test-suite'
 
-APPNAME="NokyungBB"
+APPNAME="NokyungTestCA"
 VERSION="1.200"
-COPYRIGHT="Copyright (c) 2008-2013 SIL International"
+COPYRIGHT="Copyright (c) 2008-2014 SIL International"
 
-font(target = process('NokyungBB.ttf', name(APPNAME)),
+font(target = process('NokyungTestCA.ttf', name(APPNAME)),
      source = create("Nokyung-R-not.sfd", cmd("../bin/FFRemoveOverlapAll.py ${SRC} ${TGT}", ["font-source/Nokyung-R.sfd"]), cmd("../bin/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
      version = VERSION,
      license = ofl('Nokyung'),
