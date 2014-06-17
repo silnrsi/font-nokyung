@@ -17,10 +17,11 @@ TTF_VERSION="1.200"
 COPYRIGHT="Copyright (c) 2008-2014, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
-DESC_SHORT = "Smart Unicode font for Tai Lue"
+DESC_SHORT = "Smart Unicode font for Dai Banna"
 DESC_LONG = """
-Nokyung is a smart Unicode font for Tai Lue.
-It uses the Graphite rendering for positioning. Font sources are published in the repository and a smith workflow is used for building, testing and releasing.
+Nokyung is a smart Unicode font for Dai Banna.
+It uses Graphite for advanced features.
+Font sources are published in the repository and a smith open workflow is used for building, testing and releasing.
 """
 DESC_NAME = "Nokyung"
 SRCDIST = 'fonts-nokyung-developer'
