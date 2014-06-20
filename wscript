@@ -32,7 +32,7 @@ mytest = fonttest(targets = {
         'pdfs' : tex(),
     })
 font(target = process('NokyungTestCA.ttf', name(APPNAME)),
-     source = create("Nokyung-R-not.sfd", cmd("../bin/FFRemoveOverlapAll.py ${SRC} ${TGT}", ["font-source/Nokyung-R.sfd"]), cmd("../bin/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
+     source = create("Nokyung-R-not.sfd", cmd("../bin/FFRemoveOverlapAll.py ${SRC} ${TGT}", ["font-source/NokyungTest-R.ufo"]), cmd("../bin/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
      version = VERSION,
      license = ofl('Nokyung','SIL'),
      script='talu',
