@@ -24,7 +24,6 @@ It uses Graphite for advanced features.
 Font sources are published in the repository and a smith open workflow is used for building, testing and releasing.
 """
 DESC_NAME = "Nokyung"
-SRCDIST = 'fonts-nokyung-developer'
 DEBPKG = 'fonts-sil-nokyung'
 
 # set the build and test parameters
