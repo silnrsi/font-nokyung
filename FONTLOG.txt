@@ -1,10 +1,13 @@
-FONTLOG for the Nokyung fonts 
+FONTLOG
+Nokyung font for the Dai Banna script
+========================================
 
-This file provides detailed information on the Nokyung Font Software.
-This information should be distributed along with the Nokyung fonts and any derivative works.
+This file provides detailed information on the Nokyung font software.
+This information should be distributed along with the Nokyung font and any derivative works.
 
 
 Basic Font Information
+----------------------
 
 Nokyung is a smart Unicode font for Dai Banna.
 It uses Graphite for advanced features.
@@ -12,27 +15,31 @@ Font sources are published in the repository and a smith open workflow is used f
 
 
 ChangeLog
+----------
 
-May 2014 (Victor Gaultney) 1.200-unreleased
-- in-development version
+2014-05-01 (SIL Non-Roman Script Initiative) 1.200-unreleased
+- Moved project to Github. In-development version. Font is not yet ready for use.
 
 
 Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).
+This list is in alphabetical order.
 
-If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.
 
 N: Victor Gaultney
-E: ... 
-W: ... 
+E: fonts@sil.org 
+W: http://scripts.sil.org/ 
 D: Designer
-
 
 N: Martin Hosken
 E: ...
-W: ...
+W: http://scripts.sil.org/
 D: Script engineer
 
 N: Nicolas Spalinger
 E: ...
-W: ...
+W: http://scripts.sil.org/
 D: Script engineer
+
+For more information send an e-mail to <fonts@sil.org>
