@@ -26,6 +26,17 @@ Thumbs.db
 # AFDKO
 current.fpr
 
+# Editors
+*.bak
+*.vfbak
+
+# Fontforge temporary backups
+*.sfd-*
+
+# Opaque formats to keep out of git
+*.vfb
+*.fog
+
 # generated releases
 *.zip
 *.tar.gz
