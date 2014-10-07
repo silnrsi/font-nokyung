@@ -2,8 +2,8 @@
 # Designed to tell git how to best deal with certain file formats 
 # To tweak to your particular needs, see http://git-scm.com/book/en/Customizing-Git-Git-Attributes
 
-# Set the default behavior, in case git clients don't have core.autocrlf set.
-* text=auto
+# Set the default behavior, we expect Windows users to use a VM for now 
+text eol=lf
 
 # Explicitly declare text files to always be normalized and converted
 # to native line endings on checkout.
@@ -15,7 +15,6 @@
 *.xdvtxt text
 *.xsl text
 *.tex text
-
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
 *.sh eol=lf
