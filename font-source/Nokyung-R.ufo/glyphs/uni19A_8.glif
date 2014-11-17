@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni19A8" format="1">
+  <advance width="1250"/>
+  <unicode hex="19A8"/>
+  <outline>
+    <component base="dailuemodifierw" xOffset="1217"/>
+    <component base="uni1985"/>
+  </outline>
+</glyph>
