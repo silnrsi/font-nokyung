@@ -11,16 +11,15 @@ TESTRESULTSDIR = 'test-results'
 STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
-APPNAME="NokyungTestCA"
+APPNAME="NokyungTestDA"
 VERSION="1.200"
 TTF_VERSION="1.200"
 COPYRIGHT="Copyright (c) 2008-2014, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
-DESC_SHORT = "Smart Unicode font for Dai Banna"
+DESC_SHORT = "Unicode font for Dai Banna"
 DESC_LONG = """
-Nokyung is a smart Unicode font for Dai Banna.
-It uses Graphite for advanced features.
+Nokyung is a Unicode font for the Dai Banna script.
 Font sources are published in the repository and a smith open workflow is used for building, testing and releasing.
 """
 DESC_NAME = "Nokyung"
@@ -30,15 +29,13 @@ DEBPKG = 'fonts-sil-nokyung'
 mytest = fonttest(targets = {
         'pdfs' : tex(),
     })
-f = font(target = process('NokyungTestCA.ttf', name(APPNAME)),
+f = font(target = process('NokyungTestDA.ttf', name(APPNAME)),
         # why remove overlap twice?
      source = create("Nokyung-R-not.sfd", cmd("../bin/FFRemoveOverlapAll.py ${SRC} ${TGT}", ["font-source/NokyungTest-R.ufo"]),
                                           cmd("../bin/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
      version = VERSION,
      license = ofl('Nokyung','SIL'),
      script='talu',
-     graphite=gdl(master='font-source/tlue.gdl', no_make=1),
-     opentype=internal(),
      fret = fret(params = '-r'),
      woff = woff(),
      tests = mytest
