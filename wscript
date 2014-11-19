@@ -30,8 +30,10 @@ DEBPKG = 'fonts-sil-nokyung'
 mytest = fonttest(targets = {
         'pdfs' : tex(),
     })
-font(target = process('NokyungTestCA.ttf', name(APPNAME)),
-     source = create("Nokyung-R-not.sfd", cmd("../bin/FFRemoveOverlapAll.py ${SRC} ${TGT}", ["font-source/Nokyung-R.sfd"]), cmd("../bin/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
+f = font(target = process('NokyungTestCA.ttf', name(APPNAME)),
+        # why remove overlap twice?
+     source = create("Nokyung-R-not.sfd", cmd("../bin/FFRemoveOverlapAll.py ${SRC} ${TGT}", ["font-source/NokyungTest-R.ufo"]),
+                                          cmd("../bin/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
      version = VERSION,
      license = ofl('Nokyung','SIL'),
      script='talu',
@@ -41,3 +43,6 @@ font(target = process('NokyungTestCA.ttf', name(APPNAME)),
      woff = woff(),
      tests = mytest
 )
+
+#subset(target = 'subsets/NokyungTestCA.ttf',
+#    source = f)
