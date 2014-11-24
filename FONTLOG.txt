@@ -9,8 +9,7 @@ This information should be distributed along with the Nokyung font and any deriv
 Basic Font Information
 ----------------------
 
-Nokyung is a smart Unicode font for Dai Banna.
-It uses Graphite for advanced features.
+Nokyung is a Unicode font for the Dai Banna script.
 Font sources are published in the repository and a smith open workflow is used for building, testing and releasing.
 
 
