@@ -23,6 +23,7 @@ ChangeLog
 Acknowledgements
 ----------------
 (Here is where contributors can be acknowledged. If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).
+
 This list is in alphabetical order.
 
 
