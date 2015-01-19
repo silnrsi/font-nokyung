@@ -3,13 +3,13 @@
 <plist version="1.0">
   <dict>
     <key>familyName</key>
-    <string>NokyungTestCA</string>
+    <string>NokyungTestDA</string>
     <key>styleName</key>
     <string>Normal</string>
     <key>versionMajor</key>
     <integer>0</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2008-2014 SIL International</string>
+    <string>Copyright (c) 2008-2015 SIL International</string>
     <key>trademark</key>
     <string>Nokyung is a trademark of SIL International.</string>
     <key>unitsPerEm</key>
@@ -23,7 +23,7 @@
     <key>note</key>
     <string></string>
     <key>openTypeHeadCreated</key>
-    <string>2013/03/21 09:45:04</string>
+    <string>2015/01/19 09:51:45</string>
     <key>openTypeHheaAscender</key>
     <integer>1700</integer>
     <key>openTypeHheaDescender</key>
@@ -151,9 +151,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
       <integer>0</integer>
     </array>
     <key>postscriptFontName</key>
-    <string>NokyungTestCA</string>
+    <string>NokyungTestDA</string>
     <key>postscriptFullName</key>
-    <string>NokyungTestCA</string>
+    <string>NokyungTestDA</string>
     <key>postscriptWeightName</key>
     <string>Normal</string>
     <key>postscriptUnderlineThickness</key>
