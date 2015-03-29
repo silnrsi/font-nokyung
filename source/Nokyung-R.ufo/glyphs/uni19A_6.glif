@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni19A6" format="1">
-  <advance width="1805"/>
+  <advance width="1688"/>
   <unicode hex="19A6"/>
   <outline>
-    <component base="dailuemodifierw" xOffset="1425.875"/>
     <component base="uni1982"/>
+    <component base="dailuemodifierw"/>
   </outline>
   <lib>
     <dict>

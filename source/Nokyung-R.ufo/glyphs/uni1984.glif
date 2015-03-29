@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1984" format="1">
-  <advance width="1735"/>
+  <advance width="1622"/>
   <unicode hex="1984"/>
   <outline>
     <contour>
@@ -65,7 +65,6 @@
       <point x="939" y="-684"/>
       <point x="926" y="-694"/>
     </contour>
-    <component base="uni19A0"/>
     <component base="uni19A0"/>
   </outline>
   <lib>

@@ -5,11 +5,11 @@
 	<key>ascender</key>
 	<integer>1660</integer>
 	<key>capHeight</key>
-	<integer>750</integer>
+	<integer>1540</integer>
 	<key>copyright</key>
 	<string>Copyright (c) 2008-2015 SIL International</string>
 	<key>descender</key>
-	<integer>-750</integer>
+	<integer>-690</integer>
 	<key>familyName</key>
 	<string>Nokyung</string>
 	<key>italicAngle</key>
@@ -185,19 +185,19 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
 	<integer>20</integer>
 	<key>postscriptWeightName</key>
 	<string>Normal</string>
-	<key>styleMapFamilyName</key>
-	<string>Nokyung</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Normal</string>
+	<string></string>
 	<key>trademark</key>
 	<string>Nokyung is a trademark of SIL International.</string>
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>
-	<integer>0</integer>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>2</integer>
 	<key>xHeight</key>
-	<integer>500</integer>
+	<integer>870</integer>
 </dict>
 </plist>
