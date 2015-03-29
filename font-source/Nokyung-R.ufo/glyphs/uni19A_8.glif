@@ -3,7 +3,7 @@
   <advance width="1250"/>
   <unicode hex="19A8"/>
   <outline>
-    <component base="dailuemodifierw" xOffset="1217"/>
+    <component base="dailuemodifierw" xOffset="1247"/>
     <component base="uni1985"/>
   </outline>
 </glyph>

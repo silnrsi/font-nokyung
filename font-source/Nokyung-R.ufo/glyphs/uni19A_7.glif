@@ -55,6 +55,6 @@
       <point x="124" y="359"/>
       <point x="275" y="460"/>
     </contour>
-    <component base="dailuemodifierw" xOffset="1184"/>
+    <component base="dailuemodifierw" xOffset="1213"/>
   </outline>
 </glyph>

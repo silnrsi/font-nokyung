@@ -1,5 +1,4 @@
 
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\NULL \CR \space \exclam \quotedbl \quotesingle \parenleft 
 	\parenright \asterisk \comma \hyphen \period \slash \colon \semicolon \question 

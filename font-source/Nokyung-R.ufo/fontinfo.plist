@@ -6,6 +6,10 @@
     <string>NokyungTestDA</string>
     <key>styleName</key>
     <string>Normal</string>
+    <key>styleMapFamilyName</key>
+    <string>NokyungTestDA</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
     <key>versionMajor</key>
     <integer>0</integer>
     <key>copyright</key>
@@ -23,7 +27,7 @@
     <key>note</key>
     <string></string>
     <key>openTypeHeadCreated</key>
-    <string>2015/01/19 13:33:46</string>
+    <string>2015/02/10 13:31:03</string>
     <key>openTypeHheaAscender</key>
     <integer>1700</integer>
     <key>openTypeHheaDescender</key>
@@ -111,6 +115,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
       <integer>0</integer>
       <integer>0</integer>
     </array>
+    <key>openTypeOS2Type</key>
+    <array/>
     <key>openTypeOS2TypoAscender</key>
     <integer>1700</integer>
     <key>openTypeOS2TypoDescender</key>

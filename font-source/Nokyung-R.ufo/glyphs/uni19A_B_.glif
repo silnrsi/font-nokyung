@@ -87,8 +87,7 @@
       <point x="949" y="930"/>
       <point x="1140" y="766"/>
     </contour>
-    <component base="dailuemodifierw" xOffset="1232"/>
-    <component base="dailuemodifierw" xOffset="1217"/>
+    <component base="dailuemodifierw" xOffset="1246"/>
   </outline>
   <lib>
     <dict>
