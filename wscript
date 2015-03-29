@@ -1,20 +1,20 @@
 #!/usr/bin/python
-# this is a smith configuration file 
+# this is a smith configuration file
 
 # set the default output folders
 out="results"
 DOCDIR="documentation"
 OUTDIR="installers"
 ZIPDIR="releases"
-TESTDIR='test-suite'
-TESTRESULTSDIR = 'test-results'
+TESTDIR='tests'
+TESTRESULTSDIR = 'results'
 STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
-APPNAME="NokyungTestDA"
+APPNAME="Nokyung"
 VERSION="1.200"
 TTF_VERSION="1.200"
-COPYRIGHT="Copyright (c) 2008-2014, SIL International (http://www.sil.org)"
+COPYRIGHT="Copyright (c) 2008-2015, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
 DESC_SHORT = "Unicode font for Dai Banna"
