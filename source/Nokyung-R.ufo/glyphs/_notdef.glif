@@ -3,16 +3,23 @@
   <advance width="1024"/>
   <outline>
     <contour>
-      <point x="896" y="0" type="line"/>
-      <point x="128" y="0" type="line"/>
-      <point x="128" y="1400" type="line"/>
-      <point x="896" y="1400" type="line"/>
+      <point x="838" y="0" type="line"/>
+      <point x="120" y="0" type="line"/>
+      <point x="120" y="1309" type="line"/>
+      <point x="838" y="1309" type="line"/>
     </contour>
     <contour>
-      <point x="256" y="1272" type="line"/>
-      <point x="256" y="128" type="line"/>
-      <point x="768" y="128" type="line"/>
-      <point x="768" y="1272" type="line"/>
+      <point x="239" y="1189" type="line"/>
+      <point x="239" y="120" type="line"/>
+      <point x="718" y="120" type="line"/>
+      <point x="718" y="1189" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

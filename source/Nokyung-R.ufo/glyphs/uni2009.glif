@@ -2,4 +2,13 @@
 <glyph name="uni2009" format="1">
   <advance width="189"/>
   <unicode hex="2009"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -3,7 +3,14 @@
   <advance width="1805"/>
   <unicode hex="19A6"/>
   <outline>
-    <component base="dailuemodifierw" xOffset="1525"/>
+    <component base="dailuemodifierw" xOffset="1425.875"/>
     <component base="uni1982"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

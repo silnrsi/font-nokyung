@@ -2,4 +2,13 @@
 <glyph name="uni3000" format="1">
   <advance width="1100"/>
   <unicode hex="3000"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
