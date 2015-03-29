@@ -1,0 +1,6 @@
+uni199B=uni19A0+dailuemodifierw
+uni19A6=uni1982+dailuemodifierw
+uni19A8=uni1985+dailuemodifierw
+uni19A9=uni1986+dailuemodifierw
+uni19AA=uni1989+dailuemodifierw
+uni19DF=uni19DE+dailuemodifierw
