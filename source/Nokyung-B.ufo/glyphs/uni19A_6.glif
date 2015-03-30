@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni19A6" format="1">
+  <advance width="1688"/>
+  <unicode hex="19A6"/>
+  <outline>
+    <component base="uni1982"/>
+    <component base="dailuemodifierw" xOffset="1426.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
