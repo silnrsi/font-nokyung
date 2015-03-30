@@ -19,9 +19,9 @@
 	<key>openTypeHeadCreated</key>
 	<string>2015/03/29 13:31:03</string>
 	<key>openTypeHheaAscender</key>
-	<integer>1660</integer>
+	<integer>1550</integer>
 	<key>openTypeHheaDescender</key>
-	<integer>-750</integer>
+	<integer>-690</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
 	<key>openTypeNameDescription</key>
@@ -127,9 +127,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
 	<array>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>1660</integer>
+	<integer>1550</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-750</integer>
+	<integer>-690</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
 	<key>openTypeOS2UnicodeRanges</key>
