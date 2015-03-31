@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapPi" format="1">
+  <advance width="1241"/>
+  <unicode hex="03A0"/>
+  <outline>
+    <contour>
+      <point x="844" y="1032" type="line"/>
+      <point x="844" y="0" type="line"/>
+      <point x="1095" y="0" type="line"/>
+      <point x="1083" y="67"/>
+      <point x="1083" y="195"/>
+      <point x="1083" y="359" type="curve" smooth="yes"/>
+      <point x="1083" y="857" type="line" smooth="yes"/>
+      <point x="1083" y="1022"/>
+      <point x="1083" y="1154"/>
+      <point x="1095" y="1221" type="curve"/>
+      <point x="125" y="1221" type="line"/>
+      <point x="138" y="1154"/>
+      <point x="138" y="1022"/>
+      <point x="138" y="857" type="curve" smooth="yes"/>
+      <point x="138" y="359" type="line" smooth="yes"/>
+      <point x="138" y="195"/>
+      <point x="138" y="67"/>
+      <point x="125" y="0" type="curve"/>
+      <point x="376" y="0" type="line"/>
+      <point x="376" y="1032" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.7094</real>
+        <real>0.8593</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
