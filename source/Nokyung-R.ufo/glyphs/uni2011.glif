@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="NonBreakingHyphen" format="1">
+<glyph name="uni2011" format="1">
   <advance width="719"/>
   <unicode hex="2011"/>
   <outline>
-    <component base="HyphenMinus"/>
+    <component base="uni2010"/>
   </outline>
   <lib>
     <dict>

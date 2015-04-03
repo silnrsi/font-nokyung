@@ -104,8 +104,6 @@
 	<string>GraveAccent_.glif</string>
 	<key>HorizBar</key>
 	<string>HorizBar_.glif</string>
-	<key>Hyphen</key>
-	<string>Hyphen_.glif</string>
 	<key>Increment</key>
 	<string>Increment_.glif</string>
 	<key>Infinity</key>
@@ -392,8 +390,6 @@
 	<string>NArySummation_.glif</string>
 	<key>NULL</key>
 	<string>N_U_L_L_.glif</string>
-	<key>NonBreakingHyphen</key>
-	<string>NonBreakingHyphen_.glif</string>
 	<key>NotEqTo</key>
 	<string>NotEqTo_.glif</string>
 	<key>NotSgn</key>
@@ -692,6 +688,10 @@
 	<string>uni2009.glif</string>
 	<key>uni200B</key>
 	<string>uni200B_.glif</string>
+	<key>uni2010</key>
+	<string>uni2010.glif</string>
+	<key>uni2011</key>
+	<string>uni2011.glif</string>
 	<key>uni2060</key>
 	<string>uni2060.glif</string>
 	<key>uni25CC</key>
