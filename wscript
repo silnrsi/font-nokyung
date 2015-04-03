@@ -34,7 +34,9 @@ mytest = fonttest(targets = {
 
 for style in ('-R','-B') :
     font(target = FILENAMEBASE + style + '.ttf',
-        source = 'source/' + FILENAMEBASE + style + '.ufo',
+#        source = 'source/' + FILENAMEBASE + style + '.ufo',
+        source = create(FILENAMEBASE + style + '-not.sfd', cmd("../tools/FFRemoveOverlapAll.py ${SRC} ${TGT}", ['source/' + FILENAMEBASE + style + '.ufo']),
+                                          cmd("../tools/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
         version = VERSION,
         license = ofl('Nokyung','SIL'),
         script = 'talu',
