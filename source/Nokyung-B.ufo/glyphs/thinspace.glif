@@ -2,13 +2,11 @@
 <glyph name="thinspace" format="1">
   <advance width="177"/>
   <unicode hex="2009"/>
-  <outline>
-  </outline>
+  <outline/>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

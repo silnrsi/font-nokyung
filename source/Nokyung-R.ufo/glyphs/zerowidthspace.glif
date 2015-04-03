@@ -2,13 +2,11 @@
 <glyph name="zerowidthspace" format="1">
   <advance width="1"/>
   <unicode hex="200B"/>
-  <outline>
-  </outline>
+  <outline/>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

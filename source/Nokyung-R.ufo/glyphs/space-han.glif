@@ -2,13 +2,11 @@
 <glyph name="space-han" format="1">
   <advance width="1029"/>
   <unicode hex="3000"/>
-  <outline>
-  </outline>
+  <outline/>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

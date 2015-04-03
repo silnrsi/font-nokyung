@@ -52,8 +52,7 @@
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
-      <dict>
-      </dict>
+      <dict/>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.709</real>
