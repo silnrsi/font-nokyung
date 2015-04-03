@@ -97,48 +97,48 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>70</integer>
+            <real>70.0</real>
             <key>width</key>
-            <integer>85</integer>
+            <real>85.0</real>
           </dict>
           <dict>
             <key>position</key>
-            <integer>805</integer>
+            <real>805.0</real>
             <key>width</key>
-            <integer>125</integer>
+            <real>125.0</real>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1555</integer>
+            <real>1555.0</real>
             <key>width</key>
-            <integer>95</integer>
+            <real>95.0</real>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>110</integer>
+            <real>110.0</real>
             <key>width</key>
-            <integer>125</integer>
+            <real>125.0</real>
           </dict>
           <dict>
             <key>position</key>
-            <integer>135</integer>
+            <real>135.0</real>
             <key>width</key>
-            <integer>125</integer>
+            <real>125.0</real>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1010</integer>
+            <real>1010.0</real>
             <key>width</key>
-            <integer>71</integer>
+            <real>71.0</real>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1015</integer>
+            <real>1015.0</real>
             <key>width</key>
-            <integer>125</integer>
+            <real>125.0</real>
           </dict>
         </array>
       </dict>
