@@ -1,8 +1,7 @@
 font-nokyung
 ============
 
-Open font for the Dai Banna script. This font is still experimental and is not yet ready for use. In particular, note that the Bold face is identical to the Regular.
-
+Open font for the Dai Banna script. This font is still experimental and make change considerably in the future. In particular, note that the Bold face source is identical to the Regular, and so is not included in the release.
 
 For copyright and licensing - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 

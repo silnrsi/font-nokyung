@@ -16,8 +16,10 @@ Font sources are published in the repository and a smith open workflow is used f
 ChangeLog
 ----------
 
-2014-05-01 (SIL Non-Roman Script Initiative) 1.200-unreleased
-- Moved project to Github. In-development version. Font is not yet ready for use.
+2015-04-03 (SIL Non-Roman Script Initiative) 1.200
+- First release based on Github project
+- Regular only
+- Should still be considered experimental
 
 
 Acknowledgements
@@ -28,14 +30,19 @@ This list is in alphabetical order.
 
 
 N: Victor Gaultney
-E: fonts@sil.org 
-W: http://scripts.sil.org/ 
+E: fonts@sil.org
+W: http://scripts.sil.org/
 D: Designer
 
 N: Martin Hosken
 E: ...
 W: http://scripts.sil.org/
 D: Script engineer
+
+N: Julie Remington
+E: ...
+W: http://scripts.sil.org/
+D: Designer
 
 N: Nicolas Spalinger
 E: ...
