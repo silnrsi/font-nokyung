@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1550</integer>
+  <integer>1650</integer>
   <key>capHeight</key>
   <integer>1540</integer>
   <key>copyright</key>
   <string>Copyright (c) 2008-2015 SIL International</string>
   <key>descender</key>
-  <integer>-690</integer>
+  <integer>-750</integer>
   <key>familyName</key>
   <string>Nokyung</string>
   <key>note</key>
@@ -17,9 +17,9 @@
   <key>openTypeHeadCreated</key>
   <string>2015/03/29 13:31:03</string>
   <key>openTypeHheaAscender</key>
-  <integer>1550</integer>
+  <integer>1650</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-690</integer>
+  <integer>-750</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -128,9 +128,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1550</integer>
+  <integer>1650</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-690</integer>
+  <integer>-750</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -145,9 +145,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1550</integer>
+  <integer>1650</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>690</integer>
+  <integer>750</integer>
   <key>postscriptBlueScale</key>
   <real>0.039600000000000003</real>
   <key>postscriptBlueValues</key>
