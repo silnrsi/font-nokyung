@@ -1,7 +1,7 @@
 %!TEX TS-program = xetex-xdvipdfmx
 %!TEX encoding = UTF-8 Unicode
 
-%\def\buildfont"={[NokyungBB.ttf]/GR}"
+%\def\buildfont"={[Nokyung.ttf]/GR}"
 
 \input ../../tools/font-tests.tex
 %\labelsfalse will turn off sample labels

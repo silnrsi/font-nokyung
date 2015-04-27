@@ -1,7 +1,7 @@
 %!TEX TS-program = xetex-xdvipdfmx
 %!TEX encoding = UTF-8 Unicode
 
-\input font-tests.tex
+\input ../../tools/font-tests.tex
 %\labelsfalse will turn off sample labels
 %\labelstrue will turn them back on
 
@@ -9,8 +9,7 @@
 %\landscape will turn page
 %\landscapefalse will undo it
 
-
-\testfont{[NokyungBB.ttf]/GR}
+\testfont\buildfont
 
 %font features can be specified as part of the font name (see separate docs)
 
@@ -41,7 +40,7 @@
 \sizes {10}
 \dotext Round Top Bottom
 \sizes={24}
-\dotext ᧂᦇᦋᦅᦆᦝᦂᧅᦗᦦᦒᦍᦢᦙᧄᧇᦔ 
+\dotext ᧂᦇᦋᦅᦆᦝᦂᧅᦗᦦᦒᦍᦢᦙᧄᧇᦔ
 
 \sizes {10}
 \dotext Asc
