@@ -7,7 +7,7 @@ DOCDIR="documentation"
 OUTDIR="installers"
 ZIPDIR="releases"
 TESTDIR='tests'
-TESTRESULTSDIR = 'results'
+#TESTRESULTSDIR = 'results/tests'
 STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
@@ -39,7 +39,8 @@ for style in ('-R','-B') :
                                           cmd("../tools/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
         version = VERSION,
         license = ofl('Nokyung','SIL'),
-        script = 'talu',
+        opentype = internal(),
+#        script = 'talu',
         fret = fret(params = '-r'),
         woff = woff(),
         tests = mytests

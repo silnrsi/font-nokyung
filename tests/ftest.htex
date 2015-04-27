@@ -3,7 +3,7 @@
 
 %\def\buildfont"={[NokyungBB.ttf]/GR}"
 
-\input font-tests.tex
+\input ../../tools/font-tests.tex
 %\labelsfalse will turn off sample labels
 %\labelstrue will turn them back on
 
