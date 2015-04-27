@@ -7,14 +7,14 @@ DOCDIR="documentation"
 OUTDIR="installers"
 ZIPDIR="releases"
 TESTDIR='tests'
-TESTRESULTSDIR = 'test-results'
+TESTRESULTSDIR = 'results'
 STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
 APPNAME="Nokyung"
 FILENAMEBASE="Nokyung"
-VERSION="1.200"
-TTF_VERSION="1.200"
+VERSION="1.300"
+TTF_VERSION="1.300"
 COPYRIGHT="Copyright (c) 2008-2015, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
@@ -28,7 +28,7 @@ DESC_NAME = "Nokyung"
 DEBPKG = 'fonts-sil-nokyung'
 
 # set the build and test parameters
-mytest = fonttest(targets = {
+mytests = fonttest(targets = {
         'pdfs' : tex(),
     })
 
@@ -42,5 +42,5 @@ for style in ('-R','-B') :
         script = 'talu',
         fret = fret(params = '-r'),
         woff = woff(),
-        tests = mytest
+        tests = mytests
     )
