@@ -1023,6 +1023,7 @@
     <string>ordmasculine</string>
     <string>Pi</string>
     <string>Omega</string>
+    <string>mu</string>
     <string>pi</string>
     <string>zero</string>
     <string>one</string>
@@ -1089,7 +1090,6 @@
     <string>less</string>
     <string>lessequal</string>
     <string>logicalnot</string>
-    <string>micro</string>
     <string>multiply</string>
     <string>notequal</string>
     <string>partialdiff</string>

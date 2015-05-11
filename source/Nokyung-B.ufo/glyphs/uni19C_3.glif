@@ -68,7 +68,7 @@
       <point x="655" y="-690"/>
       <point x="767" y="-690" type="curve" smooth="yes"/>
       <point x="887" y="-690"/>
-      <point x="985.5" y="-607.998"/>
+      <point x="986" y="-608"/>
       <point x="986" y="-489" type="curve" smooth="yes"/>
     </contour>
   </outline>
@@ -91,7 +91,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <integer>1113</integer>
+          <real>1113.0</real>
         </dict>
       </dict>
     </dict>
