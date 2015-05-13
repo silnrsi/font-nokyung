@@ -56,20 +56,20 @@
       <dict>
         <key>back</key>
         <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
           <key>name</key>
           <string>semicolon.full</string>
+          <key>lib</key>
+          <dict/>
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <real>1030.0</real>
+          <real>1030</real>
+          <key>contours</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>anchors</key>
+          <array/>
         </dict>
       </dict>
     </dict>
