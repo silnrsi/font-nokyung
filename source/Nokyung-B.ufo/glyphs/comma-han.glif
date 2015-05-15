@@ -40,20 +40,20 @@
       <dict>
         <key>back</key>
         <dict>
-          <key>name</key>
-          <string>comma-han</string>
-          <key>lib</key>
-          <dict/>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <real>1030</real>
-          <key>contours</key>
+          <key>anchors</key>
           <array/>
           <key>components</key>
           <array/>
-          <key>anchors</key>
+          <key>contours</key>
           <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>comma-han</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <real>1030.0</real>
         </dict>
       </dict>
     </dict>
