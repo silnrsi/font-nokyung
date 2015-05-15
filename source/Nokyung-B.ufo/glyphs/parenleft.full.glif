@@ -26,10 +26,14 @@
       <dict>
         <key>back</key>
         <dict>
-          <key>anchors</key>
+          <key>name</key>
+          <string>parenleft.full</string>
+          <key>lib</key>
+          <dict/>
+          <key>unicodes</key>
           <array/>
-          <key>components</key>
-          <array/>
+          <key>width</key>
+          <real>1030</real>
           <key>contours</key>
           <array>
             <dict>
@@ -38,222 +42,218 @@
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>912</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>912.0</real>
                   <key>y</key>
-                  <real>-316.0</real>
+                  <real>-316</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>-325</real>
+                  <key>x</key>
+                  <real>902</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>902.0</real>
-                  <key>y</key>
-                  <real>-325.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>-324</real>
+                  <key>x</key>
+                  <real>865</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>865.0</real>
-                  <key>y</key>
-                  <real>-324.0</real>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>826</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>826.0</real>
                   <key>y</key>
-                  <real>-306.0</real>
+                  <real>-306</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>-234</real>
+                  <key>x</key>
+                  <real>657</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>657.0</real>
-                  <key>y</key>
-                  <real>-234.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>-13</real>
+                  <key>x</key>
+                  <real>473</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>473.0</real>
-                  <key>y</key>
-                  <real>-13.0</real>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>473</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>473.0</real>
                   <key>y</key>
-                  <real>422.0</real>
+                  <real>422</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>883</real>
+                  <key>x</key>
+                  <real>473</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>473.0</real>
-                  <key>y</key>
-                  <real>883.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>1077</real>
+                  <key>x</key>
+                  <real>666</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>666.0</real>
-                  <key>y</key>
-                  <real>1077.0</real>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>826</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>826.0</real>
                   <key>y</key>
-                  <real>1166.0</real>
+                  <real>1166</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>1188</real>
+                  <key>x</key>
+                  <real>864</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>864.0</real>
-                  <key>y</key>
-                  <real>1188.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>1196</real>
+                  <key>x</key>
+                  <real>901</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>901.0</real>
-                  <key>y</key>
-                  <real>1196.0</real>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>912</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>912.0</real>
                   <key>y</key>
-                  <real>1188.0</real>
+                  <real>1188</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>1184</real>
+                  <key>x</key>
+                  <real>920</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>920.0</real>
-                  <key>y</key>
-                  <real>1184.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>1172</real>
+                  <key>x</key>
+                  <real>910</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>910.0</real>
-                  <key>y</key>
-                  <real>1172.0</real>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>862</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>862.0</real>
                   <key>y</key>
-                  <real>1147.0</real>
+                  <real>1147</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>1092</real>
+                  <key>x</key>
+                  <real>755</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>755.0</real>
-                  <key>y</key>
-                  <real>1092.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>851</real>
+                  <key>x</key>
+                  <real>569</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>569.0</real>
-                  <key>y</key>
-                  <real>851.0</real>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>569</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>569.0</real>
                   <key>y</key>
-                  <real>428.0</real>
+                  <real>428</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>5</real>
+                  <key>x</key>
+                  <real>569</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>569.0</real>
-                  <key>y</key>
-                  <real>5.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>-235</real>
+                  <key>x</key>
+                  <real>751</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>751.0</real>
-                  <key>y</key>
-                  <real>-235.0</real>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>curve</string>
+                  <key>x</key>
+                  <real>862</real>
                   <key>smooth</key>
                   <true/>
-                  <key>x</key>
-                  <real>862.0</real>
                   <key>y</key>
-                  <real>-279.0</real>
+                  <real>-279</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>-300</real>
+                  <key>x</key>
+                  <real>912</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>912.0</real>
-                  <key>y</key>
-                  <real>-300.0</real>
                 </dict>
                 <dict>
+                  <key>y</key>
+                  <real>-312</real>
+                  <key>x</key>
+                  <real>918</real>
                   <key>smooth</key>
                   <false/>
-                  <key>x</key>
-                  <real>918.0</real>
-                  <key>y</key>
-                  <real>-312.0</real>
                 </dict>
               </array>
             </dict>
           </array>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>parenleft.full</string>
-          <key>unicodes</key>
+          <key>components</key>
           <array/>
-          <key>width</key>
-          <real>1030.0</real>
+          <key>anchors</key>
+          <array/>
         </dict>
       </dict>
     </dict>

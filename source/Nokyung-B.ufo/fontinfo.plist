@@ -12,10 +12,12 @@
   <integer>-750</integer>
   <key>familyName</key>
   <string>Nokyung</string>
+  <key>italicAngle</key>
+  <real>0</real>
   <key>note</key>
   <string/>
   <key>openTypeHeadCreated</key>
-  <string>2015/05/14 08:49:12</string>
+  <string>2015/05/15 16:29:56</string>
   <key>openTypeHheaAscender</key>
   <integer>1650</integer>
   <key>openTypeHheaDescender</key>
@@ -172,6 +174,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>-113</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>20</integer>
+  <key>postscriptWeightName</key>
+  <string>Regular</string>
   <key>styleMapStyleName</key>
   <string>bold</string>
   <key>styleName</key>

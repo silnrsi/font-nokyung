@@ -2,27 +2,26 @@
 <glyph name="space-han" format="1">
   <advance width="1030"/>
   <unicode hex="3000"/>
-  <outline/>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>back</key>
         <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
           <key>name</key>
           <string>space-han</string>
+          <key>lib</key>
+          <dict/>
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <real>1030.0</real>
+          <real>1030</real>
+          <key>contours</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>anchors</key>
+          <array/>
         </dict>
       </dict>
     </dict>

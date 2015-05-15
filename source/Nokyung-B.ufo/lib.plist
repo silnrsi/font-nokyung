@@ -386,9 +386,9 @@
   <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
   <array>
     <real>0.5</real>
-    <real>0.0</real>
+    <real>0</real>
     <real>0.5</real>
-    <real>0.69999999999999996</real>
+    <real>0.7</real>
   </array>
   <key>com.typemytype.robofont.italicSlantOffset</key>
   <integer>0</integer>
@@ -401,6 +401,8 @@
   <key>com.typemytype.robofont.sort</key>
   <array>
     <dict>
+      <key>type</key>
+      <string>glyphList</string>
       <key>ascending</key>
       <array>
         <string>space</string>
@@ -766,8 +768,6 @@
         <string>CR</string>
         <string>NULL</string>
       </array>
-      <key>type</key>
-      <string>glyphList</string>
     </dict>
   </array>
   <key>public.glyphOrder</key>
