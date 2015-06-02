@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="space" format="1">
-  <advance width="458"/>
+  <advance width="450"/>
   <unicode hex="0020"/>
   <outline/>
   <lib>
@@ -22,7 +22,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <integer>458</integer>
+          <integer>450</integer>
         </dict>
       </dict>
     </dict>

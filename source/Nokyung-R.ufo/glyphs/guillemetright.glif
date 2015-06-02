@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemetright" format="1">
-  <advance width="1087"/>
+  <advance width="1032"/>
   <unicode hex="00BB"/>
   <outline>
-    <contour>
-      <point x="658" y="0" type="line"/>
-      <point x="1024" y="428" type="line"/>
-      <point x="660" y="853" type="line"/>
-      <point x="506" y="853" type="line"/>
-      <point x="832" y="428" type="line"/>
-      <point x="506" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="248" y="0" type="line"/>
-      <point x="614" y="428" type="line"/>
-      <point x="251" y="853" type="line"/>
-      <point x="96" y="853" type="line"/>
-      <point x="422" y="428" type="line"/>
-      <point x="96" y="0" type="line"/>
-    </contour>
+    <component base="guilsinglright"/>
+    <component base="guilsinglright" xOffset="320"/>
   </outline>
   <lib>
     <dict>
@@ -39,16 +25,9 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <integer>1087</integer>
+          <integer>1032</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.709</real>
-        <real>0.859</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>

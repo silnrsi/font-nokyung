@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered" format="1">
-  <advance width="353"/>
+  <advance width="600"/>
   <unicode hex="00B7"/>
   <outline>
     <contour>
-      <point x="263" y="699" type="curve" smooth="yes"/>
-      <point x="263" y="629"/>
-      <point x="224" y="582"/>
-      <point x="176" y="582" type="curve" smooth="yes"/>
-      <point x="126" y="582"/>
-      <point x="90" y="631"/>
-      <point x="90" y="699" type="curve" smooth="yes"/>
-      <point x="90" y="735"/>
-      <point x="99" y="763"/>
-      <point x="117" y="784" type="curve" smooth="yes"/>
-      <point x="133" y="804"/>
-      <point x="152" y="813"/>
-      <point x="176" y="813" type="curve" smooth="yes"/>
-      <point x="221" y="813"/>
-      <point x="263" y="767"/>
+      <point x="415" y="740" type="curve" smooth="yes"/>
+      <point x="415" y="660"/>
+      <point x="366" y="610"/>
+      <point x="300" y="610" type="curve" smooth="yes"/>
+      <point x="236" y="610"/>
+      <point x="185" y="660"/>
+      <point x="185" y="740" type="curve" smooth="yes"/>
+      <point x="185" y="820"/>
+      <point x="236" y="870"/>
+      <point x="300" y="870" type="curve" smooth="yes"/>
+      <point x="366" y="870"/>
+      <point x="415" y="820"/>
     </contour>
   </outline>
   <lib>
@@ -40,7 +37,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <integer>353</integer>
+          <integer>600</integer>
         </dict>
       </dict>
     </dict>

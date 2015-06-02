@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash" format="1">
-  <advance width="592"/>
+  <advance width="705.631578947"/>
   <unicode hex="002F"/>
   <outline>
     <contour>
-      <point x="611" y="1462" type="curve" smooth="yes"/>
-      <point x="114" y="-15" type="line" smooth="yes"/>
-      <point x="110" y="-27"/>
-      <point x="91" y="-33"/>
-      <point x="55" y="-33" type="curve" smooth="yes"/>
-      <point x="20" y="-33"/>
-      <point x="4" y="-27"/>
-      <point x="7" y="-15" type="curve" smooth="yes"/>
-      <point x="509" y="1462" type="line" smooth="yes"/>
-      <point x="513" y="1474"/>
-      <point x="532" y="1481"/>
-      <point x="566" y="1481" type="curve" smooth="yes"/>
-      <point x="600" y="1481"/>
-      <point x="615" y="1474"/>
+      <point x="655" y="1354" type="curve" smooth="yes"/>
+      <point x="158" y="-8" type="line" smooth="yes"/>
+      <point x="154" y="-20"/>
+      <point x="135" y="-26"/>
+      <point x="99" y="-26" type="curve" smooth="yes"/>
+      <point x="64" y="-26"/>
+      <point x="47" y="-20"/>
+      <point x="51" y="-8" type="curve" smooth="yes"/>
+      <point x="553" y="1354" type="line" smooth="yes"/>
+      <point x="557" y="1366"/>
+      <point x="576" y="1373"/>
+      <point x="610" y="1373" type="curve" smooth="yes"/>
+      <point x="644" y="1373"/>
+      <point x="659" y="1366"/>
     </contour>
   </outline>
   <lib>
@@ -39,7 +39,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <integer>592</integer>
+          <real>705.6315789473684</real>
         </dict>
       </dict>
     </dict>
