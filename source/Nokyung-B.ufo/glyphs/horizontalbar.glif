@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horizontalbar" format="1">
-  <advance width="1672"/>
+  <advance width="1170"/>
   <unicode hex="2015"/>
   <outline>
-    <contour>
-      <point x="1605" y="439" type="line"/>
-      <point x="1605" y="614" type="line"/>
-      <point x="67" y="614" type="line"/>
-      <point x="67" y="439" type="line"/>
-    </contour>
+    <component base="emdash"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>630.0</real>
-        </dict>
-      </array>
       <key>com.typemytype.robofont.layerData</key>
-      <dict/>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.709</real>
-        <real>0.859</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <dict>
+        <key>back</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>horizontalbar</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>1170</integer>
+        </dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

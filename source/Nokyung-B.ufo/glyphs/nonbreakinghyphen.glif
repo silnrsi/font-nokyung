@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nonbreakinghyphen" format="1">
-  <advance width="748"/>
+  <advance width="570"/>
   <unicode hex="2011"/>
   <outline>
-    <component base="hyphentwo"/>
+    <component base="hyphen"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
-      <dict/>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.807</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <dict>
+        <key>back</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>nonbreakinghyphen</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>570</integer>
+        </dict>
+      </dict>
     </dict>
   </lib>
 </glyph>
