@@ -66,8 +66,8 @@
       <array>
         <real>0.709</real>
         <real>0.859</real>
-        <real>1</real>
-        <real>1</real>
+        <real>1.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

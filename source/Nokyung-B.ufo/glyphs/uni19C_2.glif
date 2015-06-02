@@ -88,20 +88,20 @@
       <dict>
         <key>back</key>
         <dict>
-          <key>name</key>
-          <string>uni19C2</string>
-          <key>lib</key>
-          <dict/>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <real>1145</real>
-          <key>contours</key>
+          <key>anchors</key>
           <array/>
           <key>components</key>
           <array/>
-          <key>anchors</key>
+          <key>contours</key>
           <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>uni19C2</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <real>1145.0</real>
         </dict>
       </dict>
     </dict>

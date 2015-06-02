@@ -2,6 +2,7 @@
 <glyph name="wordjoiner" format="1">
   <advance width="1"/>
   <unicode hex="2060"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
