@@ -16,6 +16,13 @@ Font sources are published in the repository and a smith open workflow is used f
 ChangeLog
 ----------
 
+2015-06-02 (SIL Non-Roman Script Initiative) 1.300
+- Increased default line metrics
+- Changed descender design
+- Revised all punctuation
+- Regular only
+- Should still be considered experimental
+
 2015-04-03 (SIL Non-Roman Script Initiative) 1.200
 - First release based on Github project
 - Regular only
