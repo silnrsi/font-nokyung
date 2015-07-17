@@ -39,7 +39,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <real>712.0</real>
+          <integer>712</integer>
         </dict>
       </dict>
     </dict>

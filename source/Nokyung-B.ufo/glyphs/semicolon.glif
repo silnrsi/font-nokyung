@@ -69,7 +69,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <real>600.0</real>
+          <integer>600</integer>
         </dict>
       </dict>
     </dict>

@@ -24,7 +24,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <real>570.0</real>
+          <integer>570</integer>
         </dict>
       </dict>
     </dict>
