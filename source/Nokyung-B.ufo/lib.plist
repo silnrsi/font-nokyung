@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>GSDimensionPlugin.Dimensions</key>
+  <dict>
+    <key>7B0ED8E7-AB6A-4F1F-A3B4-A871AFCC11BA</key>
+    <dict/>
+  </dict>
   <key>com.schriftgestaltung.fontMasterID</key>
   <string>7B0ED8E7-AB6A-4F1F-A3B4-A871AFCC11BA</string>
   <key>com.schriftgestaltung.glyphOrder</key>
