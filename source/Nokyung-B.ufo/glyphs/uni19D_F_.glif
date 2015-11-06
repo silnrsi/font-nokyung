@@ -4,7 +4,7 @@
   <unicode hex="19DF"/>
   <outline>
     <component base="uni19DE"/>
-    <component base="dailuemodifierw" xOffset="1370"/>
+    <component base="dailuemodifierw" xOffset="1425"/>
   </outline>
   <lib>
     <dict>
