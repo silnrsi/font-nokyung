@@ -1,7 +1,7 @@
 font-nokyung
 ============
 
-Open font for the New Tai Lue script. This font is still experimental and may change considerably in the future. In particular, note that the Bold face source is identical to the Regular, and so is not included in the release.
+Open font for the Dai Banna script. This font is still experimental and make change considerably in the future. In particular, note that the Bold face source is identical to the Regular, and so is not included in the release.
 
 For copyright and licensing - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 

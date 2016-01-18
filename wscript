@@ -13,14 +13,14 @@ STANDARDS = 'standards'
 # set the font name, version, licensing and description
 APPNAME="Nokyung"
 FILENAMEBASE="Nokyung"
-VERSION="1.302"
-TTF_VERSION="1.302"
-COPYRIGHT="Copyright (c) 2008-2016, SIL International (http://www.sil.org)"
+VERSION="1.300"
+TTF_VERSION="1.300"
+COPYRIGHT="Copyright (c) 2008-2015, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
-DESC_SHORT = "Unicode font for New Tai Lue"
+DESC_SHORT = "Unicode font for Dai Banna"
 DESC_LONG = """
-Nokyung is a Unicode font for the New Tai Lue script.
+Nokyung is a Unicode font for the Dai Banna script.
 Font sources are published in the repository and a smith open workflow is
 used for building, testing and releasing.
 """
