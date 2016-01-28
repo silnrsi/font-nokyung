@@ -93,7 +93,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <real>1089.0</real>
+          <integer>1089</integer>
         </dict>
       </dict>
     </dict>

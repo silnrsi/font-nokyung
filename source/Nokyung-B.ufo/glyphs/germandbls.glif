@@ -67,99 +67,83 @@
       <array>
         <dict>
           <key>angle</key>
-          <real>0.0</real>
+          <integer>0</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>0.0</real>
+          <integer>0</integer>
           <key>y</key>
-          <real>200.0</real>
+          <integer>200</integer>
         </dict>
         <dict>
           <key>angle</key>
-          <real>0.0</real>
+          <integer>0</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>0.0</real>
+          <integer>0</integer>
           <key>y</key>
-          <real>1397.0</real>
+          <integer>1397</integer>
         </dict>
         <dict>
           <key>angle</key>
-          <real>90.0</real>
+          <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>1076.0</real>
+          <integer>1076</integer>
           <key>y</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
         <dict>
           <key>angle</key>
-          <real>90.0</real>
+          <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>1346.0</real>
+          <integer>1346</integer>
           <key>y</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
         <dict>
           <key>angle</key>
-          <real>90.0</real>
+          <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>660.0</real>
+          <integer>660</integer>
           <key>y</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
         <dict>
           <key>angle</key>
-          <real>90.0</real>
+          <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>931.0</real>
+          <integer>931</integer>
           <key>y</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
         <dict>
           <key>angle</key>
-          <real>90.0</real>
+          <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>974.0</real>
+          <integer>974</integer>
           <key>y</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
         <dict>
           <key>angle</key>
-          <real>90.0</real>
+          <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <real>5.0</real>
           <key>x</key>
-          <real>1244.0</real>
+          <integer>1244</integer>
           <key>y</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
@@ -168,8 +152,8 @@
       <array>
         <real>0.709</real>
         <real>0.859</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
       </array>
     </dict>
   </lib>

@@ -1,3 +1,7 @@
+# Copyright (c) 2008-2015, SIL International (http://www.sil.org) with Reserved Font Name "Nokyung".
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL)
+# and is from the Nokyung project (https://github.com/silnrsi/font-nokyung)
+
 uni199B=uni19A0+dailuemodifierw@bottom
 uni19A6=uni1982+dailuemodifierw@bottom
 uni19A8=uni1985+dailuemodifierw@bottom
