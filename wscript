@@ -13,8 +13,8 @@ STANDARDS = 'standards'
 # set the font name, version, licensing and description
 APPNAME="Nokyung"
 FILENAMEBASE="Nokyung"
-VERSION="1.300"
-TTF_VERSION="1.300"
+VERSION="1.301"
+TTF_VERSION="1.301"
 COPYRIGHT="Copyright (c) 2008-2015, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
@@ -33,7 +33,7 @@ mytests = fonttest(targets = {
     })
 
 for style in ('-R','-B') :
-    font(target = FILENAMEBASE + style + '.ttf',
+    font(target = process(FILENAMEBASE + style + '.ttf', cmd("ttftable -d opentype ${DEP} ${TGT}")),
 #        source = 'source/' + FILENAMEBASE + style + '.ufo',
         source = create(FILENAMEBASE + style + '-not.sfd', cmd("../tools/FFRemoveOverlapAll.py ${SRC} ${TGT}", ['source/' + FILENAMEBASE + style + '.ufo']),
                                           cmd("../tools/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
