@@ -28,7 +28,7 @@ DESC_NAME = "Nokyung"
 DEBPKG = 'fonts-sil-nokyung'
 
 for style in ('-R','-B') :
-    font(target = FILENAMEBASE + style + '.ttf',
+    font(target = process(FILENAMEBASE + style + '.ttf', cmd("ttftable -d opentype ${DEP} ${TGT}")),
 #        source = 'source/' + FILENAMEBASE + style + '.ufo',
         source = create(FILENAMEBASE + style + '-not.sfd', cmd("../tools/FFRemoveOverlapAll.py ${SRC} ${TGT}", ['source/' + FILENAMEBASE + style + '.ufo']),
                                           cmd("../tools/FFRemoveOverlapAll.py ${DEP} ${TGT}")),

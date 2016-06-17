@@ -1,7 +1,7 @@
 %!TEX TS-program = xetex-xdvipdfmx
 %!TEX encoding = UTF-8 Unicode
 
-\input ../../tools/font-tests.tex
+\input ../tools/font-tests.tex
 %\labelsfalse will turn off sample labels
 %\labelstrue will turn them back on
 
