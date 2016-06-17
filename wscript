@@ -13,24 +13,19 @@ STANDARDS = 'standards'
 # set the font name, version, licensing and description
 APPNAME="Nokyung"
 FILENAMEBASE="Nokyung"
-VERSION="1.301"
-TTF_VERSION="1.301"
-COPYRIGHT="Copyright (c) 2008-2015, SIL International (http://www.sil.org)"
+VERSION="1.302"
+TTF_VERSION="1.302"
+COPYRIGHT="Copyright (c) 2008-2016, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
-DESC_SHORT = "Unicode font for Dai Banna"
+DESC_SHORT = "Unicode font for New Tai Lue"
 DESC_LONG = """
-Nokyung is a Unicode font for the Dai Banna script.
+Nokyung is a Unicode font for the New Tai Lue script.
 Font sources are published in the repository and a smith open workflow is
 used for building, testing and releasing.
 """
 DESC_NAME = "Nokyung"
 DEBPKG = 'fonts-sil-nokyung'
-
-# set the build and test parameters
-mytests = fonttest(targets = {
-        'pdfs' : tex(),
-    })
 
 for style in ('-R','-B') :
     font(target = process(FILENAMEBASE + style + '.ttf', cmd("ttftable -d opentype ${DEP} ${TGT}")),
@@ -42,6 +37,5 @@ for style in ('-R','-B') :
         opentype = internal(),
 #        script = 'talu',
         fret = fret(params = '-r'),
-        woff = woff(),
-        tests = mytests
+        woff = woff()
     )

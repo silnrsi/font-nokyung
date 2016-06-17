@@ -3,7 +3,7 @@
 
 %\def\buildfont"={[Nokyung.ttf]/GR}"
 
-\input ../../tools/font-tests.tex
+\input ../tools/font-tests.tex
 %\labelsfalse will turn off sample labels
 %\labelstrue will turn them back on
 
@@ -15,13 +15,13 @@
 \testfont\buildfont
 
 \sizes={24}
+\dotext ᦷᦵᦶᦺ
 \dotext ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦪᦫ◌
-\dotext ᦵᦶᦷᦺ
 
 \class C {ᦀ,ᦁ,ᦂ,ᦃ,ᦄ,ᦅ,ᦆ,ᦇ,ᦈ,ᦉ,ᦊ,ᦋ,ᦌ,ᦍ,ᦎ,ᦏ,ᦐ,ᦑ,ᦒ,ᦓ,ᦔ,ᦕ,ᦖ,ᦗ,ᦘ,ᦙ,ᦚ,ᦛ,ᦜ,ᦝ,ᦞ,ᦟ,ᦠ,ᦡ,ᦢ,ᦣ,ᦤ,ᦥ,ᦦ,ᦧ,ᦨ,ᦩ,ᦪ,ᦫ,◌}
 \class V {\U{19B5},\U{19B6},\U{19B7},\U{19BA}}
 
-\dotext @C@V
+\dotext @V@C
 
 \vfill
 \end
