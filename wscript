@@ -27,11 +27,6 @@ used for building, testing and releasing.
 DESC_NAME = "Nokyung"
 DEBPKG = 'fonts-sil-nokyung'
 
-# set the build and test parameters
-mytests = fonttest(targets = {
-        'pdfs' : tex(),
-    })
-
 for style in ('-R','-B') :
     font(target = FILENAMEBASE + style + '.ttf',
 #        source = 'source/' + FILENAMEBASE + style + '.ufo',
@@ -42,6 +37,5 @@ for style in ('-R','-B') :
         opentype = internal(),
 #        script = 'talu',
         fret = fret(params = '-r'),
-        woff = woff(),
-        tests = mytests
+        woff = woff()
     )
