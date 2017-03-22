@@ -13,9 +13,9 @@ STANDARDS = 'standards'
 # set the font name, version, licensing and description
 APPNAME="Nokyung"
 FILENAMEBASE="Nokyung"
-VERSION="1.302"
-TTF_VERSION="1.302"
-COPYRIGHT="Copyright (c) 2008-2016, SIL International (http://www.sil.org)"
+VERSION="1.400"
+TTF_VERSION="1.400"
+COPYRIGHT="Copyright (c) 2008-2017, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
 DESC_SHORT = "Unicode font for New Tai Lue"
@@ -27,11 +27,11 @@ used for building, testing and releasing.
 DESC_NAME = "Nokyung"
 DEBPKG = 'fonts-sil-nokyung'
 
-for style in ('-R','-B') :
+for style in ('-Regular','-Bold') :
     font(target = process(FILENAMEBASE + style + '.ttf', cmd("ttftable -d opentype ${DEP} ${TGT}")),
 #        source = 'source/' + FILENAMEBASE + style + '.ufo',
-        source = create(FILENAMEBASE + style + '-not.sfd', cmd("../tools/FFRemoveOverlapAll.py ${SRC} ${TGT}", ['source/' + FILENAMEBASE + style + '.ufo']),
-                                          cmd("../tools/FFRemoveOverlapAll.py ${DEP} ${TGT}")),
+        source = create(FILENAMEBASE + style + '-not.sfd', cmd("../tools/FFremoveOverlapAll.py ${SRC} ${TGT}", ['source/' + FILENAMEBASE + style + '.ufo']),
+                                          cmd("../tools/FFremoveOverlapAll.py ${DEP} ${TGT}")),
         version = VERSION,
         license = ofl('Nokyung','SIL'),
         opentype = internal(),
