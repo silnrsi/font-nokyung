@@ -16,6 +16,13 @@ Font sources are published in the repository and a smith open workflow is used f
 ChangeLog
 ----------
 
+2017-03-22 (SIL Non-Roman Script Initiative) 1.400-dev
+- Filename changes
+Intended changes for 1.400 release:
+- Adding WOFF versions
+- Finishing the Bold
+- Initial kerning experiments
+
 2016-01-28 (SIL Non-Roman Script Initiative) 1.302
 - Small documentation adjustments
 - Removed 'SIL' as a Reserved Font Name
@@ -51,6 +58,11 @@ N: Martin Hosken
 E: ...
 W: http://scripts.sil.org/
 D: Script engineer
+
+N: Annie Olsen
+E: ...
+W: http://scripts.sil.org/
+D: Designer
 
 N: Julie Remington
 E: ...
