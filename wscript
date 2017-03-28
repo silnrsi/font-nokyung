@@ -37,5 +37,5 @@ for style in ('-Regular','-Bold') :
 #        opentype = internal(),
 #        script = 'talu',
 #        fret = fret(params = '-r'),
-        woff = woff()
+        woff = woff(params = '-v ' + VERSION + ' -m ../source/Nokyung-WOFF-metadata.xml')
     )
