@@ -31,9 +31,13 @@ h1 {
   font-family: NokyungW, serif; text-align: left; font-size: 230%;
 }
 h2 {
-  font-family: NokyungW, serif; text-align: left;font-size: 220%;
+  font-family: NokyungW, serif; text-align: left; font-size: 220%;
 }
 p {
-  font-family: NokyungW, serif; text-align: left;font-size: 150%;
+  font-family: NokyungW, serif; text-align: left; font-size: 150%;
+    /* fall back to serif so that it's really obvious if the fonts don't load */
+}	
+.bold {
+  font-family: NokyungW, serif; font-weight: bold; text-align: left; font-size: 150%;
     /* fall back to serif so that it's really obvious if the fonts don't load */
 }	
