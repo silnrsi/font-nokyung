@@ -28,14 +28,14 @@ DESC_NAME = "Nokyung"
 DEBPKG = 'fonts-sil-nokyung'
 
 for style in ('-Regular','-Bold') :
-    font(target = process(FILENAMEBASE + style + '.ttf', cmd("ttftable -d opentype ${DEP} ${TGT}")),
+    font(target = process(FILENAMEBASE + style + '.ttf'),
 #        source = 'source/' + FILENAMEBASE + style + '.ufo',
         source = create(FILENAMEBASE + style + '-not.sfd', cmd("../tools/FFremoveOverlapAll.py ${SRC} ${TGT}", ['source/' + FILENAMEBASE + style + '.ufo']),
                                           cmd("../tools/FFremoveOverlapAll.py ${DEP} ${TGT}")),
-        version = VERSION,
-        license = ofl('Nokyung','SIL'),
-        opentype = internal(),
+#        version = VERSION,
+#        license = ofl('Nokyung','SIL'),
+#        opentype = internal(),
 #        script = 'talu',
-        fret = fret(params = '-r'),
+#        fret = fret(params = '-r'),
         woff = woff()
     )
