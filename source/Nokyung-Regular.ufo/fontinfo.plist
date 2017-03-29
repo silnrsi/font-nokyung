@@ -78,7 +78,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Nokyung: 2017</string>
+  <string>SIL International: Nokyung Regular: 2017</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.400</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -158,9 +158,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1650</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>Nokyung</string>
+  <string>Nokyung-Regular</string>
   <key>postscriptFullName</key>
-  <string>Nokyung</string>
+  <string>Nokyung Regular</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-740</integer>
