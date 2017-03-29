@@ -147,7 +147,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinDescent</key>
   <integer>750</integer>
   <key>postscriptBlueScale</key>
-  <real>0.039600000000000003</real>
+  <real>0.0396</real>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-20</integer>

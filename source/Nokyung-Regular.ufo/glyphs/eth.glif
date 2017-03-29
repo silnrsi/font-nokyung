@@ -45,10 +45,10 @@
       <point x="338" y="935" type="line"/>
     </contour>
     <contour>
-      <point x="478" y="1367" type="move" name="U"/>
+      <point x="478" y="-84" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="478" y="-84" type="move" name="L"/>
+      <point x="478" y="1367" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
@@ -77,8 +77,8 @@
       <array>
         <real>0.709</real>
         <real>0.859</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
       </array>
     </dict>
   </lib>

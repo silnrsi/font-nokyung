@@ -373,9 +373,9 @@
   <integer>0</integer>
   <key>com.typemytype.robofont.back.layerStrokeColor</key>
   <array>
-    <real>1.0</real>
+    <integer>1</integer>
     <real>0.75</real>
-    <real>0.0</real>
+    <integer>0</integer>
     <real>0.7</real>
   </array>
   <key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -399,7 +399,7 @@
   <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
   <array>
     <real>0.5</real>
-    <real>0.0</real>
+    <integer>0</integer>
     <real>0.5</real>
     <real>0.7</real>
   </array>

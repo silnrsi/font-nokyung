@@ -27,10 +27,10 @@
       <point x="865" y="732" type="line"/>
     </contour>
     <contour>
-      <point x="543" y="920" type="move" name="U"/>
+      <point x="543" y="-84" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="543" y="-84" type="move" name="L"/>
+      <point x="543" y="920" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
@@ -59,8 +59,8 @@
       <array>
         <real>0.709</real>
         <real>0.859</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
       </array>
     </dict>
   </lib>

@@ -27,19 +27,19 @@
       <point x="782" y="706" type="line"/>
     </contour>
     <contour>
-      <point x="767" y="0" type="move" name="O"/>
+      <point x="502" y="0" type="move" name="H"/>
     </contour>
     <contour>
-      <point x="502" y="0" type="move" name="H"/>
+      <point x="502" y="-84" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="767" y="0" type="move" name="O"/>
     </contour>
     <contour>
       <point x="970" y="1003" type="move" name="R"/>
     </contour>
     <contour>
       <point x="502" y="1279" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="502" y="-84" type="move" name="L"/>
     </contour>
   </outline>
   <lib>
@@ -68,8 +68,8 @@
       <array>
         <real>0.709</real>
         <real>0.859</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
       </array>
     </dict>
   </lib>

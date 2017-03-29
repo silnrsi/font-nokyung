@@ -48,10 +48,10 @@
       <point x="899" y="906"/>
     </contour>
     <contour>
-      <point x="804" y="1279" type="move" name="U"/>
+      <point x="804" y="-84" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="804" y="-84" type="move" name="L"/>
+      <point x="804" y="1279" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
@@ -60,15 +60,15 @@
       <array>
         <dict>
           <key>angle</key>
-          <real>90.0</real>
+          <integer>90</integer>
           <key>isGlobal</key>
           <false/>
           <key>magnetic</key>
-          <real>5.0</real>
+          <integer>5</integer>
           <key>x</key>
-          <real>-668.0</real>
+          <integer>-668</integer>
           <key>y</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
@@ -95,8 +95,8 @@
       <array>
         <real>0.709</real>
         <real>0.859</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
       </array>
     </dict>
   </lib>
