@@ -68,12 +68,14 @@
       <point x="655" y="-690"/>
       <point x="767" y="-690" type="curve" smooth="yes"/>
       <point x="887" y="-690"/>
-      <point x="985.5" y="-607.998"/>
+      <point x="986" y="-608"/>
       <point x="986" y="-489" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-03-30 20:34:16 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>back</key>

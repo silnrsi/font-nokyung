@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="backslash" format="1">
-  <advance width="573.375"/>
+  <advance width="573"/>
   <unicode hex="005C"/>
   <outline>
     <contour>
@@ -22,6 +22,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-03-30 20:34:16 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>back</key>

@@ -77,6 +77,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>Nokyung</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Regular</string>
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Nokyung Regular: 2017</string>
   <key>openTypeNameVersion</key>

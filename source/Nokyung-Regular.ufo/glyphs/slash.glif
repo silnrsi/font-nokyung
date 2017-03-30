@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash" format="1">
-  <advance width="705.631579"/>
+  <advance width="706"/>
   <unicode hex="002F"/>
   <outline>
     <contour>
@@ -22,6 +22,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-03-30 20:34:16 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>back</key>
@@ -39,7 +41,7 @@
           <key>unicodes</key>
           <array/>
           <key>width</key>
-          <real>705.631579</real>
+          <real>706</real>
         </dict>
       </dict>
     </dict>
