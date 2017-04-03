@@ -33,31 +33,26 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>220</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>825</integer>
-        </dict>
-      </array>
       <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+      <dict>
+        <key>back</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>869</integer>
+        </dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.709</real>

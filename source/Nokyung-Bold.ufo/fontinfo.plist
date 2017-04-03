@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Nokyung</string>
   <key>openTypeHeadCreated</key>
-  <string>2015/05/25 07:24:58</string>
+  <string>2015/03/29 13:31:03</string>
   <key>openTypeHheaAscender</key>
   <integer>1650</integer>
   <key>openTypeHheaDescender</key>
@@ -96,9 +96,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>openTypeOS2Panose</key>
   <array>
+    <integer>2</integer>
     <integer>0</integer>
-    <integer>0</integer>
-    <integer>0</integer>
+    <integer>4</integer>
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>

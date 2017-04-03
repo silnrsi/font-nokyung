@@ -72,8 +72,10 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
           <key>x</key>
-          <integer>-513</integer>
+          <integer>-598</integer>
           <key>y</key>
           <integer>0</integer>
         </dict>
@@ -82,8 +84,10 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
           <key>x</key>
-          <integer>-513</integer>
+          <integer>-598</integer>
           <key>y</key>
           <integer>0</integer>
         </dict>
@@ -92,8 +96,10 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
           <key>x</key>
-          <integer>-513</integer>
+          <integer>-598</integer>
           <key>y</key>
           <integer>0</integer>
         </dict>
@@ -102,14 +108,34 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
           <key>x</key>
-          <integer>-513</integer>
+          <integer>-598</integer>
           <key>y</key>
           <integer>0</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+      <dict>
+        <key>back</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>B</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>1074</integer>
+        </dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.709</real>

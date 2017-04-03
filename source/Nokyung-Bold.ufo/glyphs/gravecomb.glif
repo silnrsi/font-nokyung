@@ -25,6 +25,8 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
           <key>x</key>
           <integer>-360</integer>
           <key>y</key>
@@ -32,7 +34,25 @@
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+      <dict>
+        <key>back</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>gravecomb</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>0</integer>
+        </dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.709</real>
