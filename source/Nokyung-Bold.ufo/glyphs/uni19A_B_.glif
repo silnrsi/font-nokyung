@@ -93,7 +93,7 @@
       <point x="1052" y="-84"/>
       <point x="1045" y="-76" type="curve" smooth="yes"/>
     </contour>
-    <component base="dailuemodifierw" xOffset="1160"/>
+    <component base="dailuemodifierw" xOffset="1250"/>
   </outline>
   <lib>
     <dict>
