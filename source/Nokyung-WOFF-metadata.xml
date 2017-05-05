@@ -32,7 +32,7 @@
 			ChangeLog
 			----------
 
-			2017-05-03 (SIL Non-Roman Script Initiative) 1.490 (test release)
+			2017-05-05 (SIL Non-Roman Script Initiative) 1.490 (test release)
 			- Completed the Bold weight
 			- Revised some Regular glyphs - note that due to slight width changes documents may reflow!
 			- Added WOFF versions
