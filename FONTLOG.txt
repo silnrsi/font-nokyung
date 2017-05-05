@@ -16,7 +16,7 @@ Font sources are published in the repository and a smith open workflow is used f
 ChangeLog
 ----------
 
-2017-05-03 (SIL Non-Roman Script Initiative) 1.490 dev
+2017-05-03 (SIL Non-Roman Script Initiative) 1.490 (test release)
 - Completed the Bold weight
 - Revised some Regular glyphs - note that due to slight width changes documents may reflow!
 - Added WOFF versions

@@ -32,7 +32,7 @@
 			ChangeLog
 			----------
 
-			2017-05-03 (SIL Non-Roman Script Initiative) 1.490 dev
+			2017-05-03 (SIL Non-Roman Script Initiative) 1.490 (test release)
 			- Completed the Bold weight
 			- Revised some Regular glyphs - note that due to slight width changes documents may reflow!
 			- Added WOFF versions
@@ -61,7 +61,7 @@
              id="org.sil.ofl.1.1">
 <text lang="en">
             Copyright (c) 2008-2017 SIL International (http://www.sil.org/),
-            with Reserved Font Name "Padauk".
+            with Reserved Font Name "Nokyung".
 
             This Font Software is licensed under the SIL Open Font License, Version 1.1.
             This license is copied below, and is also available with a FAQ at:
