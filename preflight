@@ -3,6 +3,5 @@
 # Place this in root of a project, adjust the font path, then set it to be executable by typing:
 # chmod +x preflight
 
-./tools/UFOstripChangedTime.py source/Nokyung-Regular.ufo
-./tools/UFOstripChangedTime.py source/Nokyung-Bold.ufo
-UFOsyncMeta source/Nokyung-Regular.ufo --normalize
+psfsyncmeta source/Nokyung-Regular.ufo --normalize
+psfmakewoffmetadata -n "Nokyung" -i "org.sil.fonts" source/Nokyung-Regular.ufo
