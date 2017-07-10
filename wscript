@@ -35,3 +35,6 @@ for style in ('-Regular','-Bold') :
 #        fret = fret(params = '-r'),
         woff = woff('web/' + APPNAME + style + '.woff', params = '-v ' + VERSION + ' -m ../source/Nokyung-WOFF-metadata.xml')
     )
+
+def configure(ctx) :
+        ctx.find_program('fontval', var="FONTVALIDATOR")
