@@ -6,10 +6,6 @@ Nokyung is an open font for the New Tai Lue script, providing Regular and
 Bold weights. In addition to TrueType fonts (.ttf), this package contains
 WOFF files for use in designing web pages (see the web folder).
 
-At the moment the project is still undergoing significant changes.
-**Be aware that font metrics may change in future versions and cause
-document reflow.**
-
 Install the fonts using your normal operating system procedures. This package
 does not contain a keyboard for the New Tai Lue script. Your operating system
 may provide a way to type in the script, but you may find the Keyman program

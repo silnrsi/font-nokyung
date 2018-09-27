@@ -1,8 +1,6 @@
 # Nokyung
 
-Nokyung is an open font for the New Tai Lue script. Font sources are in UFO2 format. The [preflight](preflight) tool requires [pysilfont](https://github.com/silnrsi/pysilfont). The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).
-
-At the moment the project is still undergoing significant changes as we further develop our UFO-based workflow. **Be aware that font metrics may change in future versions and cause document reflow.**
+Nokyung is an open font for the New Tai Lue script. Font sources are in UFO3+designspace format. The [preflight](preflight) tool requires [pysilfont](https://github.com/silnrsi/pysilfont). The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).
 
 For installation and use see [README.txt](README.txt).
 
