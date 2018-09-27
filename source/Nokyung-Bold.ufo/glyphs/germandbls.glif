@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="germandbls" format="1">
+<glyph name="germandbls" format="2">
   <advance width="1188"/>
   <unicode hex="00DF"/>
+  <anchor x="592" y="-84" name="L"/>
+  <anchor x="610" y="1367" name="U"/>
   <outline>
     <contour>
       <point x="517" y="57" type="line"/>
@@ -53,12 +55,6 @@
       <point x="692" y="167"/>
       <point x="605" y="205"/>
       <point x="559" y="245" type="curve"/>
-    </contour>
-    <contour>
-      <point x="592" y="-84" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="610" y="1367" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

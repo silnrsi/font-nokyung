@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Thorn" format="1">
+<glyph name="Thorn" format="2">
   <advance width="1066"/>
   <unicode hex="00DE"/>
+  <anchor x="585" y="-84" name="L"/>
+  <anchor x="560" y="1279" name="U"/>
   <outline>
     <contour>
       <point x="376" y="1216" type="line"/>
@@ -44,12 +46,6 @@
       <point x="465" y="439"/>
       <point x="412" y="441"/>
       <point x="376" y="447" type="curve"/>
-    </contour>
-    <contour>
-      <point x="585" y="-84" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="560" y="1279" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Nokyung</string>
   <key>openTypeHeadCreated</key>
-  <string>2015/03/29 13:31:03</string>
+  <string>2018/09/27 17:14:47</string>
   <key>openTypeHheaAscender</key>
   <integer>1650</integer>
   <key>openTypeHheaDescender</key>
@@ -82,7 +82,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Nokyung Bold: 2017</string>
+  <string>SIL International: Nokyung Bold: 2018</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.490 dev</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -190,7 +190,5 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>490</integer>
   <key>xHeight</key>
   <integer>870</integer>
-  <key>year</key>
-  <integer>2017</integer>
 </dict>
 </plist>

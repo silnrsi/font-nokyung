@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="v" format="1">
+<glyph name="v" format="2">
   <advance width="895"/>
   <unicode hex="0076"/>
+  <anchor x="459" y="0" name="H"/>
+  <anchor x="447" y="-84" name="L"/>
+  <anchor x="606" y="0" name="O"/>
+  <anchor x="447" y="920" name="U"/>
   <outline>
     <contour>
       <point x="702" y="853" type="line"/>
@@ -21,18 +25,6 @@
       <point x="776" y="622"/>
       <point x="830" y="757"/>
       <point x="878" y="853" type="curve"/>
-    </contour>
-    <contour>
-      <point x="459" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="447" y="-84" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="606" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="447" y="920" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

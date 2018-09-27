@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="twosuperior" format="1">
+<glyph name="twosuperior" format="2">
   <advance width="702"/>
   <unicode hex="00B2"/>
+  <anchor x="351" y="514" name="L"/>
+  <anchor x="351" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="642" y="710" type="line"/>
@@ -30,12 +32,6 @@
       <point x="69" y="688" type="curve"/>
       <point x="69" y="568" type="line"/>
       <point x="642" y="568" type="line"/>
-    </contour>
-    <contour>
-      <point x="351" y="514" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="351" y="1400" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
