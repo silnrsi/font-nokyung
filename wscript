@@ -1,20 +1,12 @@
 #!/usr/bin/python
 # this is a smith configuration file
 
-# set the default output folders
-out = "results"
-DOCDIR = ["documentation", "web"]
-OUTDIR = "installers"
-ZIPDIR = "releases"
-TESTDIR = "tests"
-#TESTRESULTSDIR = "tests"
-STANDARDS = "reference"
+# output folders use smith defaults and don't need to be set here
 
-# set the font name, version, licensing and description
+# set the version control system for srcdist
+VCS = 'git'
+
 APPNAME = "Nokyung"
-VERSION = "1.490"
-COPYRIGHT = "Copyright (c) 2008-2017, SIL International (http://www.sil.org) with Reserved Font Name \"Nokyung\"."
-LICENSE = 'OFL.txt'
 
 DESC_NAME = "Nokyung"
 DESC_SHORT = "Unicode font for the New Tai Lue script"
@@ -25,13 +17,22 @@ used for building, testing and releasing.
 """
 DEBPKG = 'fonts-sil-nokyung'
 
-for style in ('-Regular','-Bold') :
-    font(target = process(APPNAME + style + '.ttf'),
+getufoinfo('source/Nokyung-Regular.ufo')
+
+fontfamily=APPNAME
+designspace('source/' + fontfamily + '.designspace',
+            target = "${DS:FILENAME_BASE}.ttf",
+            pdf = fret(params="-r -oi"),
+            woff = woff()
+)
+
+#for style in ('-Regular','-Bold') :
+#    font(target = process(APPNAME + style + '.ttf'),
 #        source = 'source/' + FILENAMEBASE + style + '.ufo',
-        source = create(APPNAME + style + '-not.sfd', cmd("../tools/FFremoveOverlapAll.py ${SRC} ${TGT}", ['source/' + APPNAME + style + '.ufo']),
-                                          cmd("../tools/FFremoveOverlapAll.py ${DEP} ${TGT}")),
+#        source = create(APPNAME + style + '-not.sfd', cmd("../tools/FFremoveOverlapAll.py ${SRC} ${TGT}", ['source/' + APPNAME + style + '.ufo']),
+#                                          cmd("../tools/FFremoveOverlapAll.py ${DEP} ${TGT}")),
 #        opentype = internal(),
 #        script = 'talu',
 #        fret = fret(params = '-r'),
-        woff = woff('web/' + APPNAME + style + '.woff', params = '-v ' + VERSION + ' -m ../source/Nokyung-WOFF-metadata.xml')
-    )
+#        woff = woff('web/' + APPNAME + style + '.woff', params = '-v ' + VERSION + ' -m ../source/Nokyung-WOFF-metadata.xml')
+#    )
