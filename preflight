@@ -1,7 +1,17 @@
 #!/bin/sh
-# Sample script for calling multiple routines on a project, typically prior to committing to a repository.
-# Place this in root of a project, adjust the font path, then set it to be executable by typing:
-# chmod +x preflight
 
-psfsyncmeta source/Nokyung-Regular.ufo --normalize
+# This normalization will also run check and fix routines
+psfnormalize -p checkfix=fix source/Nokyung-Regular.ufo -l source/logs/normR.log
+psfnormalize -p checkfix=fix source/Nokyung-Bold.ufo  -l source/logs/normB.log
+
+# Building composites - needs to be done after normalization or may complain due to bad anchor coordinates
+# psfbuildcomp -i source/composites.txt source/Nokyung-Regular.ufo -l source/logs/compsR.log
+# psfbuildcomp -i source/composites.txt source/Nokyung-Bold.ufo -l source/logs/compsB.log
+
+# psfsetpsnames -i source/glyph_data.csv source/Nokyung-Regular.ufo -l source/logs/psnames.log
+# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/Nokyung-Regular.ufo -l source/logs/sortorder.log
+
+# Following sync will copy psnames and glyphorder updates to all fonts
+psfsyncmasters source/Nokyung.designspace -l source/logs/sync.log
+
 psfmakewoffmetadata -n "Nokyung" -i "org.sil.fonts" source/Nokyung-Regular.ufo
