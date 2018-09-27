@@ -7,28 +7,4 @@
     <component base="period"/>
     <component base="period" xOffset="570"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>ellipsis</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>1620</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

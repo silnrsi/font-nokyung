@@ -6,28 +6,4 @@
     <component base="uni19DE"/>
     <component base="dailuemodifierw" xOffset="1425"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>uni19DF</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>1771</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

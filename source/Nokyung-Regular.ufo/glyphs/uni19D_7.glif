@@ -80,28 +80,4 @@
       <point x="1153" y="728"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>uni19D7</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>1570</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

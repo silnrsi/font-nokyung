@@ -10,28 +10,4 @@
       <point x="245" y="1354" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>bar</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>588</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

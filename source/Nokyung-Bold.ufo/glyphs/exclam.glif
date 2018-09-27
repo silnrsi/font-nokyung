@@ -37,28 +37,4 @@
       <point x="344" y="338" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>exclam</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>630</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

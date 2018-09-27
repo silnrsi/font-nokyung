@@ -5,35 +5,4 @@
   <outline>
     <component base="acutecomb" xOffset="627"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>acute</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>485</integer>
-        </dict>
-      </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.709</real>
-        <real>0.859</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

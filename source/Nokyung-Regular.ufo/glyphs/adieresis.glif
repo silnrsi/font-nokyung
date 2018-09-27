@@ -6,35 +6,4 @@
     <component base="a"/>
     <component base="dieresiscomb" xOffset="928"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>adieresis</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>936</integer>
-        </dict>
-      </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.807</real>
-        <integer>1</integer>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

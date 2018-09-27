@@ -66,28 +66,4 @@
       <point x="529" y="147" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>back</key>
-        <dict>
-          <key>anchors</key>
-          <array/>
-          <key>components</key>
-          <array/>
-          <key>contours</key>
-          <array/>
-          <key>lib</key>
-          <dict/>
-          <key>name</key>
-          <string>uni19A1</string>
-          <key>unicodes</key>
-          <array/>
-          <key>width</key>
-          <integer>1089</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
