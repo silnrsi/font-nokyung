@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Nokyung.1.491" />
+  <uniqueid id="org.sil.fonts.Nokyung.1.492" />
   <vendor name="SIL International" url="http://www.sil.org/" />
   <credits>
     <credit
@@ -69,7 +69,7 @@
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      Copyright (c) 2008-2019 SIL International (http://www.sil.org/), with Reserved Font Name "Nokyung".
+      Copyright (c) 2008-2020 SIL International (http://www.sil.org/), with Reserved Font Name "Nokyung".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
@@ -117,7 +117,7 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) 2008-2019 SIL International
+      Copyright (c) 2008-2020 SIL International
     </text>
   </copyright>
   <trademark>

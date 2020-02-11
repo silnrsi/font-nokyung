@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>1540</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2008-2019 SIL International</string>
+  <string>Copyright (c) 2008-2020 SIL International</string>
   <key>descender</key>
   <integer>-750</integer>
   <key>familyName</key>
   <string>Nokyung</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/02/20 16:57:57</string>
+  <string>2020/02/10 22:00:51</string>
   <key>openTypeHheaAscender</key>
   <integer>1650</integer>
   <key>openTypeHheaDescender</key>
@@ -21,13 +21,13 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Copyright (c) 2008-2019 SIL International</string>
+  <string>Font for the New Tai Lue script</string>
   <key>openTypeNameDesigner</key>
   <string>Julie Remington, Victor Gaultney, Annie Olsen</string>
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2008-2019 SIL International (http://www.sil.org/), with Reserved Font Name "Nokyung".
+  <string>Copyright (c) 2008-2020 SIL International (http://www.sil.org/), with Reserved Font Name "Nokyung".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
@@ -82,16 +82,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Nokyung Regular: 2019</string>
+  <string>SIL International: Nokyung Regular: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.491 dev</string>
+  <string>Version 1.492</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
-    <integer>0</integer>
-  </array>
-  <key>openTypeOS2FamilyClass</key>
-  <array>
-    <integer>0</integer>
     <integer>0</integer>
   </array>
   <key>openTypeOS2Panose</key>
@@ -189,7 +184,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>491</integer>
+  <integer>492</integer>
   <key>xHeight</key>
   <integer>870</integer>
 </dict>
