@@ -3,6 +3,7 @@
   <advance width="1128"/>
   <unicode hex="19A7"/>
   <outline>
+    <component base="dailuemodifierw" xOffset="1201"/>
     <contour>
       <point x="765" y="450"/>
       <point x="994" y="318"/>
@@ -55,6 +56,5 @@
       <point x="253" y="450"/>
       <point x="469" y="450" type="curve" smooth="yes"/>
     </contour>
-    <component base="dailuemodifierw" xOffset="1201"/>
   </outline>
 </glyph>
