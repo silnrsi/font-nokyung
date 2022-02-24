@@ -244,6 +244,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <string>Nokyung is an open, Unicode font for the New Tai Lue (Xishuangbanna Dai) script, providing Regular and Bold weights.</string>
       </dict>
     </array>
+    <key>url</key>
+    <string>http://scripts.sil.org/</string>
   </dict>
   <key>xHeight</key>
   <integer>870</integer>
