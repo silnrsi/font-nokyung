@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Nokyung</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/02/24 11:47:32</string>
+  <string>2023/04/04 14:42:14</string>
   <key>openTypeHheaAscender</key>
   <integer>1650</integer>
   <key>openTypeHheaDescender</key>
@@ -82,7 +82,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Nokyung Regular: 2022</string>
+  <string>SIL International: Nokyung Regular: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.493</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -167,10 +167,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>-740</integer>
     <integer>-720</integer>
   </array>
-  <key>postscriptStemSnapH</key>
-  <array/>
-  <key>postscriptStemSnapV</key>
-  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-113</integer>
   <key>postscriptUnderlineThickness</key>
