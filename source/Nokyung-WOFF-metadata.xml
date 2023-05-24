@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
   <uniqueid id="org.sil.fonts.Nokyung.1.493" />
-  <vendor name="SIL International" url="http://www.sil.org/" />
+  <vendor name="SIL International" url="https://www.sil.org/" />
   <credits>
     <credit
       name="Victor Gaultney"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Designer"
     />
     <credit
       name="Martin Hosken"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Script engineer"
     />
     <credit
       name="Annie Olsen"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Designer"
     />
     <credit
       name="Julie Remington"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Designer"
     />
     <credit
       name="Nicolas Spalinger"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Script engineer"
     />
   </credits>
@@ -34,12 +34,12 @@
       Nokyung is an open, Unicode font for the New Tai Lue (Xishuangbanna Dai) script, providing Regular and Bold weights.
     </text>
   </description>
-  <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+  <license url="https://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      Copyright (c) 2008-2022 SIL International (http://www.sil.org/), with Reserved Font Name "Nokyung".
+      Copyright (c) 2008-2022 SIL International (https://www.sil.org/), with Reserved Font Name "Nokyung".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
-      This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+      This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
       
       
       -----------------------------------------------------------

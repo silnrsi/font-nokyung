@@ -14,7 +14,7 @@ been tested with the current font (http://keymankeyboards.com/?q=tai+lue).
 
 As this font is distributed at no cost, we are unable to provide a commercial
 level of personal technical support. If you do find a problem, please do report
-it through http://scripts.sil.org/support. We can't guarantee any direct response,
+it through https://scripts.sil.org/support. We can't guarantee any direct response,
 but will try to fix reported bugs in future versions. 
 
 For copyright and licensing - including any Reserved Font Names - see OFL.txt.

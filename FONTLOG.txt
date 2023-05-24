@@ -53,28 +53,28 @@ This list is in alphabetical order.
 
 
 N: Victor Gaultney
-E: fonts@sil.org
-W: http://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Designer
 
 N: Martin Hosken
-E: ...
-W: http://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Script engineer
 
 N: Annie Olsen
-E: ...
-W: http://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Designer
 
 N: Julie Remington
-E: ...
-W: http://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Designer
 
 N: Nicolas Spalinger
-E: ...
-W: http://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Script engineer
 
 For more information send an e-mail to <fonts@sil.org>
