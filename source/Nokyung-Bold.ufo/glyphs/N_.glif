@@ -13,13 +13,13 @@
       <point x="355" y="1221" type="line"/>
     </contour>
     <contour>
-      <point x="915" y="0" type="line"/>
       <point x="1133" y="0" type="line"/>
       <point x="1133" y="857" type="line" smooth="yes"/>
       <point x="1133" y="1022"/>
       <point x="1134" y="1154"/>
       <point x="1145" y="1221" type="curve"/>
       <point x="915" y="1221" type="line"/>
+      <point x="915" y="0" type="line"/>
     </contour>
     <contour>
       <point x="355" y="1221" type="line"/>

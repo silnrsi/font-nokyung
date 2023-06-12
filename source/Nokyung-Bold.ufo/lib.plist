@@ -8,9 +8,9 @@
   <string>3151</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/uni199A/uni19A0/dailuemodifierw/uni199B/uni199C/uni199D/uni199E/uni199F/uni19A0/uni19A1/uni19A2/uni19A3/uni19A4/uni19A5/uni19A6/uni19A7/uni19A8/uni1986/uni19A9/uni19AA/uni19AB/uni19B0/uni19B1/uni19B2/uni19B3/uni19B4/uni19B5/uni19B6/uni19B7/uni19B8/uni19B9/uni19BA/uni19BB/uni19BC/uni19BD/uni19BE/uni19BF/uni19C0/uni19C1/uni19C2/uni19C3/uni19C4/uni19C5/uni19C6/uni19C7/uni19C8/uni19C9/uni19D0/uni19B1/uni19D1</string>
-    <string>/uni19D2/uni19D3/uni19D4/uni19D5/uni19D6/uni19D7/uni19D8/uni19D9/uni19DA/uni19DE/uni19DE/dailuemodifierw/uni19DF</string>
-    <string>/uni1980/uni1981/uni1982/uni1983/uni1984/uni1985/uni1986/uni1987/uni1988/uni1989/uni198A/uni198B/uni198C/uni198D/uni198E/uni198F/uni1990/uni1991/uni1992/uni1993/uni1994/uni1995/uni1996/uni1997/uni1998/uni1999</string>
+    <string>/endash/emdash/quoteleft/quoteright/quotedblleft/quotedblright/bullet/ellipsis/guilsinglleft/guilsinglright/.notdef 
+/NULL A/acutecomb Á/circumflexcomb Â/dieresiscomb Ä/gravecomb À/ring Å/tildecomb ÃÆBC/cedillacomb ÇDÐEÉÊËÈ/Esh FGHIÍÎÏÌJKLM</string>
+    <string>NÑOÓÔÖÒØÕ/OE PÞQRS/Scaron TUÚÛÜÙVWXYÝ/Ydieresis Z/Zcaron aáâäàåãæbcçdðeéêëèfghi/idotless íîïìjklm</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

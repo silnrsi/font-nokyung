@@ -9,14 +9,15 @@
     <contour>
       <point x="789" y="1221" type="line"/>
       <point x="310" y="612" type="line"/>
+      <point x="416" y="593" type="line"/>
       <point x="484" y="565" type="line"/>
       <point x="1070" y="1221" type="line"/>
     </contour>
     <contour>
-      <point x="325" y="611" type="line"/>
       <point x="828" y="0" type="line"/>
       <point x="1137" y="0" type="line"/>
       <point x="513" y="693" type="line"/>
+      <point x="325" y="611" type="line"/>
     </contour>
     <contour>
       <point x="376" y="1221" type="line"/>
