@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresis" format="2">
-  <advance width="568"/>
+  <advance width="569"/>
   <unicode hex="00A8"/>
+  <anchor x="285" y="1325" name="U"/>
   <outline>
     <component base="dieresiscomb" xOffset="761"/>
   </outline>

@@ -5,18 +5,6 @@
   <anchor x="351" y="514" name="L"/>
   <anchor x="351" y="1400" name="U"/>
   <outline>
-    <contour>
-      <point x="614" y="568" type="line"/>
-      <point x="614" y="696" type="line"/>
-      <point x="434" y="696" type="line"/>
-      <point x="434" y="1362" type="line"/>
-      <point x="273" y="1362" type="line"/>
-      <point x="89" y="1263" type="line"/>
-      <point x="109" y="1122" type="line"/>
-      <point x="273" y="1204" type="line"/>
-      <point x="273" y="696" type="line"/>
-      <point x="93" y="696" type="line"/>
-      <point x="93" y="568" type="line"/>
-    </contour>
+    <component base="one" xScale="0.7" yScale="0.65" xOffset="-14" yOffset="570"/>
   </outline>
 </glyph>

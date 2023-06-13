@@ -2,6 +2,8 @@
 <glyph name="onesuperior" format="2">
   <advance width="702"/>
   <unicode hex="00B9"/>
+  <anchor x="351" y="514" name="L"/>
+  <anchor x="351" y="1400" name="U"/>
   <outline>
     <component base="one" xScale="0.7" yScale="0.65" xOffset="-15" yOffset="568"/>
   </outline>

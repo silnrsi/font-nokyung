@@ -8,9 +8,7 @@
   <string>3151</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/endash/emdash/quoteleft/quoteright/quotedblleft/quotedblright/bullet/ellipsis/guilsinglleft/guilsinglright/.notdef 
-/NULL A/acutecomb Á/circumflexcomb Â/dieresiscomb Ä/gravecomb À/ring Å/tildecomb ÃÆBC/cedillacomb ÇDÐEÉÊËÈ/Esh FGHIÍÎÏÌJKLM</string>
-    <string>NÑOÓÔÖÒØÕ/OE PÞQRS/Scaron TUÚÛÜÙVWXYÝ/Ydieresis Z/Zcaron aáâäàåãæbcçdðeéêëèfghi/idotless íîïìjklm</string>
+    <string>nñoóôöòøõ/oe pþqrs/scaron ßtuúûüùvwxyý/ydieresis z/zcaron/fi/fl ªº/Pi/Omega/mu/pi 0123456789¹²³/fraction ½¼¾/comma-han ¡#/period-han ¿/colon.full/comma.full/exclam.full/period.full/question.full/semicolon.full/anglebracketleft/anglebracketright/dblanglebracketleft/dblanglebracketright/parenleft.full/parenright.full/emdash/horizontalbar/nonbreakinghyphen -­/guilsinglleft «/guilsinglright »/space-han/nbspace/thinspace/zerowidthspace/wordjoiner ¢¤$/euro/florin £¥/bulletoperator +×÷=/notequal &gt;&lt;/greaterequal/lessequal ±/approxequal ¬/infinity/integral/Ohm/increment/product/Esh/summation/radical/partialdiff %/perthousand/dottedCircle/lozenge @&amp;S¶§©®/trademark °¦/dagger/daggerdbl/dieresiscomb/gravecomb/acutecomb/circumflexcomb/caroncomb/ringcomb/tildecomb/cedillacomb ´/breve/caron ¸/circumflex ¨/dotaccent `/hungarumlaut ¯/ogonek/ring/tilde</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

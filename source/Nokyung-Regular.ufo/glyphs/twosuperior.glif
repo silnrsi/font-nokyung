@@ -2,6 +2,8 @@
 <glyph name="twosuperior" format="2">
   <advance width="702"/>
   <unicode hex="00B2"/>
+  <anchor x="351" y="514" name="L"/>
+  <anchor x="341" y="1400" name="U"/>
   <outline>
     <component base="two" xScale="0.7" yScale="0.65" xOffset="4" yOffset="568"/>
   </outline>
