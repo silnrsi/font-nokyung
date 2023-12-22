@@ -7,7 +7,7 @@ and is Copyright (c) 2008-2017 SIL International (https://www.sil.org/),
 with Reserved Font Name "Nokyung". This Font Software is licensed
 under the SIL Open Font License, Version 1.1. You should have received a copy
 of the license along with this Font Software. If this is not the case, go to
-(https://scripts.sil.org/OFL) for all the details including a FAQ.
+(https://openfontlicense.org) for all the details including a FAQ.
 */
 
 /* use Nokyung in .woff format */
@@ -36,8 +36,8 @@ h2 {
 p {
   font-family: NokyungW, serif; text-align: left; font-size: 150%;
     /* fall back to serif so that it's really obvious if the fonts don't load */
-}	
+}
 .bold {
   font-family: NokyungW, serif; font-weight: bold; text-align: left; font-size: 150%;
     /* fall back to serif so that it's really obvious if the fonts don't load */
-}	
+}

@@ -2,24 +2,12 @@ README
 Nokyung
 =======
 
-Nokyung is an open font for the New Tai Lue script, providing Regular and
-Bold weights. In addition to TrueType fonts (.ttf), this package contains
-WOFF files for use in designing web pages (see the web folder).
+Nokyung is an open font for the New Tai Lue script.
 
-Install the fonts using your normal operating system procedures. This package
-does not contain a keyboard for the New Tai Lue script. Your operating system
-may provide a way to type in the script, but you may find the Keyman program
-helpful (https://keyman.com/). A Tai Lue keyboard is available, but has not
-been tested with the current font (http://keymankeyboards.com/?q=tai+lue).
+To download the fonts visit the [Nokyung downloads page](https://software.sil.org/nokyung/#downloads) or the [Github releases page](https://github.com/silnrsi/font-nokyung/releases).
 
-As this font is distributed at no cost, we are unable to provide a commercial
-level of personal technical support. If you do find a problem, please do report
-it through https://scripts.sil.org/support. We can't guarantee any direct response,
-but will try to fix reported bugs in future versions. 
+For a complete list of changes in this version, or information on making contributions, see the [FONTLOG.txt](FONTLOG.txt).
 
-For copyright and licensing - including any Reserved Font Names - see OFL.txt.
+For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 
-For practical information about modifying and redistributing this font see OFL-FAQ.txt.
-
-For more details about this project, including changelog and acknowledgements see FONTLOG.txt.
-
+For practical information about using, modifying, and redistributing this font see [OFL-FAQ.txt](OFL-FAQ.txt).

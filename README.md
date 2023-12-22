@@ -1,15 +1,11 @@
-# Nokyung
+# Nokyung [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Nokyung/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Nokyung&guest=1)
 
-Nokyung is an open font for the New Tai Lue script. Font sources are in UFO3+designspace format. The [preflight](preflight) tool requires [pysilfont](https://github.com/silnrsi/pysilfont). The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).
+Nokyung is an open font for the New Tai Lue script.
 
-## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Nokyung/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Nokyung&guest=1)  
+To download the fonts visit the [Nokyung downloads page](https://software.sil.org/nokyung/#downloads) or the [Github releases page](https://github.com/silnrsi/font-nokyung/releases).
 
-For installation and use see [README.txt](README.txt).
+For a complete list of changes in this version, or information on making contributions, see the [FONTLOG.txt](FONTLOG.txt).
 
-For copyright and licensing - including any Reserved Font Names - see [OFL.txt](OFL.txt).
+For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 
-For practical information about modifying and redistributing this font see [OFL-FAQ.txt](OFL-FAQ.txt).
-
-For more details about this project, including changelog and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
-
-If you want to contribute to the project let us know.
+For practical information about using, modifying, and redistributing this font see [OFL-FAQ.txt](OFL-FAQ.txt).
