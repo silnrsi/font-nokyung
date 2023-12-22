@@ -4,7 +4,7 @@
 APPNAME = "Nokyung"
 DESC_SHORT = "Unicode font for the New Tai Lue script"
 
-getufoinfo('source/Nokyung-Regular.ufo')
+getufoinfo('source/masters/Nokyung-Regular.ufo')
 
 fontfamily=APPNAME
 

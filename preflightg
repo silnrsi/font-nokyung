@@ -1,6 +1,6 @@
 #!/bin/sh
 
 # Produce individual UFOs from Glyphs files
-psfglyphs2ufo source/Nokyung.glyphs source
+psfglyphs2ufo source/masters/Nokyung.glyphs source/masters
 
 ./preflight

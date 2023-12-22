@@ -3,6 +3,8 @@
     <axes>
         <axis default="400.0" maximum="700.0" minimum="400.0" name="weight" tag="wght">
             <map input="400.0" output="400.0" />
+            <map input="500.0" output="500.0" />
+            <map input="600.0" output="600.0" />
             <map input="700.0" output="700.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
@@ -16,7 +18,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Nokyung" filename="Nokyung-Regular.ufo" name="Nokyung Regular" stylename="Regular">
+        <source familyname="Nokyung" filename="masters/Nokyung-Regular.ufo" name="Nokyung Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -27,7 +29,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Nokyung" filename="Nokyung-Bold.ufo" name="Nokyung Bold" stylename="Bold">
+        <source familyname="Nokyung" filename="masters/Nokyung-Bold.ufo" name="Nokyung Bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -36,7 +38,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Nokyung" filename="Nokyung-Regular.ufo" name="Nokyung Regular" postscriptfontname="Nokyung-Regular" stylemapfamilyname="Nokyung" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Nokyung" filename="instances/Nokyung-Regular.ufo" name="Nokyung Regular" postscriptfontname="Nokyung-Regular" stylemapfamilyname="Nokyung" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -45,7 +47,25 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Nokyung" filename="Nokyung-Bold.ufo" name="Nokyung Bold" postscriptfontname="Nokyung-Bold" stylemapfamilyname="Nokyung" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Nokyung" filename="instances/Nokyung-Medium.ufo" name="Nokyung Medium" postscriptfontname="Nokyung-Medium" stylemapfamilyname="Nokyung Medium" stylemapstylename="regular" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="500.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Nokyung" filename="instances/Nokyung-SemiBold.ufo" name="Nokyung SemiBold" postscriptfontname="Nokyung-SemiBold" stylemapfamilyname="Nokyung SemiBold" stylemapstylename="regular" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="600.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Nokyung" filename="instances/Nokyung-Bold.ufo" name="Nokyung Bold" postscriptfontname="Nokyung-Bold" stylemapfamilyname="Nokyung" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
