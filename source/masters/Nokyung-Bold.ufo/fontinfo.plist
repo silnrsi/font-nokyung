@@ -160,8 +160,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>postscriptFontName</key>
   <string>Nokyung-Bold</string>
-  <key>postscriptFullName</key>
-  <string>Nokyung Bold</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-740</integer>
@@ -171,10 +169,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>-113</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>20</integer>
-  <key>styleMapFamilyName</key>
-  <string>Nokyung</string>
-  <key>styleMapStyleName</key>
-  <string>bold</string>
   <key>styleName</key>
   <string>Bold</string>
   <key>trademark</key>
