@@ -2,13 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+  <array>
+    <dict>
+      <key>class</key>
+      <string>KernFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>ContextualMarkFeatureWriter</string>
+      <key>module</key>
+      <string>glyphsLib.featureWriters.markFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>GdefFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>CursFeatureWriter</string>
+    </dict>
+  </array>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3231</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>nñoóôöòøõ/oe pþqrs/scaron ßtuúûüùvwxyý/ydieresis z/zcaron/fi/fl ªº/Pi/Omega/mu/pi 0123456789¹²³/fraction ½¼¾/comma-han ¡#/period-han ¿/colon.full/comma.full/exclam.full/period.full/question.full/semicolon.full/anglebracketleft/anglebracketright/dblanglebracketleft/dblanglebracketright/parenleft.full/parenright.full/emdash/horizontalbar/nonbreakinghyphen -­/guilsinglleft «/guilsinglright »/space-han/nbspace/thinspace/zerowidthspace/wordjoiner ¢¤$/euro/florin £¥/bulletoperator +×÷=/notequal &gt;&lt;/greaterequal/lessequal ±/approxequal ¬/infinity/integral/Ohm/increment/product/Esh/summation/radical/partialdiff %/perthousand/dottedCircle/lozenge @&amp;S¶§©®/trademark °¦/dagger/daggerdbl/dieresiscomb/gravecomb/acutecomb/circumflexcomb/caroncomb/ringcomb/tildecomb/cedillacomb ´/breve/caron ¸/circumflex ¨/dotaccent `/hungarumlaut ¯/ogonek/ring/tilde</string>
+    <string>/uni198A/uni1994/uni19BE/uni19DE/uni19DF</string>
+    <string>/uni19DE</string>
+    <string>/uni19B4/uni19D7</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
