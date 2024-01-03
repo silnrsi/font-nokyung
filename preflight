@@ -14,4 +14,4 @@ psfnormalize -p checkfix=fix source/masters/Nokyung-Bold.ufo  -l source/masters/
 # Following sync will copy psnames and glyphorder updates to all fonts
 psfsyncmasters source/Nokyung.designspace -l source/masters/logs/sync.log
 
-psfmakewoffmetadata -n "Nokyung" -i "org.sil.fonts" source/masters/Nokyung-Regular.ufo
+psfmakewoffmetadata -n "Nokyung" -i "org.sil.fonts" -o source/Nokyung-WOFF-metadata.xml source/masters/Nokyung-Regular.ufo
