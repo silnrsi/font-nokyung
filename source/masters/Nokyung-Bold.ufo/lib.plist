@@ -30,10 +30,6 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>nñoóôöòøõ/oe pþqrs/scaron ßtuúûüùvwxyý/ydieresis z/zcaron/fi/fl ªº/Pi/Omega/mu/pi 0123456789¹²³/fraction ½¼¾/comma-han ¡#/period-han ¿/colon.full/comma.full/exclam.full/period.full/question.full/semicolon.full/anglebracketleft/anglebracketright/dblanglebracketleft/dblanglebracketright/parenleft.full/parenright.full/emdash/horizontalbar/nonbreakinghyphen -­/guilsinglleft «/guilsinglright »/space-han/nbspace/thinspace/zerowidthspace/wordjoiner ¢¤$/euro/florin £¥/bulletoperator +×÷=/notequal &gt;&lt;/greaterequal/lessequal ±/approxequal ¬/infinity/integral/Ohm/increment/product/Esh/summation/radical/partialdiff %/perthousand/dottedCircle/lozenge @&amp;S¶§©®/trademark °¦/dagger/daggerdbl/dieresiscomb/gravecomb/acutecomb/circumflexcomb/caroncomb/ringcomb/tildecomb/cedillacomb ´/breve/caron ¸/circumflex ¨/dotaccent `/hungarumlaut ¯/ogonek/ring/tilde</string>
-    <string>/uni199F/uni19A0/uni199F/uni19A0/uni199F/uni19A0 
-/uni198A !/uni19B4 !/uni19DA !/uni198A ,/uni19B4 ,/uni19DA ,
-/uni198A ;/uni19B4 ;/uni19DA ;/uni198A/uni19B5/uni19B4/uni19B5/uni19DA/uni19B5 
-/uni198A ./uni19B4 ./uni19DA ./uni198A ,/uni19B4 ,/uni19DA ,</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

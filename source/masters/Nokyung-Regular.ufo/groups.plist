@@ -92,11 +92,15 @@
   <array>
     <string>comma</string>
     <string>underscore</string>
+  </array>
+  <key>public.kern2.Rlowtail</key>
+  <array>
     <string>uni19D2</string>
   </array>
   <key>public.kern2.Rmidnohighnolow</key>
   <array>
     <string>approxequal</string>
+    <string>asciicircum</string>
     <string>asciitilde</string>
     <string>bullet</string>
     <string>bulletoperator</string>
@@ -139,6 +143,7 @@
     <string>uni19B4</string>
     <string>uni19B5</string>
     <string>uni19B6</string>
+    <string>uni19B8</string>
     <string>uni19BA</string>
     <string>uni19BB</string>
     <string>uni19BC</string>
@@ -162,10 +167,8 @@
   </array>
   <key>public.kern2.Rnone</key>
   <array>
-    <string>asciicircum</string>
     <string>ellipsis</string>
     <string>period</string>
-    <string>uni19B8</string>
     <string>uni19D8</string>
   </array>
 </dict>

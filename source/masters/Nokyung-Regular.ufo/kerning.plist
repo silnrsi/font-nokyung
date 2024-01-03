@@ -8,6 +8,8 @@
     <integer>-290</integer>
     <key>public.kern2.Rlownohighnomid</key>
     <integer>-290</integer>
+    <key>public.kern2.Rlowtail</key>
+    <integer>-920</integer>
     <key>public.kern2.Rmidnohighnolow</key>
     <integer>-290</integer>
     <key>public.kern2.Rnone</key>
@@ -28,6 +30,8 @@
     <integer>-160</integer>
     <key>public.kern2.Rlownohighnomid</key>
     <integer>-400</integer>
+    <key>public.kern2.Rlowtail</key>
+    <integer>-700</integer>
     <key>public.kern2.Rmidnohighnolow</key>
     <integer>-160</integer>
     <key>public.kern2.Rnone</key>
