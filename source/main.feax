@@ -1,0 +1,17 @@
+languagesystem DFLT dflt;
+
+# GPOS
+
+lookup KernPairs {
+    kernpairs;
+} KernPairs;
+
+feature dist {
+    lookup KernPairs;
+} dist;
+
+# GDEF
+
+table GDEF {
+  GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+} GDEF;

@@ -1,0 +1,282 @@
+
+# Main Classes
+@GDEF_bases = [.notdef A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C CR Ccedilla D E Eacute Ecircumflex Edieresis Egrave Esh Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N \NULL Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Omega Oslash Otilde P Pi Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand anglebracketleft anglebracketright approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c caron ccedilla cedilla cent circumflex colon colon.full comma comma-han comma.full copyright currency d dagger daggerdbl dailuemodifierfinal dblanglebracketleft dblanglebracketright degree dieresis divide dollar dotaccent dottedCircle e eacute ecircumflex edieresis egrave eight ellipsis emdash endash equal eth euro exclam exclam.full exclamdown f fi five fl florin four fraction g germandbls grave greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h horizontalbar hungarumlaut hyphen i iacute icircumflex idieresis idotless igrave increment infinity integral j k l less lessequal logicalnot lozenge m macron mu multiply n nbspace nine nonbreakinghyphen notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenleft.full parenright parenright.full partialdiff percent period period-han period.full periodcentered perthousand pi plus plusminus product q question question.full questiondown quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle r radical registered ring s scaron section semicolon semicolon.full seven six slash softhyphen space space-han sterling summation t thinspace thorn three threequarters threesuperior tilde trademark two twosuperior u uacute ucircumflex udieresis ugrave underscore uni1980 uni1981 uni1982 uni1983 uni1984 uni1985 uni1986 uni1987 uni1988 uni1989 uni198A uni198B uni198C uni198D uni198E uni198F uni1990 uni1991 uni1992 uni1993 uni1994 uni1995 uni1996 uni1997 uni1998 uni1999 uni199A uni199B uni199C uni199D uni199E uni199F uni19A0 uni19A1 uni19A2 uni19A3 uni19A4 uni19A5 uni19A6 uni19A7 uni19A8 uni19A9 uni19AA uni19AB uni19B0 uni19B1 uni19B2 uni19B3 uni19B4 uni19B5 uni19B6 uni19B7 uni19B8 uni19B9 uni19BA uni19BB uni19BC uni19BD uni19BE uni19BF uni19C0 uni19C1 uni19C2 uni19C3 uni19C4 uni19C5 uni19C6 uni19C7 uni19C8 uni19C9 uni19D0 uni19D1 uni19D2 uni19D3 uni19D4 uni19D5 uni19D6 uni19D7 uni19D8 uni19D9 uni19DA uni19DE uni19DF v w wordjoiner x y yacute ydieresis yen z zcaron zero zerowidthspace];
+@GDEF_marks = [acutecomb caroncomb cedillacomb circumflexcomb dailuemodifierw dieresiscomb gravecomb ringcomb tildecomb];
+@c_full = [colon.full comma.full exclam.full parenleft.full parenright.full period.full question.full semicolon.full];
+@cno_full = [colon comma exclam parenleft parenright period question semicolon];
+@public.kern1.Lhigh = [uni198A uni1994 uni19BE uni19DE uni19DF];
+@public.kern1.Llow = [uni19B4 uni19D7];
+@public.kern1.Lmid = [uni19DA];
+@public.kern2.Rhighnolow = [ampersand asterisk backslash copyright currency degree exclam greater greaterequal less lessequal lozenge numbersign paragraph percent perthousand plusminus question quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle registered slash trademark uni1986 uni1991 uni199A uni199D uni19A5 uni19B2 uni19B7 uni19B9 uni19BF uni19C0 uni19D6];
+@public.kern2.Rlownohigh = [exclamdown questiondown semicolon uni1983 uni1984 uni1987 uni198B uni198F uni1990 uni1993 uni1996 uni1997 uni1999 uni199B uni199C uni19A1 uni19A6 uni19A7 uni19A8 uni19AA uni19B3 uni19D4 uni19D5 uni19D9 uni19DF];
+@public.kern2.Rlownohighnomid = [comma underscore];
+@public.kern2.Rlowtail = [uni19D2];
+@public.kern2.Rmidnohighnolow = [approxequal asciicircum asciitilde bullet bulletoperator colon divide dottedCircle emdash endash equal horizontalbar hyphen infinity logicalnot multiply nonbreakinghyphen notequal periodcentered plus softhyphen uni1980 uni1981 uni1982 uni1985 uni1988 uni1989 uni198A uni198D uni198E uni1992 uni1994 uni1995 uni1998 uni199E uni199F uni19A0 uni19A2 uni19A3 uni19B0 uni19B1 uni19B4 uni19B5 uni19B6 uni19B8 uni19BA uni19BB uni19BC uni19BD uni19BE uni19C1 uni19C2 uni19C3 uni19C4 uni19C5 uni19C6 uni19C7 uni19C8 uni19C9 uni19D0 uni19D1 uni19D3 uni19D7 uni19DA uni19DE];
+@public.kern2.Rnone = [ellipsis period uni19D8];
+
+# Positioning classes and statements
+
+# AP: H
+@H = [A U C E G H R idotless I K r L M N O S c T V a ae b d e f g h i k l m n o oslash oe p s t u v x z];
+# baseClass [A U] <anchor 591 0> @H;
+# baseClass C <anchor 627 0> @H;
+# baseClass E <anchor 502 0> @H;
+# baseClass G <anchor 623 0> @H;
+# baseClass [H R idotless] <anchor 238 0> @H;
+# baseClass I <anchor 399 0> @H;
+# baseClass [K r] <anchor 226 0> @H;
+# baseClass L <anchor 495 0> @H;
+# baseClass M <anchor 1280 0> @H;
+# baseClass N <anchor 1028 0> @H;
+# baseClass O <anchor 599 0> @H;
+# baseClass [S c] <anchor 485 0> @H;
+# baseClass T <anchor 520 0> @H;
+# baseClass V <anchor 568 0> @H;
+# baseClass a <anchor 451 0> @H;
+# baseClass ae <anchor 742 0> @H;
+# baseClass b <anchor 493 0> @H;
+# baseClass d <anchor 506 0> @H;
+# baseClass e <anchor 456 0> @H;
+# baseClass f <anchor 309 0> @H;
+# baseClass g <anchor 456 -361> @H;
+# baseClass h <anchor 209 0> @H;
+# baseClass i <anchor 236 0> @H;
+# baseClass k <anchor 203 0> @H;
+# baseClass l <anchor 242 0> @H;
+# baseClass m <anchor 1212 0> @H;
+# baseClass n <anchor 811 0> @H;
+# baseClass [o oslash] <anchor 477 0> @H;
+# baseClass oe <anchor 827 0> @H;
+# baseClass p <anchor 222 -364> @H;
+# baseClass s <anchor 414 0> @H;
+# baseClass t <anchor 397 0> @H;
+# baseClass u <anchor 492 0> @H;
+# baseClass v <anchor 459 0> @H;
+# baseClass x <anchor 752 0> @H;
+# baseClass z <anchor 439 0> @H;
+
+# AP: L
+@L = [A AE B C D Eth E eight five n nine one seven six three two Esh Z d zero F G H I J K L M N O Oslash OE P Thorn Q R S c T U V W X Y pi a ae m b germandbls cedilla e eth k f fi fl florin four g h i idotless j l o oslash oe ogonek onesuperior threesuperior twosuperior p thorn q r s t u v w x y z];
+@L_MarkBase = [cedillacomb];
+# baseClass A <anchor 574 -84> @L;
+# baseClass AE <anchor 849 -84> @L;
+# baseClass B <anchor 514 -84> @L;
+# baseClass C <anchor 627 -84> @L;
+# baseClass [D Eth] <anchor 598 -84> @L;
+# baseClass [E eight five n nine one seven six three two] <anchor 502 -84> @L;
+# baseClass [Esh Z d zero] <anchor 506 -84> @L;
+# baseClass F <anchor 497 -84> @L;
+# baseClass G <anchor 623 -84> @L;
+# baseClass H <anchor 606 -84> @L;
+# baseClass I <anchor 399 -84> @L;
+# baseClass J <anchor 343 -84> @L;
+# baseClass K <anchor 581 -84> @L;
+# baseClass L <anchor 495 -84> @L;
+# baseClass M <anchor 740 -84> @L;
+# baseClass N <anchor 616 -84> @L;
+# baseClass [O Oslash] <anchor 599 -84> @L;
+# baseClass OE <anchor 804 -84> @L;
+# baseClass [P Thorn] <anchor 533 -84> @L;
+# baseClass Q <anchor 599 -226> @L;
+# baseClass R <anchor 510 -84> @L;
+# baseClass [S c] <anchor 485 -84> @L;
+# baseClass T <anchor 520 -84> @L;
+# baseClass U <anchor 591 -84> @L;
+# baseClass V <anchor 562 -84> @L;
+# baseClass W <anchor 859 -84> @L;
+# baseClass [X Y pi] <anchor 543 -84> @L;
+# baseClass a <anchor 451 -84> @L;
+# baseClass [ae m] <anchor 723 -84> @L;
+# baseClass [b germandbls] <anchor 493 -84> @L;
+# baseClass cedilla <anchor 50 -435> @L;
+# baseClass e <anchor 476 -84> @L;
+# baseClass [eth k] <anchor 478 -84> @L;
+# baseClass f <anchor 280 -84> @L;
+# baseClass [fi fl] <anchor 786 -84> @L;
+# baseClass florin <anchor 248 -418> @L;
+# baseClass four <anchor 507 -84> @L;
+# baseClass g <anchor 456 -447> @L;
+# baseClass h <anchor 489 -84> @L;
+# baseClass [i idotless] <anchor 238 -84> @L;
+# baseClass j <anchor 105 -418> @L;
+# baseClass l <anchor 242 -84> @L;
+# baseClass [o oslash] <anchor 477 -84> @L;
+# baseClass oe <anchor 798 -84> @L;
+# baseClass ogonek <anchor 297 -334> @L;
+# baseClass [onesuperior threesuperior twosuperior] <anchor 351 514> @L;
+# baseClass [p thorn] <anchor 493 -418> @L;
+# baseClass q <anchor 464 -418> @L;
+# baseClass r <anchor 213 -84> @L;
+# baseClass s <anchor 414 -84> @L;
+# baseClass t <anchor 397 -84> @L;
+# baseClass u <anchor 492 -84> @L;
+# baseClass v <anchor 447 -84> @L;
+# baseClass w <anchor 648 -84> @L;
+# baseClass x <anchor 453 -84> @L;
+# baseClass y <anchor 665 -84> @L;
+# baseClass z <anchor 439 -84> @L;
+# baseClass cedillacomb <anchor -510 -435> @L_MarkBase;
+
+# AP: O
+@O = [A E I O U V a ae e i idotless o oe oslash u v];
+# baseClass A <anchor 1212 0> @O;
+# baseClass E <anchor 767 0> @O;
+# baseClass I <anchor 563 0> @O;
+# baseClass O <anchor 831 0> @O;
+# baseClass U <anchor 858 0> @O;
+# baseClass V <anchor 736 0> @O;
+# baseClass a <anchor 941 0> @O;
+# baseClass ae <anchor 1323 0> @O;
+# baseClass e <anchor 773 0> @O;
+# baseClass i <anchor 418 0> @O;
+# baseClass idotless <anchor 435 0> @O;
+# baseClass o <anchor 698 0> @O;
+# baseClass oe <anchor 1407 0> @O;
+# baseClass oslash <anchor 701 0> @O;
+# baseClass u <anchor 997 0> @O;
+# baseClass v <anchor 606 0> @O;
+
+# AP: U
+@U = [A AE B C D Eth E eight five nine one seven six three Esh Z zero F G H I J K X Y L M N O Oslash Q OE P Thorn R S T U V W a acute ae m b breve c o oslash caron d dieresis e eth k f fi fl florin four g germandbls thorn grave h i idotless j l n oe onesuperior threesuperior p pi q r s t two twosuperior u v y w x z];
+@U_MarkBase = [acutecomb caroncomb circumflexcomb ringcomb dieresiscomb gravecomb tildecomb];
+# baseClass A <anchor 574 1279> @U;
+# baseClass AE <anchor 849 1279> @U;
+# baseClass B <anchor 514 1279> @U;
+# baseClass C <anchor 627 1279> @U;
+# baseClass [D Eth] <anchor 598 1279> @U;
+# baseClass [E eight five nine one seven six three] <anchor 502 1279> @U;
+# baseClass [Esh Z zero] <anchor 506 1279> @U;
+# baseClass F <anchor 497 1279> @U;
+# baseClass G <anchor 623 1279> @U;
+# baseClass H <anchor 606 1279> @U;
+# baseClass I <anchor 399 1279> @U;
+# baseClass J <anchor 564 1279> @U;
+# baseClass [K X Y] <anchor 543 1279> @U;
+# baseClass L <anchor 495 1279> @U;
+# baseClass M <anchor 740 1279> @U;
+# baseClass N <anchor 616 1279> @U;
+# baseClass [O Oslash Q] <anchor 599 1279> @U;
+# baseClass OE <anchor 804 1279> @U;
+# baseClass [P Thorn] <anchor 533 1279> @U;
+# baseClass R <anchor 510 1279> @U;
+# baseClass S <anchor 485 1279> @U;
+# baseClass T <anchor 520 1279> @U;
+# baseClass U <anchor 591 1279> @U;
+# baseClass V <anchor 562 1279> @U;
+# baseClass W <anchor 859 1279> @U;
+# baseClass a <anchor 451 920> @U;
+# baseClass acute <anchor 143 1367> @U;
+# baseClass [ae m] <anchor 723 920> @U;
+# baseClass b <anchor 493 1367> @U;
+# baseClass breve <anchor 314 1367> @U;
+# baseClass [c o oslash] <anchor 477 920> @U;
+# baseClass caron <anchor 355 1367> @U;
+# baseClass d <anchor 506 1367> @U;
+# baseClass dieresis <anchor 285 1325> @U;
+# baseClass e <anchor 476 920> @U;
+# baseClass [eth k] <anchor 478 1367> @U;
+# baseClass f <anchor 468 1367> @U;
+# baseClass fi <anchor 777 1367> @U;
+# baseClass fl <anchor 786 1367> @U;
+# baseClass florin <anchor 451 1367> @U;
+# baseClass four <anchor 507 1279> @U;
+# baseClass g <anchor 431 920> @U;
+# baseClass [germandbls thorn] <anchor 518 1367> @U;
+# baseClass grave <anchor 330 1367> @U;
+# baseClass h <anchor 489 1367> @U;
+# baseClass i <anchor 236 920> @U;
+# baseClass idotless <anchor 238 920> @U;
+# baseClass j <anchor 262 920> @U;
+# baseClass l <anchor 236 1367> @U;
+# baseClass n <anchor 502 920> @U;
+# baseClass oe <anchor 798 920> @U;
+# baseClass [onesuperior threesuperior] <anchor 351 1400> @U;
+# baseClass p <anchor 493 920> @U;
+# baseClass pi <anchor 543 920> @U;
+# baseClass q <anchor 464 920> @U;
+# baseClass r <anchor 380 920> @U;
+# baseClass s <anchor 414 920> @U;
+# baseClass t <anchor 272 1137> @U;
+# baseClass two <anchor 468 1279> @U;
+# baseClass twosuperior <anchor 341 1400> @U;
+# baseClass u <anchor 492 920> @U;
+# baseClass [v y] <anchor 447 920> @U;
+# baseClass w <anchor 648 920> @U;
+# baseClass x <anchor 453 920> @U;
+# baseClass z <anchor 439 920> @U;
+# baseClass [acutecomb caroncomb circumflexcomb ringcomb] <anchor -477 1367> @U_MarkBase;
+# baseClass dieresiscomb <anchor -477 1258> @U_MarkBase;
+# baseClass gravecomb <anchor -460 1367> @U_MarkBase;
+# baseClass tildecomb <anchor -485 1246> @U_MarkBase;
+
+# AP: R
+@R = [E I L O U a y ae b c d e g fi fl i idotless l k o oslash oe p q t u];
+# baseClass E <anchor 970 1003> @R;
+# baseClass I <anchor 815 1003> @R;
+# baseClass L <anchor 451 1003> @R;
+# baseClass O <anchor 1221 1003> @R;
+# baseClass U <anchor 1170 1003> @R;
+# baseClass [a y] <anchor 936 836> @R;
+# baseClass ae <anchor 1459 836> @R;
+# baseClass b <anchor 966 836> @R;
+# baseClass c <anchor 853 836> @R;
+# baseClass d <anchor 995 836> @R;
+# baseClass [e g] <anchor 915 836> @R;
+# baseClass [fi fl] <anchor 1016 836> @R;
+# baseClass i <anchor 464 836> @R;
+# baseClass [idotless l] <anchor 460 836> @R;
+# baseClass k <anchor 865 836> @R;
+# baseClass [o oslash] <anchor 953 836> @R;
+# baseClass oe <anchor 1555 836> @R;
+# baseClass p <anchor 978 836> @R;
+# baseClass q <anchor 945 836> @R;
+# baseClass t <anchor 698 836> @R;
+# baseClass u <anchor 991 836> @R;
+
+# AP: _U
+markClass [acutecomb caroncomb circumflexcomb dieresiscomb] <anchor -477 920> @_U;
+markClass gravecomb <anchor -460 920> @_U;
+markClass ringcomb <anchor -478 920> @_U;
+markClass tildecomb <anchor -485 920> @_U;
+
+# AP: _H
+markClass cedillacomb <anchor -477 0> @_H;
+
+# AP: _bottom
+markClass dailuemodifierw <anchor -582 -100> @_bottom;
+
+# AP: bottom
+@bottom = [uni1982 uni1985 uni1986 uni1989 uni1998 uni199D uni19A0 uni19DE];
+# baseClass uni1982 <anchor 844 -100> @bottom;
+# baseClass [uni1985 uni1986] <anchor 584 -100> @bottom;
+# baseClass uni1989 <anchor 832 -100> @bottom;
+# baseClass uni1998 <anchor 792 -100> @bottom;
+# baseClass uni199D <anchor 858 -100> @bottom;
+# baseClass uni19A0 <anchor 811 -100> @bottom;
+# baseClass uni19DE <anchor 753 -100> @bottom;
+languagesystem DFLT dflt;
+# GPOS
+lookup KernPairs {
+    pos @public.kern1.Lhigh -290 @public.kern2.Rlownohigh;
+    pos @public.kern1.Lhigh -290 @public.kern2.Rlownohighnomid;
+    pos @public.kern1.Lhigh -920 @public.kern2.Rlowtail;
+    pos @public.kern1.Lhigh -290 @public.kern2.Rmidnohighnolow;
+    pos @public.kern1.Lhigh -290 @public.kern2.Rnone;
+    pos @public.kern1.Llow -276 @public.kern2.Rhighnolow;
+    pos @public.kern1.Llow -276 @public.kern2.Rmidnohighnolow;
+    pos @public.kern1.Llow -276 @public.kern2.Rnone;
+    pos @public.kern1.Lmid -160 @public.kern2.Rlownohigh;
+    pos @public.kern1.Lmid -400 @public.kern2.Rlownohighnomid;
+    pos @public.kern1.Lmid -700 @public.kern2.Rlowtail;
+    pos @public.kern1.Lmid -160 @public.kern2.Rmidnohighnolow;
+    pos @public.kern1.Lmid -400 @public.kern2.Rnone;
+} KernPairs;
+
+feature dist {
+    lookup KernPairs;
+} dist;
+
+# GDEF
+table GDEF {
+    GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+} GDEF;
