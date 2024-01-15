@@ -1,0 +1,13 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\patterngroup[name="C"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦪᦫ◌}
+\patterngroup[name="V"]{ᦷᦵᦶᦺ}
+
+\pattern[size="24",chars="V",reps="group_V",format="para"]{V}
+\pattern[size="24",chars="C",reps="group_C",format="para"]{C}
+
+\pattern[chars="C,V",reps="group_C,group_V",format="list"]{VC}
+
+\end{document}

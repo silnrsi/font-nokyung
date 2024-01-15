@@ -1,0 +1,85 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\proof[size="18"]{ᦝᧂᦑᦸᦰ ᦍᦸᧆᦑᦲᧈᦷᦢᦆᧄ ᦅᧀᦂᦱᧂᦐᦸᧂ ᦂᦱᧁ ᦙᦸᧃᦟᦱᧆᦓᧄᧉ, ᦶᦙᧈᦷᦎᦶᦂᧄᧉ ᦃᦸᧂᧈ ᦋᧄᧉ ᦶᦀᧁ ᦵᦉᧄᧉ ᦺᦜᧈ ᦺᦃ ᦋᦻᦵᦣᧀ, ᦔᦱᧂ ᦓᦲᦰ ᦋᦻ ᦈᧅ ᦺᦃ ᦺᦔ ᦡᦽᧉᦓᦲᧉ ᦑᦱᧃᦜᧂ ᦶᦎᧈ ᦂᦸᧃᧈ, ᦈᦱ ᦉᦸᧃᧈ ᦠᦹᧉ ᦵᦗᦲᧃᧈᦣᦼᧉᦡᦽᧉᦆᦱᧁᧈᦟᧂᦂᦱ, ᦎᦱᧄᦔᦱᦟᦲᦀᦸᧅᧈ ᦒᧄᦟᧁᧈᦺᦞᧉᦗᦸᦡᧂᧈᦉᦸᧄᧉ ᦡᦸᧅᧈᦺᦙᧉ ᦠᦸᧄ ᦶᦕᧈ ᦵᦙᦲᧂᦺᦑ, ᦅᧄᦺᦘᦷᦎᧅᦶᦑᧃᦺᦡᦵᦗᦲᧃᧈᦠᦱᧅᦟᦹᦌᦰ ᦌᦱᧁᧉ, ᦆᦱᧁᧈᦠᦱᧅᦂᦲᧉᦍᦱᧁᦶᦑᧉ ᦵᦖᦲᧃᦡᧂᧈᦓᧄᧉ ᦶᦙᧈᦦᦱᧂᧉᦉᦖᦳᧆᦺᦊᧈᦉᦱᦅᦸᧃ, ᦢᧆᦓᦲᦰᦂᦸᧃᦅᧄᦙᦲ ᦷᦜᧂᦜᦻᦺᦉᧈ ᦺᦢ ᦑᧂ ᦉᦾᧉ, ᦛᦱᧃ ᦛᦱᧈ ᦀᦾᧉ ᦶᦋᧈ ᦓᧄᧉᦷᦠᧆᦜᦸᧈᦷᦂᧂᦆᦸᦞᦓᦱ. ᦝᧂᦑᦸᦰᦀᦱᧁᦀᦱᦘᦸᧄᧉ ᦎᦱᦓᦻᦔᦱᧉᦔᦴᧈ, ᦙᦲᦑᧂᦚᦳᧂᦖᦴᧈᦖᦻᧉᦋᦳᧄ ᦣᦱᧂᧉ ᦑᧂᦢᦱᧁᧈᦂᧇᦉᦱᧁ ᦝᧂᦑᧂᦺᦈᦛᦱᧃᦏᧁᧉᦕᦳᧄᦃᦱᦋᦱᧁ ᦶᦂᧈ, ᦞᧃᦓᦲᦰᦃᦸᦊᦱᧈᦖᧇᦶᦅᧈᦖᦸᧃ, ᦃᦸᦊᦱᧈᦓᦸᧃ ᦍᦱᧄᦋᧁᧉ, ᦅᦾᧈᦝᧂᦎᧂᧉᦶᦎᧈᦅᧁᧉ ᦠᦹᧉ ᦉᦳᧆ ᦍᦸᧆ ᦏᦹᧂᦔᦻᦑᦸᦰᦵᦓᦲ.}
+
+\section{Unicode Order}
+\proof[size="24"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐ}
+\proof[size="24"]{ᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥ}
+\proof[size="24"]{ᦦᦧᦨᦩᦪᦫ}
+\proof[size="24"]{ᦰᦱᦲᦳᦴᦵᦶᦷᦸᦹᦺᦻᦼᦽᦾᦿᧀ}
+\proof[size="24"]{ᧁᧂᧃᧄᧅᧆᧇ}
+\proof[size="24"]{ᧈᧉ}
+\proof[size="24"]{᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙}
+\proof[size="24"]{᧞᧟}
+
+\section{Round Side}
+\proof[size="24"]{ᧁᦞᦎᦘᦉᦀᦡᦃᦱᦳᦺᦷᦓᧃᧉᧈ}
+
+\section{Round Top Bottom}
+\proof[size="24"]{ᧂᦇᦋᦅᦆᦝᦂᧅᦗᦦᦒᦍᦢᦙᧄᧇᦔ}
+
+\section{Asc}
+\proof[size="24"]{ᦲᦹᦷᦚᦑᦌᦆᦝ᧞ᦾᦊᦔᦺᦁᦤᦥ}
+
+\section{Desc}
+\proof[size="24"]{ᦣᦏᦇᦀᦡᦋᦌᦓᦙᦃᦳᦻᦽᦿᧀᦴᦼᧁᧇᧄᧂᧃᧆᧅᦧ}
+
+\section{Infinity}
+\proof[size="24"]{᧟᧞ᦟᦠᦖᦐᦄᦛᦜ}
+
+\section{Three}
+\proof[size="24"]{ᦈᦕᦚᦊᦏᦑ}
+
+\section{Loops}
+\proof[size="24"]{ᦰᦕᦸᦾᧉᧈ}
+
+\section{Contrast}
+\proof[size="24"]{ᦇᦵᦅᦶᦋ}
+
+\section{Circ}
+\proof[size="24"]{ᦛᦦᦧᦨᦩ᧟ᦪᦫ}
+
+\section{Diacs}
+\proof[size="24"]{ᦀᦁᦡᦤᦢᦥᦅᦨᦆᦩᦂᦦᦠᦛᦃᦧ᧞᧟ᦪᦫ}
+
+\section{Ext}
+\proof[size="24"]{ᦱᦻᦹᦿᦲᧀᦞᦽᦞᧁᦇᧂᦓᧃᦡᧆᦙᧄᦢᧇᦂᧅ}
+
+\section{Nums}
+\proof[size="24"]{᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙}
+
+\section{Roman punctuation}
+\patterngroup[name="P"]{,.:;!?- }
+\patterngroup[name="LQ"]{'"‘“([‹\{}
+\patterngroup[name="RQ"]{'"’”)]›\}}
+\patterngroup[name="S"]{/|\\}
+\pattern[size="14",chars="P",reps="group_P",format="list"]{ᦑᦱᧃᦜᧂ ᦶᦎᧈ ᦂᦸᧃᧈP ᦈᦱ ᦉᦸᧃᧈ ᦠᦹᧉ}
+\pattern[size="14",chars="L,R",reps="group_LQ,group_RQ",format="list"]{ᦑᦱᧃᦜᧂ ᦶᦎᧈ ᦂᦸᧃᧈ LᦆᦂᦡR ᦈᦱ ᦉᦸᧃᧈ ᦠᦹᧉ}
+\pattern[size="14",chars="S",reps="group_S",format="list"]{ᦆᦂᦡSᦆᦂᦡ}
+
+\section{CJK punctuation}
+\patterngroup[name="C"]{　、。，！．：；？}
+\patterngroup[name="LD"]{〈《（}
+\patterngroup[name="RD"]{〉》）}
+\pattern[size="14",chars="C",reps="group_C",format="list"]{ᦑᦱᧃᦜᧂ ᦶᦎᧈ ᦂᦸᧃᧈC ᦈᦱ ᦉᦸᧃᧈ ᦠᦹᧉ}
+\pattern[size="14",chars="L,R",reps="group_LD,group_RD",format="list"]{ᦑᦱᧃᦜᧂ ᦶᦎᧈ ᦂᦸᧃᧈ LᦺᦜᧈR ᦈᦱ ᦉᦸᧃᧈ ᦠᦹᧉ}
+
+\patterngroup[name="X"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐ}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂ}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂXᧉXᧈXᦆXᦽX}
+
+\patterngroup[name="X"]{ᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥ}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂ}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂXᧉXᧈXᦆXᦽX}
+
+\patterngroup[name="X"]{ᦦᦧᦨᦩᦰᦱᦲᦳᦴᦵᦶᦷᦸᦹᦺᦻᦼᦽᦾᦿᧀ}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂ}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂXᧉXᧈXᦆXᦽX}
+
+\patterngroup[name="X"]{ᧁᧂᧃᧄᧅᧆᧇᧈᧉ᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙᧞᧟}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂ}
+\pattern[size="9",chars="X",reps="group_X",format="list"]{ᦂXᦂXᧉXᧈXᦆXᦽX}
+
+\end{document}

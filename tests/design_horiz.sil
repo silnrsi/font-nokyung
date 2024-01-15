@@ -1,0 +1,16 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\proof[size="6,8,10,12,14"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦰᦱᦲᦳᦵᦴᦷᦶᦸᦺᦹᦻᦼᦽᦾᦿᧀᧁᧂᧃᧄᧅᧆᧇᧈᧉ᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙᧞᧟}
+
+\proof[size="100"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉ}
+\proof[size="100"]{ᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓ}
+\proof[size="100"]{ᦔᦕᦖᦗᦘᦙᦚᦛᦜ}
+\proof[size="100"]{ᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦ}
+\proof[size="100"]{ᦧᦨᦩᦰᦱᦲᦳᦵᦴᦷᦶ}
+\proof[size="100"]{ᦸᦺᦹᦻᦼᦽᦾᦿᧀ}
+\proof[size="100"]{ᧁᧂᧃᧄᧅᧆᧇᧈᧉ᧐᧑}
+\proof[size="100"]{᧒᧓᧔᧕᧖᧗᧘᧙᧞᧟}
+
+\end{document}
