@@ -2,12 +2,35 @@
 \bidi-off
 \setTestFont[]
 
-\patterngroup[name="C"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦪᦫ◌}
-\patterngroup[name="V"]{ᦷᦵᦶᦺ}
+\patterngroup[name="kern1.Lhigh"]{ᦊᦔᦾ᧞᧟}
+\patterngroup[name="kern1.Llow"]{ᦴ᧗}
+\patterngroup[name="kern1.Lmid"]{᧚}
+\patterngroup[name="kern2.Rhighnolow"]{&*\\©¤°!>≥<≤◊#¶\%‰±?"“”“”'®/™ᦆᦑᦚᦝᦥᦲᦷᦹᦿᧀ᧖}
+\patterngroup[name="kern2.Rlownohigh"]{¡¿;ᦃᦄᦇᦋᦏᦐᦓᦖᦗᦙᦛᦜᦡᦦᦧᦨᦪᦳ᧔᧕᧙᧟}
+\patterngroup[name="kern2.Rlownohighnomid"]{,_}
+\patterngroup[name="kern2.Rlowtail"]{᧒}
+\patterngroup[name="kern2.Rmidnohighnolow"]{≈^~•∙:÷◌—–=―-∞¬×‑≠¶+­ᦀᦁᦂᦅᦈᦉᦊᦍᦎᦒᦔᦕᦘᦞᦟᦠᦢᦣᦰᦱᦴᦵᦶᦸᦺᦻᦼᦽᦾᧁᧂᧃᧄᧅᧆᧇᧈᧉ᧐᧑᧓᧗᧚᧞}
+\patterngroup[name="kern2.Rnone"]{…·᧘}
 
-\pattern[size="24",chars="V",reps="group_V",format="para"]{V}
-\pattern[size="24",chars="C",reps="group_C",format="para"]{C}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rhighnolow",heading="Lhigh-Rhighnolow*",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rlownohigh",heading="Lhigh-Rlownohigh",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rlownohighnomid",heading="Lhigh-Rlownohighnomid",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rlowtail",heading="Lhigh-Rlowtail",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rmidnohighnolow",heading="Lhigh-Rmidnohighnolow",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rnone",heading="Lhigh-Rnone",format="table"]{OT}
 
-\pattern[chars="C,V",reps="group_C,group_V",format="list"]{VC}
+\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rhighnolow",heading="Llow-Rhighnolow",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rlownohigh",heading="Llow-Rlownohigh*",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rlownohighnomid",heading="Llow-Rlownohighnomid*",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rlowtail",heading="Llow-Rlowtail*",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rmidnohighnolow",heading="Llow-Rmidnohighnolow",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rnone",heading="Llow-Rnone",format="table"]{OT}
+
+\pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rhighnolow",heading="Lmid-Rhighnolow*",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rlownohigh",heading="Lmid-Rlownohigh",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rlownohighnomid",heading="Lmid-Rlownohighnomid",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rlowtail",heading="Lmid-Rlowtail",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rmidnohighnolow",heading="Lmid-Rmidnohighnolow",format="table"]{OT}
+\pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rnone",heading="Lmid-Rnone",format="table"]{OT}
 
 \end{document}
