@@ -11,7 +11,7 @@ then
 fi
 
 # configure tests
-tests="AllChars Matras"
+tests="AllChars Kern Matras"
 urls='url(../references/Nokyung-Regular.ttf)=RefR url(../references/Nokyung-Bold.ttf)=RefB url(../results/Nokyung-Regular.ttf)=R url(../results/Nokyung-Bold.ttf)=B url(../references/DaiBannaSIL-Light.ttf)=DaiBanna url(../references/NotoSansNewTaiLue-Regular.ttf)=Noto'
 ufo='source/masters/Nokyung-Regular.ufo'
 
@@ -23,6 +23,7 @@ do
 done
 
 echo "Rebuilding ftml files..."
+./tools/ufokerndata.py $ufo
 for test in $tests
 do
 	base=${test,,}

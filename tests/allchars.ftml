@@ -231,154 +231,65 @@
     </test>
   </testgroup>
   <testgroup label="Proof">
-    <test label="U+1980
-U+1981
-U+1982
-U+1983
-U+1984
-U+1985
-U+1986
-U+1987
-U+1988
-U+1989
-U+198A
-U+198B
-U+198C
-U+198D
-U+198E
-U+198F
-U+1990
-U+1991
-U+1992
-U+1993
-U+1994
-U+1995
-U+1996
-U+1997
-U+1998
-U+1999
-U+199A
-U+199B
-U+199C
-U+199D
-U+199E
-U+199F
-U+19A0
-U+19A1
-U+19A2
-U+19A3
-U+19A4
-U+19A5
-U+19A6
-U+19A7
-U+19A8
-U+19A9
-U+19AA
-U+19AB">
-      <comment>uni1980 uni1981 uni1982 uni1983 uni1984 uni1985 uni1986 uni1987 uni1988 uni1989 uni198A uni198B uni198C uni198D uni198E uni198F uni1990 uni1991 uni1992 uni1993 uni1994 uni1995 uni1996 uni1997 uni1998 uni1999 uni199A uni199B uni199C uni199D uni199E uni199F uni19A0 uni19A1 uni19A2 uni19A3 uni19A4 uni19A5 uni19A6 uni19A7 uni19A8 uni19A9 uni19AA uni19AB</comment>
+    <test label="consonants">
+      <comment>1980</comment>
       <string>\u001980\u001981\u001982\u001983\u001984\u001985\u001986\u001987\u001988\u001989\u00198A\u00198B\u00198C\u00198D\u00198E\u00198F\u001990\u001991\u001992\u001993\u001994\u001995\u001996\u001997\u001998\u001999\u00199A\u00199B\u00199C\u00199D\u00199E\u00199F\u0019A0\u0019A1\u0019A2\u0019A3\u0019A4\u0019A5\u0019A6\u0019A7\u0019A8\u0019A9\u0019AA\u0019AB</string>
     </test>
-    <test label="U+19B0
-U+19B1
-U+19B2
-U+19B3
-U+19B4
-U+19B5
-U+19B6
-U+19B7
-U+19B8
-U+19B9
-U+19BA
-U+19BB
-U+19BC
-U+19BD
-U+19BE
-U+19BF
-U+19C0">
-      <comment>uni19B0 uni19B1 uni19B2 uni19B3 uni19B4 uni19B5 uni19B6 uni19B7 uni19B8 uni19B9 uni19BA uni19BB uni19BC uni19BD uni19BE uni19BF uni19C0</comment>
+    <test label="matras">
+      <comment>19B0</comment>
       <string>\u0019B0\u0019B1\u0019B2\u0019B3\u0019B4\u0019B5\u0019B6\u0019B7\u0019B8\u0019B9\u0019BA\u0019BB\u0019BC\u0019BD\u0019BE\u0019BF\u0019C0</string>
     </test>
-    <test label="U+19C1
-U+19C2
-U+19C3
-U+19C4
-U+19C5
-U+19C6
-U+19C7">
-      <comment>uni19C1 uni19C2 uni19C3 uni19C4 uni19C5 uni19C6 uni19C7</comment>
+    <test label="final_consonants">
+      <comment>19C1</comment>
       <string>\u0019C1\u0019C2\u0019C3\u0019C4\u0019C5\u0019C6\u0019C7</string>
     </test>
-    <test label="U+19C8
-U+19C9">
-      <comment>uni19C8 uni19C9</comment>
+    <test label="tone">
+      <comment>19C8</comment>
       <string>\u0019C8\u0019C9</string>
     </test>
-    <test label="U+19D0
-U+19D1
-U+19D2
-U+19D3
-U+19D4
-U+19D5
-U+19D6
-U+19D7
-U+19D8
-U+19D9">
-      <comment>uni19D0 uni19D1 uni19D2 uni19D3 uni19D4 uni19D5 uni19D6 uni19D7 uni19D8 uni19D9</comment>
+    <test label="digits">
+      <comment>19D0</comment>
       <string>\u0019D0\u0019D1\u0019D2\u0019D3\u0019D4\u0019D5\u0019D6\u0019D7\u0019D8\u0019D9</string>
     </test>
-    <test label="U+0021
-U+0022
-U+0023
-U+0025
-U+0026
-U+0027
-U+0028
-U+0029
-U+002A
-U+002C
-U+002D
-U+002E
-U+002F
-U+003A
-U+003B
-U+003F
-U+0040
-U+005B
-U+005C
-U+005D
-U+005F
-U+007B
-U+007D
-U+00A1
-U+00A7
-U+00AB
-U+00B6
-U+00B7
-U+00BB
-U+00BF
-U+2011
-U+2013
-U+2014
-U+2015
-U+2018
-U+2019
-U+201C
-U+201D
-U+2020
-U+2021
-U+2022
-U+2026
-U+2030
-U+2039
-U+203A
-U+3001
-U+3002
-U+3008
-U+3009
-U+300A
-U+300B">
-      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemetleft paragraph periodcentered guillemetright questiondown nonbreakinghyphen endash emdash horizontalbar quoteleft quoteright quotedblleft quotedblright dagger daggerdbl bullet ellipsis perthousand guilsinglleft guilsinglright comma-han period-han anglebracketleft anglebracketright dblanglebracketleft dblanglebracketright</comment>
+    <test label="punct">
+      <comment>0021</comment>
       <string>!"#%&amp;'()*,-./:;?@[\]_{}\u0000A1\u0000A7\u0000AB\u0000B6\u0000B7\u0000BB\u0000BF\u002011\u002013\u002014\u002015\u002018\u002019\u00201C\u00201D\u002020\u002021\u002022\u002026\u002030\u002039\u00203A\u003001\u003002\u003008\u003009\u00300A\u00300B</string>
+    </test>
+    <test label="public.kern1.Lhigh">
+      <comment>198A</comment>
+      <string>\u00198A\u001994\u0019BE\u0019DE\u0019DF</string>
+    </test>
+    <test label="public.kern1.Llow">
+      <comment>19B4</comment>
+      <string>\u0019B4\u0019D7</string>
+    </test>
+    <test label="U+19DA">
+      <comment>19DA</comment>
+      <string>\u0019DA</string>
+    </test>
+    <test label="public.kern2.Rhighnolow">
+      <comment>0026</comment>
+      <string>&amp;*\\u0000A9\u0000A4\u0000B0!&gt;\u002265&lt;\u002264\u0025CA#\u0000B6%\u002030\u0000B1?"\u00201C\u00201D\u002018\u002019'\u0000AE/\u002122\u001986\u001991\u00199A\u00199D\u0019A5\u0019B2\u0019B7\u0019B9\u0019BF\u0019C0\u0019D6</string>
+    </test>
+    <test label="public.kern2.Rlownohigh">
+      <comment>00A1</comment>
+      <string>\u0000A1\u0000BF;\u001983\u001984\u001987\u00198B\u00198F\u001990\u001993\u001996\u001997\u001999\u00199B\u00199C\u0019A1\u0019A6\u0019A7\u0019A8\u0019AA\u0019B3\u0019D4\u0019D5\u0019D9\u0019DF</string>
+    </test>
+    <test label="public.kern2.Rlownohighnomid">
+      <comment>002C</comment>
+      <string>,_</string>
+    </test>
+    <test label="U+19D2">
+      <comment>19D2</comment>
+      <string>\u0019D2</string>
+    </test>
+    <test label="public.kern2.Rmidnohighnolow">
+      <comment>2248</comment>
+      <string>\u002248^~\u002022\u002219:\u0000F7\u0025CC\u002014\u002013=\u002015-\u00221E\u0000AC\u0000D7\u002011\u002260\u0000B7+\u0000AD\u001980\u001981\u001982\u001985\u001988\u001989\u00198A\u00198D\u00198E\u001992\u001994\u001995\u001998\u00199E\u00199F\u0019A0\u0019A2\u0019A3\u0019B0\u0019B1\u0019B4\u0019B5\u0019B6\u0019B8\u0019BA\u0019BB\u0019BC\u0019BD\u0019BE\u0019C1\u0019C2\u0019C3\u0019C4\u0019C5\u0019C6\u0019C7\u0019C8\u0019C9\u0019D0\u0019D1\u0019D3\u0019D7\u0019DA\u0019DE</string>
+    </test>
+    <test label="public.kern2.Rnone">
+      <comment>2026</comment>
+      <string>\u002026.\u0019D8</string>
     </test>
   </testgroup>
 </ftml>

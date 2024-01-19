@@ -6,6 +6,7 @@ __license__ = 'Released under the MIT License (https://opensource.org/licenses/M
 __author__ = 'Bob Hallissy'
 
 import re
+import pickle
 from silfont.core import execute
 import silfont.ftml_builder as FB
 from palaso.unicode.ucd import get_ucd
@@ -52,12 +53,24 @@ def doit(args):
     # Useful ranges of codepoints
     uids = sorted(builder.uids())
     consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant']
-    matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
+    matras = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Vowel_Dependent']
     left_matras = [uid for uid in matras if get_ucd(uid, 'InPC') == 'Visual_Order_Left']
     final_consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant_Final']
     tone = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Tone_Mark']
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
+
+    # Create a reverse cmap so we can find a uid from a glyph name
+    chars = dict()
+    for uid in uids:
+        chars[builder.char(uid).basename] = uid
+
+    # Read pair kerning data that was in the Regular UFO.
+    # Group and glyphs names only, not the amount of kerning.
+    with open('kerning.pickle', 'rb') as kerning_file:
+        kerning = pickle.load(kerning_file)
+    with open('groups.pickle', 'rb') as groups_file:
+        groups = pickle.load(groups_file)
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -126,9 +139,31 @@ def doit(args):
 
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for section in (consonants, matras, final_consonants, tone, digits, punct):
-            builder.render(section, ftml)
+        for section_name in ('consonants', 'matras', 'final_consonants', 'tone', 'digits', 'punct'):
+            section = eval(section_name)
+            builder.render(section, ftml, label=section_name, comment=f'{section[0]:04X}')
             ftml.closeTest()
+        for group_name in groups:
+            pattern_group = list()
+            for glyph_name in groups[group_name]:
+                char = chars[glyph_name]
+                pattern_group.append(char)
+            builder.render(pattern_group, ftml, label=group_name, comment=f'{pattern_group[0]:04X}')
+            ftml.closeTest()
+
+    if test.lower().startswith("kern"):
+        for group_pair in kerning:
+            one = group_pair[0]
+            two = group_pair[1]
+
+            ftml.startTestGroup(f'{one}-{two}')
+            for glyph_name_one in groups[one]:
+                char_one = chars[glyph_name_one]
+                for glyph_name_two in groups[two]:
+                    char_two = chars[glyph_name_two]
+                    char_pair = (char_one, char_two)
+                    builder.render(char_pair, ftml, label=f'{char_one:04X}', comment=glyph_name_one)
+                ftml.closeTest()
 
     if test.lower().startswith("matras"):
         ftml.startTestGroup('Consonants with matras')
