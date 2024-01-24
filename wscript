@@ -10,7 +10,9 @@ fontfamily=APPNAME
 
 generated = 'generated/'
 designspace('source/' + fontfamily + '.designspace',
-            target = "${DS:FILENAME_BASE}.ttf",
+            target = process("${DS:FILENAME_BASE}.ttf",
+                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
+            ),
             opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = 'source/main.feax',
