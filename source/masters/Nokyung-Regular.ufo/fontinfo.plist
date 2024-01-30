@@ -12,8 +12,10 @@
   <integer>-750</integer>
   <key>familyName</key>
   <string>Nokyung</string>
+  <key>guidelines</key>
+  <array/>
   <key>openTypeHeadCreated</key>
-  <string>2024/01/26 07:14:39</string>
+  <string>2024/01/30 08:13:26</string>
   <key>openTypeHheaAscender</key>
   <integer>1650</integer>
   <key>openTypeHheaDescender</key>
@@ -158,6 +160,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1645</integer>
     <integer>1650</integer>
   </array>
+  <key>postscriptFamilyBlues</key>
+  <array/>
+  <key>postscriptFamilyOtherBlues</key>
+  <array/>
   <key>postscriptFontName</key>
   <string>Nokyung-Regular</string>
   <key>postscriptOtherBlues</key>
@@ -165,6 +171,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>-740</integer>
     <integer>-720</integer>
   </array>
+  <key>postscriptStemSnapH</key>
+  <array/>
+  <key>postscriptStemSnapV</key>
+  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-113</integer>
   <key>postscriptUnderlineThickness</key>

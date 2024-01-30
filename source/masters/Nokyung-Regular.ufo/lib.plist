@@ -29,7 +29,7 @@
   <string>3231</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>nñoóôöòøõ/oe pþqrs/scaron ßtuúûüùvwxyý/ydieresis z/zcaron/fi/fl ªº/Pi/Omega/mu/pi 0123456789¹²³/fraction ½¼¾/comma-han ¡#/period-han ¿/colon.full/comma.full/exclam.full/period.full/question.full/semicolon.full/anglebracketleft/anglebracketright/dblanglebracketleft/dblanglebracketright/parenleft.full/parenright.full/emdash/horizontalbar/nonbreakinghyphen -­/guilsinglleft «/guilsinglright »/space-han/nbspace/thinspace/zerowidthspace/wordjoiner ¢¤$/euro/florin £¥/bulletoperator +×÷=/notequal &gt;&lt;/greaterequal/lessequal ±/approxequal ¬/infinity/integral/Ohm/increment/product/Esh/summation/radical/partialdiff %/perthousand/dottedCircle/lozenge @&amp;S¶§©®/trademark °¦/dagger/daggerdbl/dieresiscomb/gravecomb/acutecomb/circumflexcomb/caroncomb/ringcomb/tildecomb/cedillacomb ´/breve/caron ¸/circumflex ¨/dotaccent `/hungarumlaut ¯/ogonek/ring/tilde</string>
+    <string>nñoóôöòøõ/oe pþqrs/scaron ßtuúûüùvwxyý/ydieresis z/zcaron/fi/fl ªº/product/Omega/micro/pi 0123456789¹²³/fraction ½¼¾/comma-han ¡#/period-han ¿/colon.full/comma.full/exclam.full/period.full/question.full/semicolon.full/anglebracketleft/anglebracketright/dblanglebracketleft/dblanglebracketright/parenleft.full/parenright.full/emdash/horizontalbar/nonbreakinghyphen -­/guilsinglleft «/guilsinglright »/space-han/nbspace/thinspace/zerowidthspace/wordjoiner ¢¤$/euro/florin £¥/bulletoperator +×÷=/notequal &gt;&lt;/greaterequal/lessequal ±/approxequal ¬/infinity/integral/Ohm/increment/product/summation/summation/radical/partialdiff %/perthousand/dottedCircle/lozenge @&amp;S¶§©®/trademark °¦/dagger/daggerdbl/dieresiscomb/gravecomb/acutecomb/circumflexcomb/caroncomb/ringcomb/tildecomb/cedillacomb ´/breve/caron ¸/circumflex ¨/dotaccent `/hungarumlaut ¯/ogonek/ring/tilde</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -68,7 +68,7 @@
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
-    <string>CR</string>
+    <string>nonmarkingreturn</string>
     <string>space</string>
     <string>exclam</string>
     <string>quotedbl</string>
@@ -89,7 +89,6 @@
     <string>one</string>
     <string>two</string>
     <string>three</string>
-    <string>four</string>
     <string>five</string>
     <string>six</string>
     <string>seven</string>
@@ -218,8 +217,6 @@
     <string>greaterequal</string>
     <string>yen</string>
     <string>partialdiff</string>
-    <string>summation</string>
-    <string>product</string>
     <string>pi</string>
     <string>integral</string>
     <string>ordfeminine</string>
@@ -307,7 +304,7 @@
     <string>scaron</string>
     <string>Zcaron</string>
     <string>zcaron</string>
-    <string>Esh</string>
+    <string>summation</string>
     <string>gravecomb</string>
     <string>acutecomb</string>
     <string>circumflexcomb</string>
@@ -316,9 +313,9 @@
     <string>ringcomb</string>
     <string>caroncomb</string>
     <string>cedillacomb</string>
-    <string>Pi</string>
+    <string>product</string>
     <string>Omega</string>
-    <string>mu</string>
+    <string>micro</string>
     <string>uni1980</string>
     <string>uni1981</string>
     <string>uni1982</string>
@@ -404,10 +401,12 @@
     <string>uni19DF</string>
     <string>thinspace</string>
     <string>zerowidthspace</string>
+    <string>hyphentwo</string>
     <string>nonbreakinghyphen</string>
     <string>horizontalbar</string>
     <string>wordjoiner</string>
     <string>euro</string>
+    <string>divisionslash</string>
     <string>bulletoperator</string>
     <string>space-han</string>
     <string>comma-han</string>
@@ -424,7 +423,7 @@
     <string>colon.full</string>
     <string>semicolon.full</string>
     <string>question.full</string>
-    <string>NULL</string>
+    <string>.null</string>
     <string>dailuemodifierfinal</string>
     <string>dailuemodifierw</string>
     <string>dottedCircle</string>
@@ -433,8 +432,6 @@
   <dict>
     <key>CR</key>
     <string>uni000D</string>
-    <key>Esh</key>
-    <string>uni01A9</string>
     <key>Ohm</key>
     <string>Omega</string>
     <key>Omega</key>
@@ -463,6 +460,8 @@
     <string>uni300B</string>
     <key>dieresiscomb</key>
     <string>uni0308</string>
+    <key>divisionslash</key>
+    <string>uni2215</string>
     <key>euro</key>
     <string>Euro</string>
     <key>exclam.full</key>
@@ -477,11 +476,13 @@
     <string>guillemotright</string>
     <key>horizontalbar</key>
     <string>uni2015</string>
+    <key>hyphentwo</key>
+    <string>uni2010</string>
     <key>idotless</key>
     <string>dotlessi</string>
     <key>increment</key>
     <string>Delta</string>
-    <key>mu</key>
+    <key>micro</key>
     <string>uni03BC</string>
     <key>nbspace</key>
     <string>uni00A0</string>
@@ -507,6 +508,8 @@
     <string>uni00AD</string>
     <key>space-han</key>
     <string>uni3000</string>
+    <key>summation</key>
+    <string>uni01A9</string>
     <key>thinspace</key>
     <string>uni2009</string>
     <key>threesuperior</key>
