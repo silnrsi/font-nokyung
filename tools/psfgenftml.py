@@ -60,11 +60,6 @@ def doit(args):
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
-    # Create a reverse cmap so we can find a uid from a glyph name
-    chars = dict()
-    for uid in uids:
-        chars[builder.char(uid).basename] = uid
-
     # Read pair kerning data that was in the Regular UFO.
     # Group and glyphs names only, not the amount of kerning.
     with open('kerning.pickle', 'rb') as kerning_file:
@@ -146,7 +141,7 @@ def doit(args):
         for group_name in groups:
             pattern_group = list()
             for glyph_name in groups[group_name]:
-                char = chars[glyph_name]
+                char = builder.char(glyph_name).uid
                 pattern_group.append(char)
             builder.render(pattern_group, ftml, label=group_name, comment=f'{pattern_group[0]:04X}')
             ftml.closeTest()
@@ -158,9 +153,9 @@ def doit(args):
 
             ftml.startTestGroup(f'{one}-{two}')
             for glyph_name_one in groups[one]:
-                char_one = chars[glyph_name_one]
+                char_one = builder.char(glyph_name_one).uid
                 for glyph_name_two in groups[two]:
-                    char_two = chars[glyph_name_two]
+                    char_two = builder.char(glyph_name_two).uid
                     char_pair = (char_one, char_two)
                     builder.render(char_pair, ftml, label=f'{char_one:04X}', comment=glyph_name_one)
                 ftml.closeTest()

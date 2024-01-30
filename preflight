@@ -5,11 +5,11 @@ psfnormalize -p checkfix=fix source/masters/Nokyung-Regular.ufo -l source/master
 psfnormalize -p checkfix=fix source/masters/Nokyung-Bold.ufo  -l source/masters/logs/normB.log
 
 # Building composites - needs to be done after normalization or may complain due to bad anchor coordinates
-# psfbuildcomp -i source/composites.txt source/masters/Nokyung-Regular.ufo -l source/masters/logs/compsR.log
-# psfbuildcomp -i source/composites.txt source/masters/Nokyung-Bold.ufo -l source/masters/logs/compsB.log
+psfbuildcomp -c -i source/composites.txt source/masters/Nokyung-Regular.ufo -l source/masters/logs/compsR.log
+psfbuildcomp -c -i source/composites.txt source/masters/Nokyung-Bold.ufo -l source/masters/logs/compsB.log
 
-# psfsetpsnames -i source/glyph_data.csv source/masters/Nokyung-Regular.ufo -l source/logs/psnames.log
-# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Nokyung-Regular.ufo -l source/masters/logs/sortorder.log
+psfsetpsnames -i source/glyph_data.csv source/masters/Nokyung-Regular.ufo -l source/logs/psnames.log
+psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Nokyung-Regular.ufo -l source/masters/logs/sortorder.log
 
 # Following sync will copy psnames and glyphorder updates to all fonts
 psfsyncmasters source/Nokyung.designspace -l source/masters/logs/sync.log

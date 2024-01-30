@@ -1,10 +1,13 @@
-# Copyright (c) 2008-2015, SIL International (https://www.sil.org) with Reserved Font Name "Nokyung".
+# Copyright (c) 2008-2024, SIL International (https://www.sil.org) with Reserved Font Name "Nokyung".
 # This Font Software is licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org)
 # and is from the Nokyung project (https://github.com/silnrsi/font-nokyung)
 
-uni199B=uni19A0+dailuemodifierw@bottom
-uni19A6=uni1982+dailuemodifierw@bottom
-uni19A8=uni1985+dailuemodifierw@bottom
-uni19A9=uni1986+dailuemodifierw@bottom
-uni19AA=uni1989+dailuemodifierw@bottom
-uni19DF=uni19DE+dailuemodifierw@bottom
+hyphentwo = hyphen | 2010
+divisionslash = slash | 2215
+
+#uni199B=uni19A0+dailuemodifierw@bottom
+#uni19A6=uni1982+dailuemodifierw@bottom
+#uni19A8=uni1985+dailuemodifierw@bottom
+#uni19A9=uni1986+dailuemodifierw@bottom
+#uni19AA=uni1989+dailuemodifierw@bottom
+#uni19DF=uni19DE+dailuemodifierw@bottom
