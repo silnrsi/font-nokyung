@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="punctuationspace" format="2">
+  <advance width="593"/>
+  <unicode hex="2008"/>
+  <anchor x="269" y="0" name="H"/>
+  <anchor x="269" y="-83" name="L"/>
+  <anchor x="310" y="0" name="O"/>
+  <anchor x="539" y="836" name="R"/>
+  <anchor x="269" y="1279" name="U"/>
+  <outline/>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
