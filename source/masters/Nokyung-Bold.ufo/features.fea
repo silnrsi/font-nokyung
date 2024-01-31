@@ -1,7 +1,7 @@
 
 # Main Classes
-@GDEF_bases = [.notdef A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C CR Ccedilla D E Eacute Ecircumflex Edieresis Egrave Esh Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N \NULL Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Omega Oslash Otilde P Pi Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand anglebracketleft anglebracketright approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c caron ccedilla cedilla cent circumflex colon colon.full comma comma-han comma.full copyright currency d dagger daggerdbl dailuemodifierfinal dblanglebracketleft dblanglebracketright degree dieresis divide divisionslash dollar dotaccent dottedCircle e eacute ecircumflex edieresis egrave eight ellipsis emdash endash equal eth euro exclam exclam.full exclamdown f fi five fl florin fraction g germandbls grave greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h horizontalbar hungarumlaut hyphen hyphentwo i iacute icircumflex idieresis idotless igrave increment infinity integral j k l less lessequal logicalnot lozenge m macron mu multiply n nbspace nine nonbreakinghyphen notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenleft.full parenright parenright.full partialdiff percent period period-han period.full periodcentered perthousand pi plus plusminus q question question.full questiondown quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle r radical registered ring s scaron section semicolon semicolon.full seven six slash softhyphen space space-han sterling t thinspace thorn three threequarters threesuperior tilde trademark two twosuperior u uacute ucircumflex udieresis ugrave underscore uni1980 uni1981 uni1982 uni1983 uni1984 uni1985 uni1986 uni1987 uni1988 uni1989 uni198A uni198B uni198C uni198D uni198E uni198F uni1990 uni1991 uni1992 uni1993 uni1994 uni1995 uni1996 uni1997 uni1998 uni1999 uni199A uni199B uni199C uni199D uni199E uni199F uni19A0 uni19A1 uni19A2 uni19A3 uni19A4 uni19A5 uni19A6 uni19A7 uni19A8 uni19A9 uni19AA uni19AB uni19B0 uni19B1 uni19B2 uni19B3 uni19B4 uni19B5 uni19B6 uni19B7 uni19B8 uni19B9 uni19BA uni19BB uni19BC uni19BD uni19BE uni19BF uni19C0 uni19C1 uni19C2 uni19C3 uni19C4 uni19C5 uni19C6 uni19C7 uni19C8 uni19C9 uni19D0 uni19D1 uni19D2 uni19D3 uni19D4 uni19D5 uni19D6 uni19D7 uni19D8 uni19D9 uni19DA uni19DE uni19DF v w wordjoiner x y yacute ydieresis yen z zcaron zero zerowidthspace];
-@GDEF_marks = [acutecomb caroncomb cedillacomb circumflexcomb dailuemodifierw dieresiscomb gravecomb ringcomb tildecomb];
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand anglebracketleft anglebracketright approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar blank braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c caron ccedilla cedilla cent circumflex colon colon.full comma comma-han comma.full copyright currency d dagger daggerdbl dailuemodifierfinal dblanglebracketleft dblanglebracketright degree dieresis divide divisionslash dollar dotaccent dottedCircle e eacute ecircumflex edieresis egrave eight ellipsis emdash emquad emspace endash enquad enspace equal eth euro exclam exclam.full exclamdown f fi figuredash figurespace five fl florin four fourperemspace foursuperior fraction g germandbls grave greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h hairspace horizontalbar hungarumlaut hyphen hyphenationpoint hyphentwo i iacute icircumflex idieresis idotless igrave increment infinity integral j k l less lessequal lineseparator logicalnot lozenge m macron micro minus multiply n narrownbspace nbspace nine nonbreakinghyphen nonmarkingreturn notequal ntilde numbersign o oacute objectReplacementCharacter ocircumflex odieresis oe ogonek ograve one onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph paragraphseparator parenleft parenleft.full parenright parenright.full partialdiff percent period period-han period.full periodcentered perthousand pi plus plusminus product punctuationspace q question question.full questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered replacementCharacter ring s scaron section semicolon semicolon.full seven sidebearingleft sidebearingright six sixperemspace slash softhyphen space space-han sterling summation t thinspace thorn three threeperemspace threequarters threesuperior tilde trademark two twosuperior u uacute ucircumflex udieresis ugrave underscore uni1980 uni1981 uni1982 uni1983 uni1984 uni1985 uni1986 uni1987 uni1988 uni1989 uni198A uni198B uni198C uni198D uni198E uni198F uni1990 uni1991 uni1992 uni1993 uni1994 uni1995 uni1996 uni1997 uni1998 uni1999 uni199A uni199B uni199C uni199D uni199E uni199F uni19A0 uni19A1 uni19A2 uni19A3 uni19A4 uni19A5 uni19A6 uni19A7 uni19A8 uni19A9 uni19AA uni19AB uni19B0 uni19B1 uni19B2 uni19B3 uni19B4 uni19B5 uni19B6 uni19B7 uni19B8 uni19B9 uni19BA uni19BB uni19BC uni19BD uni19BE uni19BF uni19C0 uni19C1 uni19C2 uni19C3 uni19C4 uni19C5 uni19C6 uni19C7 uni19C8 uni19C9 uni19D0 uni19D1 uni19D2 uni19D3 uni19D4 uni19D5 uni19D6 uni19D7 uni19D8 uni19D9 uni19DA uni19DE uni19DF v w wordjoiner x y yacute ydieresis yen z zcaron zero zeroWidthNoBreakSpace zerowidthjoiner zerowidthnonjoiner zerowidthspace];
+@GDEF_marks = [acutecomb caroncomb cedillacomb circumflexcomb dailuemodifierw dieresiscomb graphemejoinercomb gravecomb ringcomb tildecomb];
 @c_full = [colon.full comma.full exclam.full parenleft.full parenright.full period.full question.full semicolon.full];
 @cno_full = [colon comma exclam parenleft parenright period question semicolon];
 @public.kern1.Lhigh = [uni198A uni1994 uni19BE uni19DE uni19DF];
@@ -17,7 +17,7 @@
 # Positioning classes and statements
 
 # AP: H
-@H = [A C E b G H I K i idotless L n M N O R S T U V a ae c d e f g h k l m o oe oslash p r s u t v x z];
+@H = [A C E b G H I K i idotless L n M N O R S T U V a ae c d e emquad emspace enquad enspace f figurespace fourperemspace g h hairspace k l m narrownbspace o oe oslash p punctuationspace r s u sixperemspace t threeperemspace v x z];
 # baseClass A <anchor 1066 0> @H;
 # baseClass C <anchor 623 0> @H;
 # baseClass [E b] <anchor 510 0> @H;
@@ -39,33 +39,41 @@
 # baseClass c <anchor 464 0> @H;
 # baseClass d <anchor 497 0> @H;
 # baseClass e <anchor 476 0> @H;
+# baseClass [emquad emspace] <anchor 856 0> @H;
+# baseClass [enquad enspace] <anchor 428 0> @H;
 # baseClass f <anchor 318 0> @H;
+# baseClass figurespace <anchor 501 0> @H;
+# baseClass fourperemspace <anchor 214 0> @H;
 # baseClass g <anchor 499 -389> @H;
 # baseClass h <anchor 234 0> @H;
+# baseClass hairspace <anchor 85 0> @H;
 # baseClass k <anchor 786 0> @H;
 # baseClass l <anchor 280 0> @H;
 # baseClass m <anchor 1245 0> @H;
+# baseClass narrownbspace <anchor 171 0> @H;
 # baseClass o <anchor 483 0> @H;
 # baseClass oe <anchor 1085 0> @H;
 # baseClass oslash <anchor 485 0> @H;
 # baseClass p <anchor 242 -364> @H;
+# baseClass punctuationspace <anchor 269 0> @H;
 # baseClass r <anchor 238 0> @H;
 # baseClass [s u] <anchor 431 0> @H;
+# baseClass sixperemspace <anchor 142 0> @H;
 # baseClass t <anchor 443 0> @H;
+# baseClass threeperemspace <anchor 285 0> @H;
 # baseClass v <anchor 472 0> @H;
 # baseClass x <anchor 803 0> @H;
 # baseClass z <anchor 451 0> @H;
 
 # AP: L
-@L = [A U AE B X C H D E a b six Esh x Eth F G I s J K O L h n M N OE Oslash P Q R S T Thorn V W Y Z ae c cedilla d e eight five nine one seven three two eth o oslash f fi fl florin g germandbls i idotless j k l m oe ogonek onesuperior threesuperior twosuperior p pi q r t thorn u v w y z zero];
-@L_MarkBase = [cedillacomb];
+@L = [A U AE B X C H D E a b six Eth F G I s J K O L h n M N OE Oslash P Q R S T Thorn V W Y Z ae c cedilla d e eight five nine one seven three two emquad emspace enquad enspace eth o oslash f fi fl figurespace florin four fourperemspace foursuperior onesuperior threesuperior twosuperior g germandbls hairspace i idotless j k l m narrownbspace oe ogonek p pi punctuationspace q r sixperemspace summation x t thorn threeperemspace u v w y z zero];
+@L_MarkBase = [cedillacomb graphemejoinercomb];
 # baseClass [A U] <anchor 612 -84> @L;
 # baseClass AE <anchor 844 -84> @L;
 # baseClass [B X] <anchor 560 -84> @L;
 # baseClass [C H] <anchor 623 -84> @L;
 # baseClass D <anchor 669 -84> @L;
 # baseClass [E a b six] <anchor 510 -84> @L;
-# baseClass [Esh x] <anchor 493 -84> @L;
 # baseClass Eth <anchor 610 -84> @L;
 # baseClass F <anchor 527 -84> @L;
 # baseClass G <anchor 675 -84> @L;
@@ -93,26 +101,37 @@
 # baseClass d <anchor 497 -84> @L;
 # baseClass e <anchor 492 -84> @L;
 # baseClass [eight five nine one seven three two] <anchor 502 -84> @L;
+# baseClass [emquad emspace] <anchor 856 -83> @L;
+# baseClass [enquad enspace] <anchor 428 -83> @L;
 # baseClass [eth o oslash] <anchor 485 -84> @L;
 # baseClass f <anchor 334 -84> @L;
 # baseClass [fi fl] <anchor 892 -84> @L;
+# baseClass figurespace <anchor 501 -83> @L;
 # baseClass florin <anchor 257 -418> @L;
+# baseClass four <anchor 507 -84> @L;
+# baseClass fourperemspace <anchor 214 -83> @L;
+# baseClass [foursuperior onesuperior threesuperior twosuperior] <anchor 351 514> @L;
 # baseClass g <anchor 499 -447> @L;
 # baseClass germandbls <anchor 592 -84> @L;
+# baseClass hairspace <anchor 85 -83> @L;
 # baseClass [i idotless] <anchor 268 -84> @L;
 # baseClass j <anchor 117 -418> @L;
 # baseClass k <anchor 489 -84> @L;
 # baseClass l <anchor 280 -84> @L;
 # baseClass m <anchor 744 -84> @L;
+# baseClass narrownbspace <anchor 171 -83> @L;
 # baseClass oe <anchor 780 -84> @L;
 # baseClass ogonek <anchor 314 -334> @L;
-# baseClass [onesuperior threesuperior twosuperior] <anchor 351 514> @L;
 # baseClass p <anchor 535 -418> @L;
 # baseClass pi <anchor 582 -84> @L;
+# baseClass punctuationspace <anchor 269 -83> @L;
 # baseClass q <anchor 502 -418> @L;
 # baseClass r <anchor 230 -84> @L;
+# baseClass sixperemspace <anchor 142 -83> @L;
+# baseClass [summation x] <anchor 493 -84> @L;
 # baseClass t <anchor 443 -84> @L;
 # baseClass thorn <anchor 476 -418> @L;
+# baseClass threeperemspace <anchor 285 -83> @L;
 # baseClass u <anchor 514 -84> @L;
 # baseClass v <anchor 472 -84> @L;
 # baseClass w <anchor 656 -84> @L;
@@ -120,9 +139,10 @@
 # baseClass z <anchor 451 -84> @L;
 # baseClass zero <anchor 506 -84> @L;
 # baseClass cedillacomb <anchor -385 -443> @L_MarkBase;
+# baseClass graphemejoinercomb <anchor 0 0> @L_MarkBase;
 
 # AP: O
-@O = [A E I O U V a ae e i idotless o oe oslash u v];
+@O = [A E I O U V a ae e emquad emspace enquad enspace figurespace fourperemspace hairspace i idotless narrownbspace o oe oslash punctuationspace sixperemspace threeperemspace u v];
 # baseClass A <anchor 1250 0> @O;
 # baseClass E <anchor 839 0> @O;
 # baseClass I <anchor 595 0> @O;
@@ -132,23 +152,31 @@
 # baseClass a <anchor 991 0> @O;
 # baseClass ae <anchor 1325 0> @O;
 # baseClass e <anchor 752 0> @O;
+# baseClass [emquad emspace] <anchor 897 0> @O;
+# baseClass [enquad enspace] <anchor 469 0> @O;
+# baseClass figurespace <anchor 543 0> @O;
+# baseClass fourperemspace <anchor 255 0> @O;
+# baseClass hairspace <anchor 127 0> @O;
 # baseClass [i idotless] <anchor 485 0> @O;
+# baseClass narrownbspace <anchor 213 0> @O;
 # baseClass o <anchor 660 0> @O;
 # baseClass oe <anchor 1311 0> @O;
 # baseClass oslash <anchor 694 0> @O;
+# baseClass punctuationspace <anchor 310 0> @O;
+# baseClass sixperemspace <anchor 183 0> @O;
+# baseClass threeperemspace <anchor 327 0> @O;
 # baseClass u <anchor 577 0> @O;
 # baseClass v <anchor 627 0> @O;
 
 # AP: U
-@U = [A U AE B Thorn X C H D E six Esh Eth F G I J K L M N O OE Oslash P Q R S T V W Y Z a acute ae b d breve c caron dieresis e eight five nine one seven three eth f florin fi fl g germandbls grave h i idotless j k l m n o oslash oe onesuperior threesuperior twosuperior p pi q r s t thorn two u x v y w z zero];
-@U_MarkBase = [acutecomb caroncomb circumflexcomb dieresiscomb gravecomb ringcomb tildecomb];
+@U = [A U AE B Thorn X C H D E six Eth F G I J K L M N O OE Oslash P Q R S T V W Y Z a acute ae b d breve c caron dieresis e eight five nine one seven three emquad emspace enquad enspace eth f florin fi fl figurespace four fourperemspace foursuperior onesuperior threesuperior twosuperior g germandbls grave h hairspace i idotless j k l m n narrownbspace o oslash oe p pi punctuationspace q r s sixperemspace summation t thorn threeperemspace two u x v y w z zero];
+@U_MarkBase = [acutecomb caroncomb circumflexcomb dieresiscomb graphemejoinercomb gravecomb ringcomb tildecomb];
 # baseClass [A U] <anchor 612 1279> @U;
 # baseClass AE <anchor 844 1279> @U;
 # baseClass [B Thorn X] <anchor 560 1279> @U;
 # baseClass [C H] <anchor 623 1279> @U;
 # baseClass D <anchor 669 1279> @U;
 # baseClass [E six] <anchor 510 1279> @U;
-# baseClass Esh <anchor 493 1279> @U;
 # baseClass Eth <anchor 610 1279> @U;
 # baseClass F <anchor 527 1279> @U;
 # baseClass G <anchor 675 1279> @U;
@@ -180,29 +208,40 @@
 # baseClass dieresis <anchor 351 1325> @U;
 # baseClass e <anchor 449 920> @U;
 # baseClass [eight five nine one seven three] <anchor 502 1279> @U;
+# baseClass [emquad emspace] <anchor 856 1279> @U;
+# baseClass [enquad enspace] <anchor 428 1279> @U;
 # baseClass eth <anchor 485 1367> @U;
 # baseClass [f florin] <anchor 502 1367> @U;
 # baseClass [fi fl] <anchor 892 1367> @U;
+# baseClass figurespace <anchor 501 1279> @U;
+# baseClass four <anchor 507 1279> @U;
+# baseClass fourperemspace <anchor 214 1279> @U;
+# baseClass [foursuperior onesuperior threesuperior twosuperior] <anchor 351 1400> @U;
 # baseClass g <anchor 474 920> @U;
 # baseClass germandbls <anchor 610 1367> @U;
 # baseClass grave <anchor 418 1367> @U;
 # baseClass h <anchor 518 1367> @U;
+# baseClass hairspace <anchor 85 1279> @U;
 # baseClass [i idotless] <anchor 268 920> @U;
 # baseClass j <anchor 297 920> @U;
 # baseClass k <anchor 497 1367> @U;
 # baseClass l <anchor 268 1367> @U;
 # baseClass m <anchor 744 920> @U;
 # baseClass n <anchor 518 920> @U;
+# baseClass narrownbspace <anchor 171 1279> @U;
 # baseClass [o oslash] <anchor 485 920> @U;
 # baseClass oe <anchor 780 920> @U;
-# baseClass [onesuperior threesuperior twosuperior] <anchor 351 1400> @U;
 # baseClass p <anchor 535 920> @U;
 # baseClass pi <anchor 582 920> @U;
+# baseClass punctuationspace <anchor 269 1279> @U;
 # baseClass q <anchor 502 920> @U;
 # baseClass r <anchor 460 920> @U;
 # baseClass s <anchor 443 920> @U;
+# baseClass sixperemspace <anchor 142 1279> @U;
+# baseClass summation <anchor 493 1279> @U;
 # baseClass t <anchor 301 1137> @U;
 # baseClass thorn <anchor 501 1367> @U;
+# baseClass threeperemspace <anchor 285 1279> @U;
 # baseClass two <anchor 468 1279> @U;
 # baseClass [u x] <anchor 514 920> @U;
 # baseClass [v y] <anchor 472 920> @U;
@@ -212,12 +251,13 @@
 # baseClass acutecomb <anchor -502 1367> @U_MarkBase;
 # baseClass [caroncomb circumflexcomb] <anchor -492 1367> @U_MarkBase;
 # baseClass dieresiscomb <anchor -485 1325> @U_MarkBase;
+# baseClass graphemejoinercomb <anchor 0 0> @U_MarkBase;
 # baseClass gravecomb <anchor -493 1367> @U_MarkBase;
 # baseClass ringcomb <anchor -477 1367> @U_MarkBase;
 # baseClass tildecomb <anchor -485 1246> @U_MarkBase;
 
 # AP: R
-@R = [E I L O U a ae b c d e fi fl g i idotless k l o oe oslash p q t u y];
+@R = [E I L O U a ae b c d e emquad emspace enquad enspace fi figurespace fl fourperemspace g hairspace i idotless k l narrownbspace o oe oslash p punctuationspace q sixperemspace t threeperemspace u y];
 # baseClass E <anchor 1042 1003> @R;
 # baseClass I <anchor 848 1003> @R;
 # baseClass L <anchor 543 1003> @R;
@@ -228,18 +268,27 @@
 # baseClass c <anchor 853 836> @R;
 # baseClass d <anchor 1074 836> @R;
 # baseClass e <anchor 945 836> @R;
+# baseClass [emquad emspace] <anchor 1712 836> @R;
+# baseClass [enquad enspace] <anchor 856 836> @R;
 # baseClass fi <anchor 1162 836> @R;
+# baseClass figurespace <anchor 1003 836> @R;
 # baseClass fl <anchor 1179 836> @R;
+# baseClass fourperemspace <anchor 428 836> @R;
 # baseClass g <anchor 992 836> @R;
+# baseClass hairspace <anchor 171 836> @R;
 # baseClass [i idotless] <anchor 535 836> @R;
 # baseClass k <anchor 953 836> @R;
 # baseClass l <anchor 552 836> @R;
+# baseClass narrownbspace <anchor 342 836> @R;
 # baseClass o <anchor 970 836> @R;
 # baseClass oe <anchor 1537 836> @R;
 # baseClass oslash <anchor 986 836> @R;
 # baseClass p <anchor 1032 836> @R;
+# baseClass punctuationspace <anchor 539 836> @R;
 # baseClass q <anchor 1012 836> @R;
+# baseClass sixperemspace <anchor 285 836> @R;
 # baseClass t <anchor 740 836> @R;
+# baseClass threeperemspace <anchor 570 836> @R;
 # baseClass u <anchor 1052 836> @R;
 # baseClass y <anchor 966 836> @R;
 
@@ -247,6 +296,7 @@
 markClass acutecomb <anchor -451 920> @_U;
 markClass caroncomb <anchor -492 920> @_U;
 markClass [circumflexcomb dieresiscomb tildecomb] <anchor -485 920> @_U;
+markClass graphemejoinercomb <anchor 0 0> @_U;
 markClass gravecomb <anchor -527 920> @_U;
 markClass ringcomb <anchor -478 920> @_U;
 
@@ -255,6 +305,9 @@ markClass cedillacomb <anchor -359 0> @_H;
 
 # AP: _bottom
 markClass dailuemodifierw <anchor -637 -100> @_bottom;
+
+# AP: _L
+markClass graphemejoinercomb <anchor 0 0> @_L;
 
 # AP: bottom
 @bottom = [uni1982 uni1985 uni1986 uni1989 uni1998 uni199D uni19A0 uni19DE];

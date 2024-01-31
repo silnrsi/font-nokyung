@@ -68,6 +68,7 @@
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
+    <string>.null</string>
     <string>nonmarkingreturn</string>
     <string>space</string>
     <string>exclam</string>
@@ -89,6 +90,7 @@
     <string>one</string>
     <string>two</string>
     <string>three</string>
+    <string>four</string>
     <string>five</string>
     <string>six</string>
     <string>seven</string>
@@ -216,7 +218,10 @@
     <string>lessequal</string>
     <string>greaterequal</string>
     <string>yen</string>
+    <string>micro</string>
     <string>partialdiff</string>
+    <string>summation</string>
+    <string>product</string>
     <string>pi</string>
     <string>integral</string>
     <string>ordfeminine</string>
@@ -258,6 +263,8 @@
     <string>fl</string>
     <string>daggerdbl</string>
     <string>periodcentered</string>
+    <string>quotesinglbase</string>
+    <string>quotedblbase</string>
     <string>perthousand</string>
     <string>Acircumflex</string>
     <string>Ecircumflex</string>
@@ -270,6 +277,7 @@
     <string>Igrave</string>
     <string>Oacute</string>
     <string>Ocircumflex</string>
+    <string>dottedCircle</string>
     <string>Ograve</string>
     <string>Uacute</string>
     <string>Ucircumflex</string>
@@ -304,7 +312,6 @@
     <string>scaron</string>
     <string>Zcaron</string>
     <string>zcaron</string>
-    <string>summation</string>
     <string>gravecomb</string>
     <string>acutecomb</string>
     <string>circumflexcomb</string>
@@ -313,9 +320,8 @@
     <string>ringcomb</string>
     <string>caroncomb</string>
     <string>cedillacomb</string>
-    <string>product</string>
+    <string>graphemejoinercomb</string>
     <string>Omega</string>
-    <string>micro</string>
     <string>uni1980</string>
     <string>uni1981</string>
     <string>uni1982</string>
@@ -399,15 +405,35 @@
     <string>uni19DA</string>
     <string>uni19DE</string>
     <string>uni19DF</string>
+    <string>enquad</string>
+    <string>emquad</string>
+    <string>enspace</string>
+    <string>emspace</string>
+    <string>threeperemspace</string>
+    <string>fourperemspace</string>
+    <string>sixperemspace</string>
+    <string>figurespace</string>
+    <string>punctuationspace</string>
     <string>thinspace</string>
+    <string>hairspace</string>
     <string>zerowidthspace</string>
+    <string>zerowidthnonjoiner</string>
+    <string>zerowidthjoiner</string>
     <string>hyphentwo</string>
     <string>nonbreakinghyphen</string>
+    <string>figuredash</string>
     <string>horizontalbar</string>
+    <string>hyphenationpoint</string>
+    <string>lineseparator</string>
+    <string>paragraphseparator</string>
+    <string>narrownbspace</string>
     <string>wordjoiner</string>
+    <string>foursuperior</string>
     <string>euro</string>
+    <string>minus</string>
     <string>divisionslash</string>
     <string>bulletoperator</string>
+    <string>blank</string>
     <string>space-han</string>
     <string>comma-han</string>
     <string>period-han</string>
@@ -415,6 +441,25 @@
     <string>anglebracketright</string>
     <string>dblanglebracketleft</string>
     <string>dblanglebracketright</string>
+    <string>sidebearingleft</string>
+    <string>sidebearingright</string>
+    <string>VS1</string>
+    <string>VS2</string>
+    <string>VS3</string>
+    <string>VS4</string>
+    <string>VS5</string>
+    <string>VS6</string>
+    <string>VS7</string>
+    <string>VS8</string>
+    <string>VS9</string>
+    <string>VS10</string>
+    <string>VS11</string>
+    <string>VS12</string>
+    <string>VS13</string>
+    <string>VS14</string>
+    <string>VS15</string>
+    <string>VS16</string>
+    <string>zeroWidthNoBreakSpace</string>
     <string>exclam.full</string>
     <string>parenleft.full</string>
     <string>parenright.full</string>
@@ -423,23 +468,55 @@
     <string>colon.full</string>
     <string>semicolon.full</string>
     <string>question.full</string>
-    <string>.null</string>
+    <string>objectReplacementCharacter</string>
+    <string>replacementCharacter</string>
     <string>dailuemodifierfinal</string>
     <string>dailuemodifierw</string>
-    <string>dottedCircle</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
-    <key>CR</key>
-    <string>uni000D</string>
     <key>Ohm</key>
     <string>Omega</string>
     <key>Omega</key>
     <string>uni03A9</string>
+    <key>VS1</key>
+    <string>uniFE00</string>
+    <key>VS10</key>
+    <string>uniFE09</string>
+    <key>VS11</key>
+    <string>uniFE0A</string>
+    <key>VS12</key>
+    <string>uniFE0B</string>
+    <key>VS13</key>
+    <string>uniFE0C</string>
+    <key>VS14</key>
+    <string>uniFE0D</string>
+    <key>VS15</key>
+    <string>uniFE0E</string>
+    <key>VS16</key>
+    <string>uniFE0F</string>
+    <key>VS2</key>
+    <string>uniFE01</string>
+    <key>VS3</key>
+    <string>uniFE02</string>
+    <key>VS4</key>
+    <string>uniFE03</string>
+    <key>VS5</key>
+    <string>uniFE04</string>
+    <key>VS6</key>
+    <string>uniFE05</string>
+    <key>VS7</key>
+    <string>uniFE06</string>
+    <key>VS8</key>
+    <string>uniFE07</string>
+    <key>VS9</key>
+    <string>uniFE08</string>
     <key>anglebracketleft</key>
     <string>uni3008</string>
     <key>anglebracketright</key>
     <string>uni3009</string>
+    <key>blank</key>
+    <string>uni2423</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
     <key>caroncomb</key>
@@ -462,34 +539,64 @@
     <string>uni0308</string>
     <key>divisionslash</key>
     <string>uni2215</string>
+    <key>dottedCircle</key>
+    <string>uni25CC</string>
+    <key>emquad</key>
+    <string>uni2001</string>
+    <key>emspace</key>
+    <string>uni2003</string>
+    <key>enquad</key>
+    <string>uni2000</string>
+    <key>enspace</key>
+    <string>uni2002</string>
     <key>euro</key>
     <string>Euro</string>
     <key>exclam.full</key>
     <string>uniFF01</string>
     <key>fi</key>
     <string>uniFB01</string>
+    <key>figurespace</key>
+    <string>uni2007</string>
     <key>fl</key>
     <string>uniFB02</string>
+    <key>fourperemspace</key>
+    <string>uni2005</string>
+    <key>foursuperior</key>
+    <string>uni2074</string>
+    <key>graphemejoinercomb</key>
+    <string>uni034F</string>
     <key>guillemetleft</key>
     <string>guillemotleft</string>
     <key>guillemetright</key>
     <string>guillemotright</string>
+    <key>hairspace</key>
+    <string>uni200A</string>
     <key>horizontalbar</key>
     <string>uni2015</string>
+    <key>hyphenationpoint</key>
+    <string>uni2027</string>
     <key>hyphentwo</key>
     <string>uni2010</string>
     <key>idotless</key>
     <string>dotlessi</string>
     <key>increment</key>
     <string>Delta</string>
+    <key>lineseparator</key>
+    <string>uni2028</string>
     <key>micro</key>
-    <string>uni03BC</string>
+    <string>mu</string>
+    <key>narrownbspace</key>
+    <string>uni202F</string>
     <key>nbspace</key>
     <string>uni00A0</string>
     <key>nonbreakinghyphen</key>
     <string>uni2011</string>
+    <key>objectReplacementCharacter</key>
+    <string>uniFFFC</string>
     <key>onesuperior</key>
     <string>uni00B9</string>
+    <key>paragraphseparator</key>
+    <string>uni2029</string>
     <key>parenleft.full</key>
     <string>uniFF08</string>
     <key>parenright.full</key>
@@ -498,26 +605,42 @@
     <string>uni3002</string>
     <key>period.full</key>
     <string>uniFF0E</string>
+    <key>punctuationspace</key>
+    <string>uni2008</string>
     <key>question.full</key>
     <string>uniFF1F</string>
+    <key>replacementCharacter</key>
+    <string>uniFFFD</string>
     <key>ringcomb</key>
     <string>uni030A</string>
     <key>semicolon.full</key>
     <string>uniFF1B</string>
+    <key>sidebearingleft</key>
+    <string>uniF130</string>
+    <key>sidebearingright</key>
+    <string>uniF131</string>
+    <key>sixperemspace</key>
+    <string>uni2006</string>
     <key>softhyphen</key>
     <string>uni00AD</string>
     <key>space-han</key>
     <string>uni3000</string>
-    <key>summation</key>
-    <string>uni01A9</string>
     <key>thinspace</key>
     <string>uni2009</string>
+    <key>threeperemspace</key>
+    <string>uni2004</string>
     <key>threesuperior</key>
     <string>uni00B3</string>
     <key>twosuperior</key>
     <string>uni00B2</string>
     <key>wordjoiner</key>
     <string>uni2060</string>
+    <key>zeroWidthNoBreakSpace</key>
+    <string>uniFEFF</string>
+    <key>zerowidthjoiner</key>
+    <string>uni200D</string>
+    <key>zerowidthnonjoiner</key>
+    <string>uni200C</string>
     <key>zerowidthspace</key>
     <string>uni200B</string>
   </dict>
