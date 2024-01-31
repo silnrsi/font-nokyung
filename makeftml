@@ -23,7 +23,6 @@ do
 done
 
 echo "Rebuilding ftml files..."
-./tools/ufokerndata.py $ufo
 for test in $tests
 do
 	base=${test,,}

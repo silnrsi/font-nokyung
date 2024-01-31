@@ -6,7 +6,7 @@ __license__ = 'Released under the MIT License (https://opensource.org/licenses/M
 __author__ = 'Bob Hallissy'
 
 import re
-import pickle
+from fontParts.world import *
 from silfont.core import execute
 import silfont.ftml_builder as FB
 from palaso.unicode.ucd import get_ucd
@@ -62,10 +62,9 @@ def doit(args):
 
     # Read pair kerning data that was in the Regular UFO.
     # Group and glyphs names only, not the amount of kerning.
-    with open('kerning.pickle', 'rb') as kerning_file:
-        kerning = pickle.load(kerning_file)
-    with open('groups.pickle', 'rb') as groups_file:
-        groups = pickle.load(groups_file)
+    ifont = OpenFont(args.ifont.ufodir)
+    kerning = ifont.kerning
+    groups = ifont.groups
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
