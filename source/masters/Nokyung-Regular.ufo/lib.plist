@@ -644,5 +644,9 @@
     <key>zerowidthspace</key>
     <string>uni200B</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>dailuemodifierfinal</string>
+  </array>
 </dict>
 </plist>
