@@ -1,15 +1,22 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+# this is a smith configuration file
 
-APPNAME = "Nokyung"
-DESC_SHORT = "Unicode font for the New Tai Lue script"
+# override the default folders
+generated = 'generated/'
 
+# set the font name
+APPNAME = 'Nokyung'
+FAMILY = APPNAME
+
+# Get version info from Regular UFO;
+# must be first function call:
 getufoinfo('source/masters/Nokyung-Regular.ufo')
 
-fontfamily=APPNAME
+# Set up the FTML tests
+ftmlTest('tools/ftml-smith.xsl')
 
-generated = 'generated/'
-designspace('source/' + fontfamily + '.designspace',
+designspace('source/' + FAMILY + '.designspace',
             target = process("${DS:FILENAME_BASE}.ttf",
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
             ),
@@ -17,6 +24,8 @@ designspace('source/' + fontfamily + '.designspace',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = 'source/main.feax',
                 ),
-            pdf = fret(params="-r -oi"),
-            woff = woff()
+            version = VERSION,  # Needed to ensure dev information on version string
+            woff = woff('web/${DS:FILENAME_BASE}',
+                metadata = f'../source/{FAMILY}-WOFF-metadata.xml'),
+            pdf = fret(params='-oi')
 )
