@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Nokyung</string>
   <key>openTypeHeadCreated</key>
-  <string>2024/02/06 06:07:27</string>
+  <string>2024/02/07 14:19:10</string>
   <key>openTypeHheaAscender</key>
   <integer>1650</integer>
   <key>openTypeHheaDescender</key>
@@ -168,7 +168,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1650</integer>
+  <integer>1730</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>750</integer>
   <key>postscriptBlueValues</key>
