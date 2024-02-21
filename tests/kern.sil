@@ -12,7 +12,6 @@
 \patterngroup[name="kern2.Rmidnohighnolow"]{≈^~•∙:÷◌—–=―-∞¬×‑≠¶+­ᦀᦁᦂᦅᦈᦉᦊᦍᦎᦒᦔᦕᦘᦞᦟᦠᦢᦣᦰᦱᦴᦵᦶᦸᦺᦻᦼᦽᦾᧁᧂᧃᧄᧅᧆᧇᧈᧉ᧐᧑᧓᧗᧚᧞}
 \patterngroup[name="kern2.Rnone"]{…·᧘}
 
-\pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rhighnolow",heading="Lhigh-Rhighnolow*",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rlownohigh",heading="Lhigh-Rlownohigh",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rlownohighnomid",heading="Lhigh-Rlownohighnomid",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rlowtail",heading="Lhigh-Rlowtail",format="table"]{OT}
@@ -20,13 +19,9 @@
 \pattern[size="14",chars="O,T",reps="group_kern1.Lhigh,group_kern2.Rnone",heading="Lhigh-Rnone",format="table"]{OT}
 
 \pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rhighnolow",heading="Llow-Rhighnolow",format="table"]{OT}
-\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rlownohigh",heading="Llow-Rlownohigh*",format="table"]{OT}
-\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rlownohighnomid",heading="Llow-Rlownohighnomid*",format="table"]{OT}
-\pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rlowtail",heading="Llow-Rlowtail*",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rmidnohighnolow",heading="Llow-Rmidnohighnolow",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Llow,group_kern2.Rnone",heading="Llow-Rnone",format="table"]{OT}
 
-\pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rhighnolow",heading="Lmid-Rhighnolow*",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rlownohigh",heading="Lmid-Rlownohigh",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rlownohighnomid",heading="Lmid-Rlownohighnomid",format="table"]{OT}
 \pattern[size="14",chars="O,T",reps="group_kern1.Lmid,group_kern2.Rlowtail",heading="Lmid-Rlowtail",format="table"]{OT}
