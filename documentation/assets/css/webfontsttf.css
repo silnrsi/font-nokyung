@@ -1,0 +1,27 @@
+/*
+This file is from the Nokyung project (https://software.sil.org/nokyung/).
+Copyright (c) 2008-2024 SIL International (https://www.sil.org/),
+with Reserved Font Name "Nokyung".
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+*/
+@font-face {
+    font-family: Nokyung-R;
+    src: url("../../../results/Nokyung-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Nokyung-M;
+    src: url("../../../results/Nokyung-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: Nokyung-SB;
+    src: url("../../../results/Nokyung-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: Nokyung-B;
+    src: url("../../../results/Nokyung-Bold.ttf") format("truetype");
+}
+
+.nokyung-R  { font-family: Nokyung-R;  font-size: medium}
+.nokyung-M  { font-family: Nokyung-M;  font-size: medium}
+.nokyung-SB { font-family: Nokyung-SB; font-size: medium}
+.nokyung-B  { font-family: Nokyung-B;  font-size: medium}

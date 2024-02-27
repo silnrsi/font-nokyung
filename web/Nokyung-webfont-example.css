@@ -1,43 +1,45 @@
 /*
-Nokyung-webfont-example.css
-Nokyung v1.400
-28 Mar 2017
-This file is part of Nokyung font family (https://github.com/silnrsi/font-nokyung)
-and is Copyright (c) 2008-2017 SIL International (https://www.sil.org/),
-with Reserved Font Name "Nokyung". This Font Software is licensed
-under the SIL Open Font License, Version 1.1. You should have received a copy
-of the license along with this Font Software. If this is not the case, go to
-(https://openfontlicense.org) for all the details including a FAQ.
+This file is from the Nokyung project (https://software.sil.org/nokyung/).
+Copyright (c) 2008-2024 SIL International (https://www.sil.org/)
+with Reserved Font Name "Nokyung".
+This Font Software is licensed under the SIL Open Font License,
+Version 1.1. (https://openfontlicense.org)
 */
 
-/* use Nokyung in .woff format */
 @font-face {
-  font-family: NokyungW;
-  src: url(Nokyung-Regular.woff);
+  font-family: Nokyung-R;
+  font-weight: 400;
+  src: url(Nokyung-Regular.woff2);
 }
 @font-face {
-  font-family: NokyungW;
-  font-weight: bold;
-  src: url(Nokyung-Bold.woff);
+  font-family: Nokyung-M;
+  font-weight: 500;
+  src: url(Nokyung-Medium.woff2);
+}
+@font-face {
+  font-family: Nokyung-SB;
+  font-weight: 600;
+  src: url(Nokyung-SemiBold.woff2);
+}
+@font-face {
+  font-family: Nokyung-B;
+  font-weight: 700;
+  src: url(Nokyung-Bold.woff2);
 }
 
-/* set body to use Lateef in .woff format */
+/* set body font */
 body {
-  font-family: NokyungW, serif; text-align: left;
-    /* fall back to serif so that it's really obvious if the fonts don't load */
+  font-family: Nokyung-R, serif;
+  /* fall back to serif so that it's really obvious if the fonts don't load */
 }
 
+/* different weights */
+.nokyung-R  { font-family: Nokyung-R; }
+.nokyung-M  { font-family: Nokyung-M; }
+.nokyung-SB { font-family: Nokyung-SB; }
+.nokyung-B  { font-family: Nokyung-B; }
+
+/* remove bold styling from heading */
 h1 {
-  font-family: NokyungW, serif; text-align: left; font-size: 230%;
-}
-h2 {
-  font-family: NokyungW, serif; text-align: left; font-size: 220%;
-}
-p {
-  font-family: NokyungW, serif; text-align: left; font-size: 150%;
-    /* fall back to serif so that it's really obvious if the fonts don't load */
-}
-.bold {
-  font-family: NokyungW, serif; font-weight: bold; text-align: left; font-size: 150%;
-    /* fall back to serif so that it's really obvious if the fonts don't load */
+  font-weight: normal;
 }
