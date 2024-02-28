@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Support
-fontversion: 1.900
+fontversion: 2.000
 ---
 
 ## Support options

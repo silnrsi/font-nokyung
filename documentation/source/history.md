@@ -1,7 +1,12 @@
 ---
 title: Nokyung - Version History
-fontversion: 1.900
+fontversion: 2.000
 ---
+
+### 2024-02-28 (SIL WSTech Team) 2.000
+- Added kerning
+- Added two new weights (Medium and SemiBold)
+- Added space characters needed for publishing
 
 ### 2018-09-27 (SIL Non-Roman Script Initiative) 1.491 (test release)
 - Switched to UFO3+designspace

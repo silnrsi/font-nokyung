@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Resources
-fontversion: 1.900
+fontversion: 2.000
 ---
 
 ## Requirements
@@ -21,7 +21,10 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 ## Rendering and application support
 
-Some applications might disable kerning by default.
+Some applications might disable kerning by default, or only kern some of the pairs of characters
+
+- LibreOffice Writer does kerning between two New Tai Lue characters, or a New Tai Lue character and a Latin punctuation character (but only if that Latin punctuation character) is outside of the Latin 1 character set.
+- Microsoft Word only kerns between two New Tai Lue characters.
 
 ## Web fonts
 

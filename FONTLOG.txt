@@ -14,6 +14,12 @@ Font sources are published in the repository and a smith open workflow is used f
 
 (This should list both major and minor changes, most recent first.)
 
+### 2024-02-28 (SIL WSTech Team) 2.000
+- Added kerning
+- Added two new weights (Medium and SemiBold)
+- Added space characters needed for publishing
+- Extra Latin characters are from Andika (Regular and Bold) at 83.6%
+
 ### 2018-09-27 (SIL Non-Roman Script Initiative) 1.491 (test release)
 - Switched to UFO3+designspace
 - No resulting changes in font

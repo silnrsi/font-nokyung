@@ -1,6 +1,6 @@
 ---
 title: Nokyung - About
-fontversion: 1.900
+fontversion: 2.000
 ---
 
 ## About this project

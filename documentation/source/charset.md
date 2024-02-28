@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Character Set Support
-fontversion: 1.900
+fontversion: 2.000
 ---
 
 Nokyung includes a complete set of New Tai Lue consonants, vowels, tones and digits, along with punctuation and other useful symbols.

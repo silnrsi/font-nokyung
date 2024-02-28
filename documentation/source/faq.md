@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Frequently Asked Questions
-fontversion: 1.900
+fontversion: 2.000
 ---
 
 ### Problems with Bold weights

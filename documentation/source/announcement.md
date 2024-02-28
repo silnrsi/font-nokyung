@@ -1,4 +1,5 @@
-fontversion: 1.900
+fontversion: 2.000
 
-- Add kerning
-- Add space characters needed for publishing
+- Added kerning
+- Added two new weights (Medium and SemiBold)
+- Added space characters needed for publishing

@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Versions and Changes
-fontversion: 1.900
+fontversion: 2.000
 ---
 
 ## Announcement list

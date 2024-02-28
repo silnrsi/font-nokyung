@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Product Site
-fontversion: 1.900
+fontversion: 2.000
 ---
 
 ![Nokyung - Banner](assets/images/nokyung_banner.png){.fullsize}
@@ -13,10 +13,6 @@ Nokyung is am open, Unicode font package for rendering New Tai Lue (Xishuangbann
 The New Tai Lue script is used by approximately 300,000 people who speak the [Xishuangbanna Dai](https://www.ethnologue.com/language/khb) language in Yunnan, China. It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
 
 For a different style of New Tai Lue script, see SIL’s [Dai Banna SIL](https://software.sil.org/daibanna) fonts.
-
-### Rendering
-
-Some applications might disable kerning by default.
 
 <h2 id="downloads">Downloads</h2>
 
@@ -31,10 +27,11 @@ These fonts are licensed under the [SIL Open Font License (OFL)](https://openfon
 
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-#### Release Notes for v1.900
+#### Release Notes for v2.000
 
-- Add kerning
-- Add space characters needed for publishing
+- Added kerning
+- Added two new weights (Medium and SemiBold)
+- Added space characters needed for publishing
 
 ### Previous Versions
 
