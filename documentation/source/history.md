@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Version History
-fontversion: 2.000
+fontversion: 2.001
 ---
 
 ### 2024-02-28 (SIL WSTech Team) 2.000

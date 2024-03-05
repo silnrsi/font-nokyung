@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Documentation
-fontversion: 2.000
+fontversion: 2.001
 ---
 
 <span class='nokyung-R normal'>ᦙᦲ ᦷᦓᧅᦍᦳᧂ ᦶᦙᧈ ᦷᦎ ᦁᧃ ᦃᧅᦺᦅᧉ ᦖᧃᧈᦠᦱ ᦓᧃᧉ ᦷᦎ ᧚.</span>&nbsp;&nbsp;&nbsp;Regular<br>

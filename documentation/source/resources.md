@@ -1,6 +1,6 @@
 ---
 title: Nokyung - Resources
-fontversion: 2.000
+fontversion: 2.001
 ---
 
 ## Requirements
