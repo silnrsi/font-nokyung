@@ -1,0 +1,11 @@
+sources:
+  - source/Nokyung-VF.designspace
+axisOrder:
+  - wght
+familyName: Nokyung
+flattenComponents: false
+autohintTTF: false
+
+buildStatic: false
+buildWebfont: true
+outputDir: gf
