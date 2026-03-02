@@ -1,5 +1,4 @@
-vf-suffix: TB
 formats: [ttf, woff2]
 fonts:
-  Nokyung-TB:
+  Nokyung:
     source: source/Nokyung-VF.designspace

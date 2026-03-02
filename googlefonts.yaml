@@ -2,7 +2,8 @@ sources:
   - source/Nokyung-VF.designspace
 axisOrder:
   - wght
-familyName: Nokyung
+familyName: "Nokyung"
+includeSourceFixes: true
 flattenComponents: false
 autohintTTF: false
 
