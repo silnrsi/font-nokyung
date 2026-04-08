@@ -18,6 +18,6 @@ psfsyncmasters source/Nokyung.designspace -l source/masters/logs/sync.log
 psfmakewoffmetadata -n "Nokyung" -i "org.sil.fonts" -o source/Nokyung-WOFF-metadata.xml source/masters/Nokyung-Regular.ufo
 
 # Update FEA in UFO
-psfmakefea -o source/masters/Nokyung-Regular.ufo/features.fea   -i source/main.feax source/masters/Nokyung-Regular.ufo   &
-psfmakefea -o source/masters/Nokyung-Bold.ufo/features.fea -i source/main.feax source/masters/Nokyung-Bold.ufo &
+makefea -o source/masters/Nokyung-Regular.ufo/features.fea   -i source/main.feax source/masters/Nokyung-Regular.ufo   &
+makefea -o source/masters/Nokyung-Bold.ufo/features.fea -i source/main.feax source/masters/Nokyung-Bold.ufo &
 wait
