@@ -1,4 +1,4 @@
 formats: [ttf, woff2]
 fonts:
   Nokyung:
-    source: source/Nokyung-VF.designspace
+    source: source/variable/Nokyung.designspace

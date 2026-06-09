@@ -1,5 +1,5 @@
 sources:
-  - source/Nokyung-VF.designspace
+  - source/variable/Nokyung.designspace
 axisOrder:
   - wght
 familyName: "Nokyung"
